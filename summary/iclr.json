@@ -3,7 +3,6 @@
         "main": {
             "src": {
                 "openreview": {
-                    "name": "OpenReview",
                     "total": 7304,
                     "url": "https://openreview.net/group?id=ICLR.cc/2024"
                 }
@@ -80,7 +79,6 @@
         "main": {
             "src": {
                 "openreview": {
-                    "name": "OpenReview",
                     "total": 4955,
                     "url": "https://openreview.net/group?id=ICLR.cc/2023"
                 }
@@ -157,7 +155,6 @@
         "main": {
             "src": {
                 "openreview": {
-                    "name": "OpenReview",
                     "total": 3422,
                     "url": "https://openreview.net/group?id=ICLR.cc/2022"
                 }
@@ -213,7 +210,6 @@
         "main": {
             "src": {
                 "openreview": {
-                    "name": "OpenReview",
                     "total": 3014,
                     "url": "https://openreview.net/group?id=ICLR.cc/2021"
                 }
@@ -269,7 +265,6 @@
         "main": {
             "src": {
                 "openreview": {
-                    "name": "OpenReview",
                     "total": 2594,
                     "url": "https://openreview.net/group?id=ICLR.cc/2020"
                 }
@@ -325,7 +320,6 @@
         "main": {
             "src": {
                 "openreview": {
-                    "name": "OpenReview",
                     "total": 1579,
                     "url": "https://openreview.net/group?id=ICLR.cc/2019"
                 }
@@ -374,7 +368,6 @@
         "main": {
             "src": {
                 "openreview": {
-                    "name": "OpenReview",
                     "total": 1013,
                     "url": "https://openreview.net/group?id=ICLR.cc/2018"
                 }
@@ -428,7 +421,6 @@
         "main": {
             "src": {
                 "openreview": {
-                    "name": "OpenReview",
                     "total": 490,
                     "url": "https://openreview.net/group?id=ICLR.cc/2017"
                 }
@@ -472,11 +464,12 @@
             }
         }
     },
+    "2016": {},
+    "2015": {},
     "2014": {
         "main": {
             "src": {
                 "openreview": {
-                    "name": "OpenReview",
                     "total": 69,
                     "url": "https://openreview.net/group?id=ICLR.cc/2014"
                 }
@@ -509,7 +502,6 @@
         "main": {
             "src": {
                 "openreview": {
-                    "name": "OpenReview",
                     "total": 67,
                     "url": "https://openreview.net/group?id=ICLR.cc/2013"
                 }
