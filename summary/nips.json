@@ -1,17 +1,11 @@
 {
+    "2024": {},
     "2023": {
         "main": {
             "src": {
                 "openreview": {
-                    "tid": [
-                        1,
-                        2,
-                        3,
-                        4
-                    ],
                     "total": 3394,
-                    "url": "https://openreview.net/group?id=NeurIPS.cc/2023",
-                    "name": "OpenReview"
+                    "url": "https://openreview.net/group?id=NeurIPS.cc/2023"
                 }
             },
             "thist": {
@@ -31,12 +25,12 @@
                 "5": 3394
             },
             "tid": {
-                "Active": 0,
-                "NeurIPS 2023 poster": 1,
-                "NeurIPS 2023 spotlight": 2,
-                "Submitted to NeurIPS 2023": 3,
-                "NeurIPS 2023 oral": 4,
-                "Total": 5
+                "0": "Active",
+                "1": "NeurIPS 2023 poster",
+                "2": "NeurIPS 2023 spotlight",
+                "3": "Submitted to NeurIPS 2023",
+                "4": "NeurIPS 2023 oral",
+                "5": "Total"
             },
             "tname": {
                 "1": "Poster",
@@ -55,15 +49,8 @@
         "Datasets & Benchmarks": {
             "src": {
                 "openreview": {
-                    "tid": [
-                        1,
-                        2,
-                        3,
-                        4
-                    ],
                     "total": 338,
-                    "url": "https://openreview.net/group?id=NeurIPS.cc/2023",
-                    "name": "OpenReview"
+                    "url": "https://openreview.net/group?id=NeurIPS.cc/2023"
                 }
             },
             "thist": {
@@ -83,12 +70,12 @@
                 "5": 338
             },
             "tid": {
-                "Active": 0,
-                "NeurIPS 2023 Datasets and Benchmarks Poster": 1,
-                "NeurIPS 2023 Datasets and Benchmarks Spotlight": 2,
-                "NeurIPS 2023 Datasets and Benchmarks Oral": 3,
-                "Submitted to NeurIPS 2023 Datasets and Benchmarks": 4,
-                "Total": 5
+                "0": "Active",
+                "1": "NeurIPS 2023 Datasets and Benchmarks Poster",
+                "2": "NeurIPS 2023 Datasets and Benchmarks Spotlight",
+                "3": "NeurIPS 2023 Datasets and Benchmarks Oral",
+                "4": "Submitted to NeurIPS 2023 Datasets and Benchmarks",
+                "5": "Total"
             },
             "tname": {
                 "1": "Poster",
@@ -109,13 +96,8 @@
         "main": {
             "src": {
                 "openreview": {
-                    "tid": [
-                        1,
-                        2
-                    ],
                     "total": 2824,
-                    "url": "https://openreview.net/group?id=NeurIPS.cc/2022",
-                    "name": "OpenReview"
+                    "url": "https://openreview.net/group?id=NeurIPS.cc/2022"
                 }
             },
             "thist": {
@@ -131,10 +113,10 @@
                 "3": 2824
             },
             "tid": {
-                "Active": 0,
-                "Accept": 1,
-                "Reject": 2,
-                "Total": 3
+                "0": "Active",
+                "1": "Accept",
+                "2": "Reject",
+                "3": "Total"
             },
             "tname": {
                 "1": "Accept",
@@ -149,12 +131,8 @@
         "Datasets & Benchmarks": {
             "src": {
                 "openreview": {
-                    "tid": [
-                        1
-                    ],
                     "total": 163,
-                    "url": "https://openreview.net/group?id=NeurIPS.cc/2022",
-                    "name": "OpenReview"
+                    "url": "https://openreview.net/group?id=NeurIPS.cc/2022"
                 }
             },
             "thist": {
@@ -168,9 +146,9 @@
                 "2": 163
             },
             "tid": {
-                "Active": 0,
-                "Accept": 1,
-                "Total": 2
+                "0": "Active",
+                "1": "Accept",
+                "2": "Total"
             },
             "tname": {
                 "1": "Accept"
@@ -185,15 +163,8 @@
         "main": {
             "src": {
                 "openreview": {
-                    "tid": [
-                        1,
-                        2,
-                        3,
-                        4
-                    ],
                     "total": 2768,
-                    "url": "https://openreview.net/group?id=NeurIPS.cc/2021",
-                    "name": "OpenReview"
+                    "url": "https://openreview.net/group?id=NeurIPS.cc/2021"
                 }
             },
             "thist": {
@@ -213,12 +184,12 @@
                 "5": 2467
             },
             "tid": {
-                "Active": 0,
-                "Accept (Poster)": 1,
-                "Reject": 2,
-                "Accept (Spotlight)": 3,
-                "Accept (Oral)": 4,
-                "Total": 5
+                "0": "Active",
+                "1": "Accept (Poster)",
+                "2": "Reject",
+                "3": "Accept (Spotlight)",
+                "4": "Accept (Oral)",
+                "5": "Total"
             },
             "tname": {
                 "1": "Poster",
@@ -234,5 +205,13 @@
                 "4": 55
             }
         }
-    }
+    },
+    "2020": {},
+    "2019": {},
+    "2018": {},
+    "2017": {},
+    "2016": {},
+    "2015": {},
+    "2014": {},
+    "2013": {}
 }
