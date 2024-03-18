@@ -1,18 +1,11 @@
 {
+    "2024": {},
     "2023": {
         "main": {
             "src": {
                 "openreview": {
-                    "tid": [
-                        1,
-                        2,
-                        3,
-                        4,
-                        5
-                    ],
                     "total": 2019,
-                    "url": "https://openreview.net/group?id=EMNLP/2023",
-                    "name": "OpenReview"
+                    "url": "https://openreview.net/group?id=EMNLP/2023"
                 }
             },
             "thist": {
@@ -34,13 +27,13 @@
                 "6": 2019
             },
             "tid": {
-                "Active": 0,
-                "Regular Short Paper Accept-Findings": 1,
-                "Regular Long Paper Accept-Main": 2,
-                "Regular Long Paper Accept-Findings": 3,
-                "Regular Short Paper Accept-Main": 4,
-                "Reject": 5,
-                "Total": 6
+                "0": "Active",
+                "1": "Regular Short Paper Accept-Findings",
+                "2": "Regular Long Paper Accept-Main",
+                "3": "Regular Long Paper Accept-Findings",
+                "4": "Regular Short Paper Accept-Main",
+                "5": "Reject",
+                "6": "Total"
             },
             "tname": {
                 "1": "Short Findings",
@@ -58,5 +51,15 @@
                 "5": 8
             }
         }
-    }
+    },
+    "2022": {},
+    "2021": {},
+    "2020": {},
+    "2019": {},
+    "2018": {},
+    "2017": {},
+    "2016": {},
+    "2015": {},
+    "2014": {},
+    "2013": {}
 }

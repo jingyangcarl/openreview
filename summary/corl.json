@@ -1,15 +1,11 @@
 {
+    "2024": {},
     "2023": {
         "main": {
             "src": {
                 "openreview": {
-                    "tid": [
-                        1,
-                        2
-                    ],
                     "total": 199,
-                    "url": "https://openreview.net/group?id=robot-learning.org/CoRL/2023",
-                    "name": "OpenReview"
+                    "url": "https://openreview.net/group?id=robot-learning.org/CoRL/2023"
                 }
             },
             "thist": {
@@ -25,10 +21,10 @@
                 "3": 199
             },
             "tid": {
-                "Active": 0,
-                "Accept (Poster)": 1,
-                "Accept (Oral)": 2,
-                "Total": 3
+                "0": "Active",
+                "1": "Accept (Poster)",
+                "2": "Accept (Oral)",
+                "3": "Total"
             },
             "tname": {
                 "1": "Poster",
@@ -45,13 +41,8 @@
         "main": {
             "src": {
                 "openreview": {
-                    "tid": [
-                        1,
-                        2
-                    ],
                     "total": 197,
-                    "url": "https://openreview.net/group?id=robot-learning.org/CoRL/2022",
-                    "name": "OpenReview"
+                    "url": "https://openreview.net/group?id=robot-learning.org/CoRL/2022"
                 }
             },
             "thist": {
@@ -67,10 +58,10 @@
                 "3": 197
             },
             "tid": {
-                "Active": 0,
-                "Accept (Poster)": 1,
-                "Accept (Oral)": 2,
-                "Total": 3
+                "0": "Active",
+                "1": "Accept (Poster)",
+                "2": "Accept (Oral)",
+                "3": "Total"
             },
             "tname": {
                 "1": "Poster",
@@ -87,13 +78,8 @@
         "main": {
             "src": {
                 "openreview": {
-                    "tid": [
-                        1,
-                        2
-                    ],
                     "total": 153,
-                    "url": "https://openreview.net/group?id=robot-learning.org/CoRL/2021",
-                    "name": "OpenReview"
+                    "url": "https://openreview.net/group?id=robot-learning.org/CoRL/2021"
                 }
             },
             "thist": {
@@ -109,10 +95,10 @@
                 "3": 153
             },
             "tid": {
-                "Active": 0,
-                "Accept (Poster)": 1,
-                "Accept (Oral)": 2,
-                "Total": 3
+                "0": "Active",
+                "1": "Accept (Poster)",
+                "2": "Accept (Oral)",
+                "3": "Total"
             },
             "tname": {
                 "1": "Poster",
@@ -124,5 +110,13 @@
                 "2": 26
             }
         }
-    }
+    },
+    "2020": {},
+    "2019": {},
+    "2018": {},
+    "2017": {},
+    "2016": {},
+    "2015": {},
+    "2014": {},
+    "2013": {}
 }
