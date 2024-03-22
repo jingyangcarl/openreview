@@ -7502,6 +7502,28 @@
         "corr_rating_correctness": 0
     },
     {
+        "id": "ARtBIBAmNR",
+        "title": "Visually Guided Generative Text-Layout Pre-training for Document Intelligence",
+        "track": "main",
+        "status": "Reject",
+        "keywords": "Multimodal Pre-training;Visual Document Understanding",
+        "authors": "",
+        "rating": "",
+        "confidence": "4;4;3;4",
+        "correctness": "2;2;2;2",
+        "technical_novelty": "",
+        "empirical_novelty": "",
+        "presentation": "",
+        "rating_avg": 1.0,
+        "confidence_avg": 3.75,
+        "correctness_avg": 2.0,
+        "technical_novelty_avg": 0,
+        "empirical_novelty_avg": 0,
+        "presentation_avg": 0,
+        "corr_rating_confidence": 0,
+        "corr_rating_correctness": 0
+    },
+    {
         "id": "AU2Oq0z4xA",
         "title": "IMU2CLIP: Language-grounded Motion Sensor Translation with Multimodal Contrastive Learning",
         "track": "main",
