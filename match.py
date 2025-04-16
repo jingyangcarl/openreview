@@ -3,8 +3,8 @@ import json
 from datetime import datetime
 from collections import defaultdict
 
-FIELDS = ["rating", "confidence", "presentation"]
-
+FIELDS = ["confidence", "correctness", "technical_novelty"]
+        
 def get_date_from_filename(filename):
     try:
         date_str = filename.split(".")[1].replace(".json", "")
@@ -31,36 +31,50 @@ def parse_scores(data_entry, fields=FIELDS):
         reviewers.append(scores)
     return reviewers
 
-def find_consistent_reviewers(folder):
+def find_consistent_reviewers(folder, fields=FIELDS):
     sorted_files = sort_files_by_date(folder)
-    consistent_reviewers = defaultdict(lambda: defaultdict(dict))  # paper_id -> reviewer_id -> reviewer_score
 
-    all_reviewers_status = defaultdict(lambda: defaultdict(list))  # paper_id -> reviewer_id -> [scores across files]
+    first_file = sorted_files[0]
+    with open(os.path.join(folder, first_file)) as f:
+        data = json.load(f)
+    first_day_data = {entry["id"]: entry for entry in data}
+    # first_day_scores = {entry["id"]: parse_scores(entry) for entry in data}
+    last_file = sorted_files[-1]
+    with open(os.path.join(folder, last_file)) as f:
+        data = json.load(f)
+    last_day_data = {entry["id"]: entry for entry in data}
+    # last_day_scores = {entry["id"]: parse_scores(entry) for entry in data}
+    
+    paper_matches = {}
+    count = 0
+    
+    for paper_id, paper_scores in first_day_data.items():
+        if paper_id not in last_day_data.keys():
+            continue
 
-    for file in sorted_files:
-        with open(os.path.join(folder, file), "r") as f:
-            papers = json.load(f)
+        first_scores = parse_scores(paper_scores, fields)
+        review_dict = last_day_data[paper_id]
+        last_scores = parse_scores(review_dict, fields)
 
-        for paper in papers:
-            paper_id = paper["id"]
-            reviewers = parse_scores(paper)
+        data_set = set(json.dumps(d) for d in first_scores)
+        first_scores = [json.loads(s) for s in data_set]
+        data_set = set(json.dumps(d) for d in last_scores)
+        last_scores = [json.loads(s) for s in data_set]
+        
+        matched = {}
+        num_matches = 0
 
-            # Collect reviewers' scores across all files for later comparison
-            for reviewer_id, reviewer in enumerate(reviewers):
-                all_reviewers_status[paper_id][reviewer_id].append(reviewer)
+        for i, last_score in enumerate(last_scores):
+            for j, first_score in enumerate(first_scores):
+                if all(last_score[field] == first_score[field] for field in fields):
+                    assert i not in matched.keys()
+                    matched[i] = j
+                    count += 1
+                    break
 
-    # Now filter reviewers that are consistent across all files
-    for paper_id, reviewers in all_reviewers_status.items():
-        for reviewer_id, scores in reviewers.items():
-            # Check if the reviewer has the same confidence and presentation across all files
-            confidence_set = {score["confidence"] for score in scores}
-            presentation_set = {score["presentation"] for score in scores}
-
-            # If confidence and presentation are the same across all files, mark as consistent
-            if len(confidence_set) == 1 and len(presentation_set) == 1:
-                consistent_reviewers[paper_id][reviewer_id] = scores[0]  # Save the reviewer's score
-
-    return consistent_reviewers
+        paper_matches[paper_id] = matched
+    print(f"Total matches: {count}")
+    return paper_matches
 
 # Example usage
 folder = "openreview/venues/iclr/iclr2024"
@@ -77,16 +91,15 @@ pprint(dict(consistent_reviewers))
 # Where each paper is stored as a dictionary {reviewer1: review1, reviewer2: review2, ...}
 # https://huggingface.co/datasets/QiyaoWei/Openreview/tree/main
 
-
 # import json
 # with open("openreview/venues/iclr/iclr2024/iclr2024.01182024.json") as f:
 #     data = json.load(f)
 # day_data = {entry["id"]: entry for entry in data}
 
-# with open("iclr2024.json") as f:
+# with open("input_data.json") as f:
 #     data = json.load(f)
 # def convert_review_list_to_paper_dict(data):
-#     final_data = {}
+#     last_day_data = {}
 
 #     for paper_reviews in data:
 #         # Get paper ID from any review (e.g., the first one)
@@ -99,11 +112,11 @@ pprint(dict(consistent_reviewers))
 #         if not paper_id:
 #             continue  # Skip if no paper ID found
         
-#         final_data[paper_id] = paper_reviews  # reviewer_number: review dict
+#         last_day_data[paper_id] = paper_reviews  # reviewer_number: review dict
 
-#     return final_data
+#     return last_day_data
 
-# final_data = convert_review_list_to_paper_dict(data)
+# last_day_data = convert_review_list_to_paper_dict(data)
 
 # from typing import Dict
 
@@ -138,15 +151,15 @@ pprint(dict(consistent_reviewers))
 #     """
 #     return {field: clean_openreview_score(review_dict.get(field)["value"]) for field in fields}
 
-# def match_reviewers(data: Dict, final_data: Dict, fields=FIELDS):
+# def match_reviewers(data: Dict, last_day_data: Dict, fields=FIELDS):
 #     paper_matches = {}
 
 #     for paper_id, paper_scores in data.items():
-#         if paper_id not in final_data.keys():
+#         if paper_id not in last_day_data.keys():
 #             continue
 
-#         score_vectors = parse_scores(paper_scores, fields)
-#         review_dict = final_data[paper_id]
+#         first_scores = parse_scores(paper_scores, fields)
+#         review_dict = last_day_data[paper_id]
 
 #         matched = {}
 #         used_indices = set()
@@ -155,19 +168,17 @@ pprint(dict(consistent_reviewers))
 #             review_vec = extract_reviewer_vector(review[0]["content"], fields)
 
 #             # Only exact match
-#             for idx, score_vec in enumerate(score_vectors):
+#             for idx, first_score in enumerate(first_scores):
 #                 if idx in used_indices:
 #                     continue
-#                 if all(review_vec[field] == score_vec[field] for field in fields):
+#                 if all(review_vec[field] == first_score[field] for field in fields):
 #                     matched[reviewer_id] = idx
 #                     used_indices.add(idx)
 #                     break
-#                 matched[reviewer_id] = best_idx
-#                 used_indices.add(best_idx)
 
 #         paper_matches[paper_id] = matched
 
 #     return paper_matches
 
-# matches = match_reviewers(day_data, final_data)
+# matches = match_reviewers(day_data, last_day_data)
 # print(matches)
