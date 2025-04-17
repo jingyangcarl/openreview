@@ -130,6 +130,59 @@ def signature_cost(sig1, sig2):
     return sum(abs(a - b) for a, b in zip(sig1, sig2))
 
 def trace_with_hungarian(data, max_cost_threshold=3):
+    
+    """
+    Tracks reviewer identities backward in time using dynamic programming
+    (Hungarian algorithm) to minimize profile differences between consecutive days.
+
+    This function assumes that the list of reviews on each day is sorted by "rating"
+    in ascending order, and that this sorting may shuffle the position of reviewers
+    if their ratings change from day to day.
+
+    The canonical reviewer ordering is taken from the last day (latest snapshot),
+    where each index (0 to N-1) is considered the true identity of a reviewer.
+    The goal is to trace back these canonical reviewer IDs through earlier days,
+    despite possible shuffling in their positions due to score updates.
+
+    Matching is based on the similarity of the reviewer signature:
+        (confidence, correctness, technical_novelty)
+
+    For each earlier day:
+        - A cost matrix is computed between all reviewers on that day and all
+          canonical reviewers from the following day.
+        - The cost is defined as the L1 distance (sum of absolute differences)
+          between reviewer signatures.
+        - The Hungarian algorithm is used to find the optimal 1-to-1 assignment
+          (minimum total cost).
+        - If a match has a cost greater than `max_cost_threshold`, the match is
+          considered unreliable and that reviewer is marked with `-1`.
+
+    Parameters:
+    ----------
+    data : List[Dict]
+        A list of daily review snapshots (sorted by time), where each entry is a dict
+        containing:
+            - 'rating': semicolon-separated scores (e.g., "3;5;6;6;6")
+            - 'confidence': semicolon-separated values
+            - 'correctness': semicolon-separated values
+            - 'technical_novelty': semicolon-separated values
+            - 'time_code': a date string (e.g., "11202023")
+
+    max_cost_threshold : int, optional (default=3)
+        The maximum allowable distance between reviewer profiles to consider a match valid.
+        If the computed cost exceeds this threshold, the reviewer is assumed to be
+        unmatchable and marked as -1 in the output.
+
+    Returns:
+    -------
+    List[Dict[str, List[int]]]
+        A list of dictionaries, one per day, of the form:
+            [{time_code: [canonical_reviewer_ids]}]
+        Where each list maps the index of the reviewer on that day to their canonical
+        reviewer ID (based on the last day). If a reviewer cannot be reliably matched,
+        the ID will be -1.
+    """
+    
     n_days = len(data)
     n_reviewers = len(data[-1]["rating"].split(';'))
 
