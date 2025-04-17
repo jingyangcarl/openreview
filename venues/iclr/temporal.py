@@ -129,7 +129,7 @@ def parse_day(day):
 def signature_cost(sig1, sig2):
     return sum(abs(a - b) for a, b in zip(sig1, sig2))
 
-def trace_with_hungarian(data, max_cost_threshold=6):
+def trace_with_hungarian(data, max_cost_threshold=3):
     n_days = len(data)
     n_reviewers = len(data[-1]["rating"].split(';'))
 
