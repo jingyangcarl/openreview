@@ -8,10 +8,15 @@ import numpy as np
 from tqdm import tqdm
 from tabulate import tabulate
 import csv
-from contextlib import redirect_stdout
 import re
 
-FIELDS = ["confidence", "correctness", "technical_novelty"]
+year = 2024
+if year == 2024:
+    FIELDS = ["rating", "confidence", "correctness", "technical_novelty"] # iclr 2024
+elif year == 2025:
+    FIELDS = ["rating", "confidence", "soundness", "contribution", "presentation"] # iclr 2025
+else:
+    raise ValueError(f"Year {year} is not supported. Please update the FIELDS variable accordingly.")
 
 class TeeOutput:
     def __init__(self, *streams):
@@ -33,12 +38,7 @@ class TeeOutput:
                 pass  # Ignore flushing errors, like closed file
 
 def parse_day(day):
-    return list(zip(
-        map(int, day["rating"].split(';')),
-        map(int, day["confidence"].split(';')),
-        map(int, day["correctness"].split(';')),
-        map(int, day["technical_novelty"].split(';'))
-    ))
+    return list(zip(*(map(int, day[field].split(';')) for field in FIELDS)))
 
 def signature_cost(sig1, sig2):
     return sum(abs(a - b) for a, b in zip(sig1, sig2))
@@ -98,7 +98,7 @@ def trace_with_hungarian(data, max_cost_threshold=3):
     """
     
     n_days = len(data)
-    n_reviewers = len(data[-1]["rating"].split(';'))
+    n_reviewers = len(data[-1][FIELDS[0]].split(';'))
 
     # Canonical: last day
     result = [{} for _ in range(n_days)]
@@ -136,18 +136,20 @@ def sort_key(entry):
 def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") -> Dict[str, Dict[str, Dict[str, float]]]:
     total_papers = 0
     total_reviewers = 0
+
+    non_primary_fields = FIELDS[1:]
     unchanged = {
-        "confidence": {"papers": 0, "reviewers": 0},
-        "correctness": {"papers": 0, "reviewers": 0},
-        "technical_novelty": {"papers": 0, "reviewers": 0},
-        "all_three": {"papers": 0, "reviewers": 0}
+        field: {"papers": 0, "reviewers": 0} for field in non_primary_fields
     }
+    unchanged["all_non_rating"] = {"papers": 0, "reviewers": 0}
+
     metadata = {
         "fully_empty_profiles": 0,
         "papers_with_extra_reviewers": 0
     }
 
     failed_records = {}
+    field_index = {field: idx for idx, field in enumerate(FIELDS)}
 
     for paper_id, entries in results.items():
         entries.sort(key=sort_key)
@@ -161,7 +163,7 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
             metadata["fully_empty_profiles"] += 1
             continue
 
-        reviewer_counts = [len(entry["rating"].split(';')) for entry in entries]
+        reviewer_counts = [len(entry[FIELDS[0]].split(';')) for entry in entries]
         if any(c != reviewer_counts[0] for c in reviewer_counts):
             metadata["papers_with_extra_reviewers"] += 1
             continue
@@ -170,53 +172,41 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
         total_papers += 1
         total_reviewers += reviewer_count
 
-        reviewer_flags = [[True, True, True] for _ in range(reviewer_count)]
-        paper_flags = {"confidence": True, "correctness": True, "technical_novelty": True}
+        reviewer_flags = [[True] * len(non_primary_fields) for _ in range(reviewer_count)]
+        paper_flags = {field: True for field in non_primary_fields}
 
         if mode == "first_last":
             initial = parse_day(initial_raw)
             final = parse_day(final_raw)
             for i in range(reviewer_count):
-                if initial[i][1] != final[i][1]:
-                    reviewer_flags[i][0] = False
-                    paper_flags["confidence"] = False
-                if initial[i][2] != final[i][2]:
-                    reviewer_flags[i][1] = False
-                    paper_flags["correctness"] = False
-                if initial[i][3] != final[i][3]:
-                    reviewer_flags[i][2] = False
-                    paper_flags["technical_novelty"] = False
+                for j, field in enumerate(non_primary_fields):
+                    idx = field_index[field]
+                    if initial[i][idx] != final[i][idx]:
+                        reviewer_flags[i][j] = False
+                        paper_flags[field] = False
         else:
             for i in range(1, len(entries)):
                 prev = parse_day(entries[i - 1])
                 curr = parse_day(entries[i])
                 for j in range(reviewer_count):
-                    if prev[j][1] != curr[j][1]:
-                        reviewer_flags[j][0] = False
-                        paper_flags["confidence"] = False
-                    if prev[j][2] != curr[j][2]:
-                        reviewer_flags[j][1] = False
-                        paper_flags["correctness"] = False
-                    if prev[j][3] != curr[j][3]:
-                        reviewer_flags[j][2] = False
-                        paper_flags["technical_novelty"] = False
+                    for k, field in enumerate(non_primary_fields):
+                        idx = field_index[field]
+                        if prev[j][idx] != curr[j][idx]:
+                            reviewer_flags[j][k] = False
+                            paper_flags[field] = False
 
-        for flag in reviewer_flags:
-            if flag[0]:
-                unchanged["confidence"]["reviewers"] += 1
-            if flag[1]:
-                unchanged["correctness"]["reviewers"] += 1
-            if flag[2]:
-                unchanged["technical_novelty"]["reviewers"] += 1
+        for i, flag in enumerate(reviewer_flags):
+            for j, field in enumerate(non_primary_fields):
+                if flag[j]:
+                    unchanged[field]["reviewers"] += 1
             if all(flag):
-                unchanged["all_three"]["reviewers"] += 1
+                unchanged["all_non_rating"]["reviewers"] += 1
 
-        for key in FIELDS:
-            if paper_flags[key]:
-                unchanged[key]["papers"] += 1
-
+        for field in non_primary_fields:
+            if paper_flags[field]:
+                unchanged[field]["papers"] += 1
         if all(paper_flags.values()):
-            unchanged["all_three"]["papers"] += 1
+            unchanged["all_non_rating"]["papers"] += 1
         else:
             failed_records[paper_id] = entries
 
@@ -234,7 +224,7 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
                 key: {
                     "count": unchanged[key]["papers"],
                     "percentage": percentage(unchanged[key]["papers"], total_papers)
-                } for key in ["confidence", "correctness", "technical_novelty", "all_three"]
+                } for key in list(non_primary_fields) + ["all_non_rating"]
             }
         },
         "reviewer_level": {
@@ -243,7 +233,7 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
                 key: {
                     "count": unchanged[key]["reviewers"],
                     "percentage": percentage(unchanged[key]["reviewers"], total_reviewers)
-                } for key in ["confidence", "correctness", "technical_novelty", "all_three"]
+                } for key in list(non_primary_fields) + ["all_non_rating"]
             }
         },
         "metadata": metadata,
@@ -367,27 +357,17 @@ def trace_failed_records(
                 filename = os.path.join(debug_dir, f"{paper_id}_{'success' if success_flag else 'fail'}.csv")
                 with open(filename, "w", newline="") as csvfile:
                     writer = csv.writer(csvfile)
-                    writer.writerow(["time_code", "rating", "confidence", "correctness", "technical_novelty", "canonical_ids"])
+                    writer.writerow(["time_code"] + FIELDS + ["canonical_ids"])
                     for i, day in enumerate(records):
                         time_code = day["time_code"]
                         trace_map = list(footprints[i].values())[0]
-                        writer.writerow([
-                            time_code,
-                            day["rating"],
-                            day["confidence"],
-                            day["correctness"],
-                            day["technical_novelty"],
-                            ";".join(map(str, trace_map))
-                        ])
+                        row = [time_code] + [day[field] for field in FIELDS] + [";".join(map(str, trace_map))]
+                        writer.writerow(row)
 
         except Exception as e:
             print(f"⚠️ Error tracing paper {paper_id}: {e}")
 
-    print(print_colored(
-        f"\n✅ Successfully traced {success} out of {total} failed papers "
-        f"({round(success / total * 100, 2)}%) using max_cost_threshold = {max_cost_threshold}",
-        "1;32" if success else "1;31"
-    ))
+    print(f"\n✅ Successfully traced {success} out of {total} failed papers ({round(success / total * 100, 2)}%) using max_cost_threshold = {max_cost_threshold}")
     return traced_entries
 
     
@@ -395,7 +375,7 @@ def full_pipeline(root_folder: str, tracing_threshold: int = 3, debug_folder=Non
     id_to_entries = defaultdict(list)
 
     for filename in os.listdir(root_folder):
-        if filename.endswith('.json') and filename.startswith('iclr2024.'):
+        if filename.endswith('.json') and filename.startswith(f'iclr{year}'):
             time_code = filename.split('.')[1]
             with open(os.path.join(root_folder, filename), 'r') as f:
                 data = json.load(f)
@@ -558,7 +538,7 @@ if __name__ == "__main__":
     # for a specific id, loop through all the json files and get the content of the json object
     # append the time code to the end of the json object and save the temporal to a new file
     
-    root_folder = '/home/jyang/projects/papercopilot/logs/openreview/venues/iclr/iclr2024'
+    root_folder = f'/home/jyang/projects/papercopilot/logs/openreview/venues/iclr/iclr{year}'
     
     tracing_threshold_min = 0
     tracing_threshold_max = 6
