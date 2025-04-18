@@ -1,5 +1,6 @@
 import os
 import json
+import sys
 from collections import defaultdict
 from typing import List, Dict
 from scipy.optimize import linear_sum_assignment
@@ -7,8 +8,29 @@ import numpy as np
 from tqdm import tqdm
 from tabulate import tabulate
 import csv
+from contextlib import redirect_stdout
+import re
 
 FIELDS = ["confidence", "correctness", "technical_novelty"]
+
+class TeeOutput:
+    def __init__(self, *streams):
+        self.streams = streams
+
+    def write(self, message):
+        for stream in self.streams:
+            try:
+                stream.write(message)
+                stream.flush()
+            except Exception:
+                pass  # Ignore writing errors, like closed file
+
+    def flush(self):
+        for stream in self.streams:
+            try:
+                stream.flush()
+            except Exception:
+                pass  # Ignore flushing errors, like closed file
 
 def parse_day(day):
     return list(zip(
@@ -369,7 +391,7 @@ def trace_failed_records(
     return traced_entries
 
     
-def full_pipeline(root_folder: str, tracing_threshold: int = 3) -> Dict[str, Dict[str, Dict[str, float]]]:
+def full_pipeline(root_folder: str, tracing_threshold: int = 3, debug_folder=None) -> Dict[str, Dict[str, Dict[str, float]]]:
     id_to_entries = defaultdict(list)
 
     for filename in os.listdir(root_folder):
@@ -400,15 +422,96 @@ def full_pipeline(root_folder: str, tracing_threshold: int = 3) -> Dict[str, Dic
 
     # Step 3: Extract failed records and trace them
     failed_records = stats_all_days["failed_records"]
-    traced_entries = trace_failed_records(failed_records, max_cost_threshold=tracing_threshold, debug_dir=root_folder + f"_footprints_threshold_{tracing_threshold}")
+    traced_entries = trace_failed_records(failed_records, max_cost_threshold=tracing_threshold, debug_dir=debug_folder)
 
     return {
         "first_last": stats_first_last,
         "all_days": stats_all_days,
         "traced_success": traced_entries
     }
+    
+def generate_tracing_summary(debug_root: str, thresholds: range = range(0, 6), output_file: str = "summary.csv"):
+    """
+    Generate a summary CSV indicating tracing success (O) or failure (X) for each paper across different thresholds.
+    Also appends two rows beneath the header:
+        - One with raw counts: 2041/3120
+        - One with percentages: 65.45%
 
-def test(root_folder, target_id):
+    Parameters:
+    ----------
+    debug_root : str
+        Base path where traced CSVs are saved, expected subfolders: *_footprints_threshold_{i}
+
+    thresholds : range
+        Threshold values to check (default: 0 to 5 inclusive)
+
+    output_file : str
+        Path to save the summary CSV file
+    """
+    paper_ids = set()
+    results_by_threshold = {}
+    count_row = ["summary_count"]
+    percentage_row = ["summary_percent"]
+
+    for threshold in thresholds:
+        folder = f"{debug_root}/threshold_{threshold}"
+        if not os.path.exists(folder):
+            count_row.append("")
+            percentage_row.append("")
+            continue
+
+        results = {}
+        for filename in os.listdir(folder):
+            if filename.endswith(".csv") and ("_success" in filename or "_fail" in filename):
+                paper_id, result = filename.replace(".csv", "").split("_")
+                results[paper_id] = "O" if result == "success" else "X"
+                paper_ids.add(paper_id)
+        results_by_threshold[threshold] = results
+
+        # Read tracing success summary from log
+        log_file = f"{debug_root}/threshold_{threshold}_log.txt"
+        if not os.path.exists(log_file):
+            print(f"⚠️ Log file not found for threshold {threshold}: {log_file}")
+            continue
+        # Extract the summary line from the log file
+        count = ""
+        percent = ""
+        if os.path.exists(log_file):
+            with open(log_file, "r") as f:
+                for line in f:
+                    if "Successfully traced" in line:
+                        match = re.search(r"(\d+) out of (\d+).*?\(([\d.]+)%\)", line)
+                        if match:
+                            traced, total, pct = match.groups()
+                            count = f"{traced}/{total}"
+                            percent = f"{pct}%"
+                        break
+        count_row.append(count)
+        percentage_row.append(percent)
+
+    # Prepare summary data
+    sorted_papers = sorted(paper_ids)
+    header = ["paper_id"] + [f"threshold_{t}" for t in thresholds]
+    rows = []
+
+    for paper_id in sorted_papers:
+        row = [paper_id]
+        for t in thresholds:
+            row.append(results_by_threshold.get(t, {}).get(paper_id, ""))
+        rows.append(row)
+
+    # Write to CSV using csv.writer
+    with open(output_file, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(header)
+        writer.writerow(count_row)
+        writer.writerow(percentage_row)
+        writer.writerows(rows)
+
+    print(f"✅ Tracing summary saved to {output_file}")
+    return output_file
+
+def test(root_folder, target_id='HE9eUQlAvo'):
     
     results = []
 
@@ -436,6 +539,7 @@ def test(root_folder, target_id):
     results.sort(key=sort_key)
 
     # save results
+    # output_file = f'{root_folder}_{target_id}_temporal.json'
     # with open(output_file, 'w') as f:
         # json.dump(results, f, indent=4)
 
@@ -455,8 +559,26 @@ if __name__ == "__main__":
     # append the time code to the end of the json object and save the temporal to a new file
     
     root_folder = '/home/jyang/projects/papercopilot/logs/openreview/venues/iclr/iclr2024'
-    target_id = 'HE9eUQlAvo'
-    output_file = f'{root_folder}_{target_id}_temporal.json'
+    
+    tracing_threshold_min = 0
+    tracing_threshold_max = 6
+    print(f"Tracing thresholds: {tracing_threshold_min} to {tracing_threshold_max}")
+    
+    for t in range(tracing_threshold_min, tracing_threshold_max):
+        debug_folder = root_folder + f"/footprints/threshold_{t}"
+        os.makedirs(debug_folder, exist_ok=True)
+        with open(debug_folder +'_log.txt', 'w') as logfile:
+            sys.stdout = TeeOutput(sys.__stdout__, logfile)
+            
+            print(f"cat this file.txt in a terminal to see the output with colors")
+            print(f"Debug folder: {debug_folder}")
 
-    full_pipeline(root_folder, tracing_threshold=1)
-    # test(root_folder, target_id)
+            full_pipeline(root_folder, tracing_threshold=t, debug_folder=debug_folder)
+            # test(root_folder, target_id)
+            
+    print("\n📊 Generating final summary table...")
+    generate_tracing_summary(
+        debug_root=root_folder + "/footprints",
+        thresholds=range(0, 6),
+        output_file=root_folder + "/footprints/tracing_summary.csv"
+    )
