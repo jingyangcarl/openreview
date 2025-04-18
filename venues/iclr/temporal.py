@@ -6,6 +6,7 @@ from scipy.optimize import linear_sum_assignment
 import numpy as np
 from tqdm import tqdm
 from tabulate import tabulate
+import csv
 
 FIELDS = ["confidence", "correctness", "technical_novelty"]
 
@@ -290,10 +291,16 @@ def print_block(stats):
             f"{values['count']} reviewers ({values['percentage']}%)")
 
 
-def trace_failed_records(failed_records: Dict[str, List[Dict]], max_cost_threshold: int = 3) -> Dict[str, List[Dict]]:
+def trace_failed_records(
+    failed_records: Dict[str, List[Dict]],
+    max_cost_threshold: int = 3,
+    debug_dir: str = None
+) -> Dict[str, List[Dict]]:
     """
-    Traces reviewer identities for failed records using a Hungarian matching algorithm,
+    Traces reviewer identities for failed records using the Hungarian matching algorithm,
     only keeping those where all reviewer assignments are successful (no unmatched -1).
+    
+    Optionally saves debug outputs in CSV format for each traced paper.
 
     Parameters:
     ----------
@@ -303,6 +310,9 @@ def trace_failed_records(failed_records: Dict[str, List[Dict]], max_cost_thresho
     max_cost_threshold : int
         Maximum allowed cost between reviewer signatures to accept a match.
 
+    debug_dir : str
+        Optional directory to save CSV debug outputs for traced footprints and review entries.
+
     Returns:
     -------
     traced_entries : Dict[str, List[Dict]]
@@ -311,6 +321,9 @@ def trace_failed_records(failed_records: Dict[str, List[Dict]], max_cost_thresho
     traced_entries = {}
     total = len(failed_records)
     success = 0
+
+    if debug_dir:
+        os.makedirs(debug_dir, exist_ok=True)
 
     for paper_id, records in tqdm(failed_records.items(), desc="Tracing failed records"):
         try:
@@ -322,7 +335,29 @@ def trace_failed_records(failed_records: Dict[str, List[Dict]], max_cost_thresho
             )
             if all_days_traced:
                 traced_entries[paper_id] = records
+                success_flag = True
                 success += 1
+            else:
+                success_flag = False
+
+            # Debug CSV saving
+            if debug_dir:
+                filename = os.path.join(debug_dir, f"{paper_id}_{'success' if success_flag else 'fail'}.csv")
+                with open(filename, "w", newline="") as csvfile:
+                    writer = csv.writer(csvfile)
+                    writer.writerow(["time_code", "rating", "confidence", "correctness", "technical_novelty", "canonical_ids"])
+                    for i, day in enumerate(records):
+                        time_code = day["time_code"]
+                        trace_map = list(footprints[i].values())[0]
+                        writer.writerow([
+                            time_code,
+                            day["rating"],
+                            day["confidence"],
+                            day["correctness"],
+                            day["technical_novelty"],
+                            ";".join(map(str, trace_map))
+                        ])
+
         except Exception as e:
             print(f"⚠️ Error tracing paper {paper_id}: {e}")
 
@@ -334,7 +369,7 @@ def trace_failed_records(failed_records: Dict[str, List[Dict]], max_cost_thresho
     return traced_entries
 
     
-def full_pipeline(root_folder: str):
+def full_pipeline(root_folder: str, tracing_threshold: int = 3) -> Dict[str, Dict[str, Dict[str, float]]]:
     id_to_entries = defaultdict(list)
 
     for filename in os.listdir(root_folder):
@@ -365,7 +400,7 @@ def full_pipeline(root_folder: str):
 
     # Step 3: Extract failed records and trace them
     failed_records = stats_all_days["failed_records"]
-    traced_entries = trace_failed_records(failed_records, max_cost_threshold=0)
+    traced_entries = trace_failed_records(failed_records, max_cost_threshold=tracing_threshold, debug_dir=root_folder + f"_footprints_threshold_{tracing_threshold}")
 
     return {
         "first_last": stats_first_last,
@@ -423,5 +458,5 @@ if __name__ == "__main__":
     target_id = 'HE9eUQlAvo'
     output_file = f'{root_folder}_{target_id}_temporal.json'
 
-    full_pipeline(root_folder)
+    full_pipeline(root_folder, tracing_threshold=1)
     # test(root_folder, target_id)
