@@ -10,7 +10,7 @@ from tabulate import tabulate
 import csv
 import re
 
-year = 2024
+year = 2025
 if year == 2024:
     FIELDS = ["rating", "confidence", "correctness", "technical_novelty"] # iclr 2024
 elif year == 2025:
@@ -42,6 +42,10 @@ def parse_day(day):
 
 def signature_cost(sig1, sig2):
     return sum(abs(a - b) for a, b in zip(sig1, sig2))
+
+def sort_key(entry):
+    mmddyyyy = entry['time_code']
+    return mmddyyyy[4:] + mmddyyyy[:4]
 
 def trace_with_hungarian(data, max_cost_threshold=3):
     
@@ -128,16 +132,35 @@ def trace_with_hungarian(data, max_cost_threshold=3):
     return result
 
 
-def sort_key(entry):
-    mmddyyyy = entry['time_code']
-    return mmddyyyy[4:] + mmddyyyy[:4]
-
-
 def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") -> Dict[str, Dict[str, Dict[str, float]]]:
+    """
+    Analyze the stability of reviewer profiles over time across papers.
+
+    Stability is defined as a reviewer's score in specific dimensions (excluding "rating")
+    not changing across snapshots.
+
+    Parameters:
+    ----------
+    results : Dict[str, List[Dict]]
+        A dictionary mapping paper IDs to a list of review snapshots across time.
+
+    mode : str, optional (default="first_last")
+        - "first_last": Compare only the first and last snapshot.
+        - "all_days": Require the value to stay unchanged across all consecutive pairs.
+
+    Returns:
+    -------
+    Dict[str, Dict[str, Dict[str, float]]]
+        A summary dictionary with paper-level and reviewer-level stability stats.
+        Includes counts, percentages, skipped papers metadata, and failed records.
+    """
     total_papers = 0
     total_reviewers = 0
 
+    # Dimensions excluding the primary sorting key (e.g., "rating")
     non_primary_fields = FIELDS[1:]
+    
+    # Counters for unchanged scores per dimension
     unchanged = {
         field: {"papers": 0, "reviewers": 0} for field in non_primary_fields
     }
@@ -154,15 +177,17 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
     for paper_id, entries in results.items():
         entries.sort(key=sort_key)
         if len(entries) <= 1:
-            continue
+            continue  # Only one snapshot — skip
 
         initial_raw = entries[0]
         final_raw = entries[-1]
 
+        # Skip if any dimension is completely empty
         if any(initial_raw[field].strip() == '' for field in FIELDS):
             metadata["fully_empty_profiles"] += 1
             continue
 
+        # Skip if the number of reviewers changes over time
         reviewer_counts = [len(entry[FIELDS[0]].split(';')) for entry in entries]
         if any(c != reviewer_counts[0] for c in reviewer_counts):
             metadata["papers_with_extra_reviewers"] += 1
@@ -175,6 +200,7 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
         reviewer_flags = [[True] * len(non_primary_fields) for _ in range(reviewer_count)]
         paper_flags = {field: True for field in non_primary_fields}
 
+        # Compare scores across time
         if mode == "first_last":
             initial = parse_day(initial_raw)
             final = parse_day(final_raw)
@@ -195,6 +221,7 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
                             reviewer_flags[j][k] = False
                             paper_flags[field] = False
 
+        # Aggregate stable dimensions
         for i, flag in enumerate(reviewer_flags):
             for j, field in enumerate(non_primary_fields):
                 if flag[j]:
@@ -246,36 +273,88 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
         "failed_records": failed_records
     }
     
+    
 def print_colored(text, color_code):
     return f"\033[{color_code}m{text}\033[0m"
 
 
 def print_comparison_table(first, all_days, level):
+    """
+    Prints a side-by-side comparison table showing stability differences
+    between "first_last" and "all_days" modes, at either the paper or reviewer level.
+
+    Parameters:
+    ----------
+    first : Dict
+        Output from analyze_stability in "first_last" mode.
+
+    all_days : Dict
+        Output from analyze_stability in "all_days" mode.
+
+    level : str
+        Either "paper_level" or "reviewer_level".
+
+    Output:
+    -------
+    A stylized, color-coded comparison table printed to stdout.
+    Each row represents a review dimension (e.g., confidence, correctness),
+    showing:
+        - # and % of stable entities (papers or reviewers) in first_last mode
+        - # and % of stable entities in all_days mode
+        - Percentage point difference between them
+    """
     headers = ["Dimension", "First & Last", "All Days", "Δ Difference"]
     rows = []
+
     for key in first[level]["unchanged"]:
+        # Format dimension name
         key_label = key.replace('_', ' ').capitalize()
+
+        # Extract counts and percentages
         f_val = first[level]["unchanged"][key]
         a_val = all_days[level]["unchanged"][key]
         f_str = f"{f_val['count']} ({f_val['percentage']}%)"
         a_str = f"{a_val['count']} ({a_val['percentage']}%)"
+
+        # Compute difference
         diff = round(f_val["percentage"] - a_val["percentage"], 2)
         diff_str = f"{diff:+.2f}%"
         diff_color = "1;32" if diff >= 0 else "1;31"
+
+        # Compose table row with colors
         rows.append([
             print_colored(key_label, "1;36"),
             print_colored(f_str, "1;33"),
             print_colored(a_str, "1;35"),
             print_colored(diff_str, diff_color)
         ])
+
+    # Print comparison block
     print(print_colored(f"\n📊 Comparison Table — {level.replace('_', ' ').capitalize()}", "1;34"))
     print(tabulate(rows, headers=headers, tablefmt="fancy_grid"))
 
+
 def print_block(stats):
+    """
+    Prints a detailed stability analysis block based on the result
+    from `analyze_stability`.
+
+    Includes metadata summary, paper- and reviewer-level stats,
+    and a short explanation of the stability checking method.
+
+    Parameters:
+    ----------
+    stats : Dict
+        Dictionary returned from `analyze_stability`, containing:
+            - mode ("first_last" or "all_days")
+            - paper_level and reviewer_level stats
+            - paper_counts and metadata
+    """
+
     mode_str = "First & Last Snapshot" if stats['mode'] == "first_last" else "Across All Days"
     print(print_colored(f"\n=== Stability Analysis ({mode_str}) ===", "1;36"))
 
-    # Introductory explanation
+    # Show method explanation
     if stats['mode'] == "first_last":
         print(print_colored("🧠 This mode compares only the first and last snapshots of each paper's review timeline.\n"
                             "If a reviewer's score remained the same from beginning to end, it is considered stable — even if it changed temporarily in between.\n", "1;37"))
@@ -283,6 +362,7 @@ def print_block(stats):
         print(print_colored("🔍 This mode checks reviewer stability across all snapshots in the timeline.\n"
                             "A reviewer's score must remain unchanged at all time points to be considered stable.\n", "1;37"))
 
+    # Print paper count summary
     print(print_colored("Paper Counts Breakdown:", "1;33"))
     print(f"  {print_colored('Valid:', '1;33')} {stats['paper_counts']['valid']} papers — included in the stability evaluation")
     print(f"  {print_colored('Fully empty profiles:', '1;33')} {stats['paper_counts']['fully_empty_profiles']} papers — skipped due to missing scores")
@@ -290,17 +370,19 @@ def print_block(stats):
     print(print_colored(f"\nTotal evaluated papers: {stats['paper_counts']['total_evaluated']}", "1;33"))
     print(print_colored(f"Total reviewers analyzed: {stats['reviewer_level']['total_reviewers']}", "1;33"))
 
+    # Paper-level stability block
     print(print_colored("\n📘 Paper-Level Stability:", "1;34"))
     print(print_colored("Each paper is marked as stable in a dimension only if all reviewers remained stable in that dimension.", "0;37"))
     for key, values in stats['paper_level']['unchanged'].items():
         print(f"  {print_colored(key.capitalize(), '1;32')}: "
-            f"{values['count']} papers ({values['percentage']}%)")
+              f"{values['count']} papers ({values['percentage']}%)")
 
+    # Reviewer-level stability block
     print(print_colored("\n👤 Reviewer-Level Stability:", "1;34"))
     print(print_colored("Each reviewer is evaluated independently — a reviewer is stable if their score remained unchanged over time.", "0;37"))
     for key, values in stats['reviewer_level']['unchanged'].items():
         print(f"  {print_colored(key.capitalize(), '1;35')}: "
-            f"{values['count']} reviewers ({values['percentage']}%)")
+              f"{values['count']} reviewers ({values['percentage']}%)")
 
 
 def trace_failed_records(
@@ -372,8 +454,41 @@ def trace_failed_records(
 
     
 def full_pipeline(root_folder: str, tracing_threshold: int = 3, debug_folder=None) -> Dict[str, Dict[str, Dict[str, float]]]:
+    """
+    Executes the full pipeline for analyzing review stability across time,
+    printing diagnostics, and optionally tracing failed review profiles using Hungarian matching.
+
+    Steps:
+        1. Load and group review entries by paper ID
+        2. Run stability analysis ("first_last" and "all_days" modes)
+        3. Print analysis blocks and comparison tables
+        4. Run reviewer ID tracing on failed records
+        5. Return result summaries
+
+    Parameters:
+    ----------
+    root_folder : str
+        Directory containing review snapshots in the form: iclrYYYY.MMDDYYYY.json
+
+    tracing_threshold : int (default=3)
+        Cost threshold for reviewer tracing using the Hungarian algorithm
+
+    debug_folder : str (optional)
+        If provided, stores footprint matching logs and debug CSVs
+
+    Returns:
+    -------
+    Dict[str, Dict]
+        {
+            "first_last": {...},      # Result from first vs last snapshot comparison
+            "all_days": {...},        # Result from all days comparison
+            "traced_success": {...}   # Successfully traced failed papers
+        }
+    """
+
     id_to_entries = defaultdict(list)
 
+    # Step 1: Load entries grouped by paper ID
     for filename in os.listdir(root_folder):
         if filename.endswith('.json') and filename.startswith(f'iclr{year}'):
             time_code = filename.split('.')[1]
@@ -384,26 +499,32 @@ def full_pipeline(root_folder: str, tracing_threshold: int = 3, debug_folder=Non
                         entry['time_code'] = time_code
                         id_to_entries[entry['id']].append(entry)
 
-    id_to_filtered_entries = {}
-    for paper_id, entries in id_to_entries.items():
-        entries.sort(key=sort_key)
-        if len(entries) > 1:
-            id_to_filtered_entries[paper_id] = entries
+    # Filter papers that have more than one snapshot
+    id_to_filtered_entries = {
+        paper_id: sorted(entries, key=sort_key)
+        for paper_id, entries in id_to_entries.items()
+        if len(entries) > 1
+    }
 
-    # Step 1: Run original stability analysis
+    # Step 2: Run stability analysis (first-last and full timeline)
     stats_first_last = analyze_stability(id_to_filtered_entries, mode="first_last")
     stats_all_days = analyze_stability(id_to_filtered_entries, mode="all_days")
 
-    # Step 2: Print stability analysis immediately
+    # Step 3: Print summaries
     print_block(stats_first_last)
     print_block(stats_all_days)
     print_comparison_table(stats_first_last, stats_all_days, level="paper_level")
     print_comparison_table(stats_first_last, stats_all_days, level="reviewer_level")
 
-    # Step 3: Extract failed records and trace them
+    # Step 4: Trace failed records using Hungarian algorithm
     failed_records = stats_all_days["failed_records"]
-    traced_entries = trace_failed_records(failed_records, max_cost_threshold=tracing_threshold, debug_dir=debug_folder)
+    traced_entries = trace_failed_records(
+        failed_records,
+        max_cost_threshold=tracing_threshold,
+        debug_dir=debug_folder
+    )
 
+    # Step 5: Return summary results
     return {
         "first_last": stats_first_last,
         "all_days": stats_all_days,
