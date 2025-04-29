@@ -695,6 +695,7 @@ if __name__ == "__main__":
     
     tracing_threshold_min = 0
     tracing_threshold_max = 6
+    tracing_threshold_save = 1
     print(f"Tracing thresholds: {tracing_threshold_min} to {tracing_threshold_max}")
     
     for t in range(tracing_threshold_min, tracing_threshold_max):
@@ -703,7 +704,7 @@ if __name__ == "__main__":
         with open(debug_folder +'_log.txt', 'w') as logfile:
             sys.stdout = TeeOutput(sys.__stdout__, logfile)
             
-            print(f"cat this file.txt in a terminal to see the output with colors")
+            print(f"cat this {debug_folder}_log.txt in a terminal to see the output with colors")
             print(f"Debug folder: {debug_folder}")
 
             full_pipeline(root_folder, tracing_threshold=t, debug_folder=debug_folder)
@@ -715,3 +716,72 @@ if __name__ == "__main__":
         thresholds=range(0, 6),
         output_file=root_folder + "/footprints/tracing_summary.csv"
     )
+    
+    # load the meta data and prepare concate the tracing result and save to the new json file
+    meta_path = f"{root_folder}.json"
+    with open(meta_path, 'r') as f:
+        meta_data = json.load(f)
+        
+    # loop through records and mark the status for each record that pass the stability test
+    # Stability is defined as a reviewer's score in specific dimensions (excluding "rating", the sorting dimension) not changing across snapshots.
+    stability_path = f"{root_folder}/footprints/stable_all_days"
+    stability_tests = os.listdir(stability_path)
+    stability_tests = [f.split('_success')[0] for f in stability_tests if f.endswith('.csv') and 'success' in f]
+    stability_tests_passed_id = set(stability_tests)
+    for i, paper in enumerate(meta_data):
+        if paper['id'] in stability_tests_passed_id:
+            meta_data[i]['tracing_score'] = -1 # stable and success
+        else:
+            meta_data[i]['tracing_score'] = np.inf # marked as unstable
+        
+    # load the tracing result for unstable records
+    tracing_path = f"{root_folder}/footprints/tracing_summary.csv"
+    with open(tracing_path, 'r') as f:
+        tracing_data = list(csv.reader(f))
+        
+    # load the tracing result and find and update the threshold that can pass the tracing
+    tracing_results = {}
+    for row in tracing_data[3:]:
+        paper_id = row[0]
+        for i in range(1, len(row)):
+            if row[i] == 'O':
+                tracing_results[paper_id] = i - 1
+                break
+    for i, paper in enumerate(meta_data):
+        if paper['id'] in tracing_results:
+            meta_data[i]['tracing_score'] = tracing_results[paper['id']]
+        else:
+            # no need to modify the score
+            pass
+            
+    # check if all records in meta_data have tracing_score
+    all_records = True
+    for paper in meta_data:
+        if 'tracing_score' not in paper:
+            all_records = False
+            break
+    if not all_records:
+        print("Not all records have tracing_score, please check the tracing result.")
+    else:
+        # print the tracing_score count
+        print("All records have tracing_score.")
+        tracing_score_count = {}
+        for paper in meta_data:
+            if paper['tracing_score'] not in tracing_score_count:
+                tracing_score_count[paper['tracing_score']] = 0
+            tracing_score_count[paper['tracing_score']] += 1
+        print("Tracing score count:")
+        for key in sorted(tracing_score_count.keys()):
+            print(f"  {key}: {tracing_score_count[key]}")
+            
+    # loop through the meta data and save the record that have the status pass save_threshold to the new file
+    meta2save = []
+    for paper in meta_data:
+        if paper['tracing_score'] <= tracing_threshold_save:
+            meta2save.append(paper)
+    output_file = f"{root_folder}_threshold_{tracing_threshold_save}.json"
+    with open(output_file, 'w') as f:
+        json.dump(meta2save, f, indent=4)
+    print(f"Saved {len(meta2save)} records to {output_file}, with tracing_score <= {tracing_threshold_save}, {len(meta2save)/len(meta_data)*100:.2f}% in total {len(meta_data)} records")
+    print("Done!")
+    
