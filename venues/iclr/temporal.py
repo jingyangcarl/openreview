@@ -10,7 +10,7 @@ from tabulate import tabulate
 import csv
 import re
 
-year = 2025
+year = 2024
 if year == 2024:
     FIELDS = ["rating", "confidence", "correctness", "technical_novelty"] # iclr 2024
 elif year == 2025:
@@ -132,7 +132,11 @@ def trace_with_hungarian(data, max_cost_threshold=3):
     return result
 
 
-def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") -> Dict[str, Dict[str, Dict[str, float]]]:
+def analyze_stability(
+    results: Dict[str, List[Dict]],
+    mode: str = "first_last",
+    debug_dir: str = None
+) -> Dict[str, Dict[str, Dict[str, float]]]:
     """
     Analyze the stability of reviewer profiles over time across papers.
 
@@ -147,6 +151,10 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
     mode : str, optional (default="first_last")
         - "first_last": Compare only the first and last snapshot.
         - "all_days": Require the value to stay unchanged across all consecutive pairs.
+
+    debug_dir : str or None (default=None)
+        If provided, saves trace footprints (canonical reviewer ID alignments)
+        using Hungarian algorithm into CSV files for each paper.
 
     Returns:
     -------
@@ -210,7 +218,7 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
                     if initial[i][idx] != final[i][idx]:
                         reviewer_flags[i][j] = False
                         paper_flags[field] = False
-        else:
+        elif mode == "all_days":
             for i in range(1, len(entries)):
                 prev = parse_day(entries[i - 1])
                 curr = parse_day(entries[i])
@@ -220,6 +228,8 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
                         if prev[j][idx] != curr[j][idx]:
                             reviewer_flags[j][k] = False
                             paper_flags[field] = False
+        else:
+            raise ValueError("Invalid mode. Use 'first_last' or 'all_days'.")
 
         # Aggregate stable dimensions
         for i, flag in enumerate(reviewer_flags):
@@ -236,6 +246,28 @@ def analyze_stability(results: Dict[str, List[Dict]], mode: str = "first_last") 
             unchanged["all_non_rating"]["papers"] += 1
         else:
             failed_records[paper_id] = entries
+
+        # --- Optional footprint debug output ---
+        if all(paper_flags) and debug_dir :
+            try:
+                footprints = trace_with_hungarian(entries, max_cost_threshold=0)
+                all_traced = all(
+                    -1 not in trace.get(time_code, [])
+                    for trace in footprints
+                    for time_code in trace
+                )
+                filename = os.path.join(os.path.dirname(debug_dir), f'stable_{mode}', f"{paper_id}_{'success' if all_traced else 'fail'}.csv")
+                os.makedirs(os.path.dirname(filename), exist_ok=True)
+                with open(filename, "w", newline="") as csvfile:
+                    writer = csv.writer(csvfile)
+                    writer.writerow(["time_code"] + FIELDS + ["canonical_ids"])
+                    for i, day in enumerate(entries):
+                        time_code = day["time_code"]
+                        trace_map = list(footprints[i].values())[0]
+                        row = [time_code] + [day[field] for field in FIELDS] + [";".join(map(str, trace_map))]
+                        writer.writerow(row)
+            except Exception as e:
+                print(f"⚠️ Error writing debug CSV for {paper_id}: {e}")
 
     def percentage(part, whole):
         return round(part / whole * 100, 2) if whole else 0.0
@@ -508,7 +540,7 @@ def full_pipeline(root_folder: str, tracing_threshold: int = 3, debug_folder=Non
 
     # Step 2: Run stability analysis (first-last and full timeline)
     stats_first_last = analyze_stability(id_to_filtered_entries, mode="first_last")
-    stats_all_days = analyze_stability(id_to_filtered_entries, mode="all_days")
+    stats_all_days = analyze_stability(id_to_filtered_entries, mode="all_days", debug_dir=debug_folder)
 
     # Step 3: Print summaries
     print_block(stats_first_last)
