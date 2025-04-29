@@ -1,3 +1,6 @@
 glm_batch
 footprints
-pdf
+*.pdf
+*.txt
+*.cfg
+*.zip
