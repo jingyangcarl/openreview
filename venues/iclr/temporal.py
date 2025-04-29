@@ -10,7 +10,7 @@ from tabulate import tabulate
 import csv
 import re
 
-year = 2024
+year = 2025
 if year == 2024:
     FIELDS = ["rating", "confidence", "correctness", "technical_novelty"] # iclr 2024
 elif year == 2025:
@@ -560,7 +560,8 @@ def full_pipeline(root_folder: str, tracing_threshold: int = 3, debug_folder=Non
     return {
         "first_last": stats_first_last,
         "all_days": stats_all_days,
-        "traced_success": traced_entries
+        "traced_success": traced_entries,
+        "total_evaluated": stats_all_days["paper_counts"]["total_evaluated"],
     }
     
 def generate_tracing_summary(debug_root: str, thresholds: range = range(0, 6), output_file: str = "summary.csv"):
@@ -707,7 +708,7 @@ if __name__ == "__main__":
             print(f"cat this {debug_folder}_log.txt in a terminal to see the output with colors")
             print(f"Debug folder: {debug_folder}")
 
-            full_pipeline(root_folder, tracing_threshold=t, debug_folder=debug_folder)
+            result = full_pipeline(root_folder, tracing_threshold=t, debug_folder=debug_folder)
             # test(root_folder, target_id)
             
     print("\n📊 Generating final summary table...")
@@ -716,6 +717,17 @@ if __name__ == "__main__":
         thresholds=range(0, 6),
         output_file=root_folder + "/footprints/tracing_summary.csv"
     )
+    
+    def footprint_csv2list(csv_path):
+        with open(footprint_path, 'r') as f:
+            footprint_data = list(csv.reader(f))
+            # remove the header
+            footprint_data = footprint_data
+            # convert to dict
+            tracing_footprint = []
+            for row in footprint_data:
+                tracing_footprint.append(row)
+        return tracing_footprint
     
     # load the meta data and prepare concate the tracing result and save to the new json file
     meta_path = f"{root_folder}.json"
@@ -731,12 +743,17 @@ if __name__ == "__main__":
     for i, paper in enumerate(meta_data):
         if paper['id'] in stability_tests_passed_id:
             meta_data[i]['tracing_score'] = -1 # stable and success
+            
+            # load the footprint and include in the json
+            footprint_path = os.path.join(stability_path, f"{paper['id']}_success.csv")
+            tracing_footprint = footprint_csv2list(footprint_path)
+            meta_data[i]['tracing_footprint'] = tracing_footprint
         else:
             meta_data[i]['tracing_score'] = np.inf # marked as unstable
         
     # load the tracing result for unstable records
-    tracing_path = f"{root_folder}/footprints/tracing_summary.csv"
-    with open(tracing_path, 'r') as f:
+    tracing_path = f"{root_folder}/footprints"
+    with open(os.path.join(tracing_path, 'tracing_summary.csv'), 'r') as f:
         tracing_data = list(csv.reader(f))
         
     # load the tracing result and find and update the threshold that can pass the tracing
@@ -749,7 +766,13 @@ if __name__ == "__main__":
                 break
     for i, paper in enumerate(meta_data):
         if paper['id'] in tracing_results:
-            meta_data[i]['tracing_score'] = tracing_results[paper['id']]
+            theshold = tracing_results[paper['id']]
+            meta_data[i]['tracing_score'] = theshold
+            
+            # load the footprint and include in the json
+            footprint_path = os.path.join(tracing_path, f"threshold_{theshold}", f"{paper['id']}_success.csv")
+            tracing_footprint = footprint_csv2list(footprint_path)
+            meta_data[i]['tracing_footprint'] = tracing_footprint
         else:
             # no need to modify the score
             pass
@@ -779,9 +802,11 @@ if __name__ == "__main__":
     for paper in meta_data:
         if paper['tracing_score'] <= tracing_threshold_save:
             meta2save.append(paper)
-    output_file = f"{root_folder}_threshold_{tracing_threshold_save}.json"
+    # percentage = len(meta2save) / result['total_evaluated'] * 100
+    percentage = len(meta2save) / len(meta_data) * 100
+    output_file = f"{root_folder}_threshold{tracing_threshold_save}_{len(meta2save)}_records.json"
     with open(output_file, 'w') as f:
         json.dump(meta2save, f, indent=4)
-    print(f"Saved {len(meta2save)} records to {output_file}, with tracing_score <= {tracing_threshold_save}, {len(meta2save)/len(meta_data)*100:.2f}% in total {len(meta_data)} records")
+    # print(f"Saved {len(meta2save)} records to {output_file}, with tracing_score <= {tracing_threshold_save}, {percentage:.2f}% in total {result['total_evaluated']} evaluated records")
     print("Done!")
     
