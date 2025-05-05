@@ -805,8 +805,61 @@ if __name__ == "__main__":
     # percentage = len(meta2save) / result['total_evaluated'] * 100
     percentage = len(meta2save) / len(meta_data) * 100
     output_file = f"{root_folder}_threshold{tracing_threshold_save}_{len(meta2save)}_records.json"
-    with open(output_file, 'w') as f:
-        json.dump(meta2save, f, indent=4)
+    # with open(output_file, 'w') as f:
+        # json.dump(meta2save, f, indent=4)
     # print(f"Saved {len(meta2save)} records to {output_file}, with tracing_score <= {tracing_threshold_save}, {percentage:.2f}% in total {result['total_evaluated']} evaluated records")
+    print("Done!")
+    
+    # cleanup
+    meta2save_reviewers = []
+    for paper in tqdm(meta_data):
+        
+        paper_new = {
+            'id': paper['id'],
+            'title': paper['title'],
+            'tracing_score': paper['tracing_score'],
+            'review': {}
+        }
+        
+        reviewers = paper['reviewers'].split(';')
+        
+        if 'tracing_footprint' not in paper:
+            # tracing failed
+            meta2save_reviewers.append(paper_new)
+            continue
+        
+        review_dims = paper['tracing_footprint'][0]
+        assert review_dims[1:-1] == FIELDS
+        
+        # showcase only first two dimension in the fields
+        review_dims = FIELDS[:2]
+        
+        # loop through all reviewers and get the review profile
+        for i, reviewer in enumerate(reviewers):
+            paper_new['review'][reviewer] = {}
+            for r, review_dim in enumerate(review_dims):
+                paper_new['review'][reviewer][review_dim] = []
+                for t, footprint in enumerate(paper['tracing_footprint']):
+                    canonical_id = footprint[-1].split(';')
+                    if t == 0: continue # skip the first row, which is the header
+                    if paper['tracing_score'] <= tracing_threshold_save:
+                        paper_new['review'][reviewer][review_dim].append(footprint[r+1].split(';')[canonical_id.index(str(i))])
+                    else:
+                        paper_new['review'][reviewer][review_dim].append(-1)
+                
+                # output only the first and last
+                first_last_only = True
+                if first_last_only:
+                    first, last = paper_new['review'][reviewer][review_dim][0], paper_new['review'][reviewer][review_dim][-1]
+                    paper_new['review'][reviewer][review_dim] = f"{first};{last}"
+                else:
+                    paper_new['review'][reviewer][review_dim] = ';'.join(paper_new['review'][reviewer][review_dim])
+        
+        meta2save_reviewers.append(paper_new)
+        
+    # save the meta2save_reviewers to a new file
+    output_file = f"{root_folder}_threshold{tracing_threshold_save}_{len(meta2save_reviewers)}_reviewers.json"
+    with open(output_file, 'w') as f:
+        json.dump(meta2save_reviewers, f, indent=4)
     print("Done!")
     
