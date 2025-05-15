@@ -1,5 +1,6 @@
 glm_batch
 footprints
+footprints_vis
 *.pdf
 *.txt
 *.cfg
