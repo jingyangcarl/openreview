@@ -490,7 +490,7 @@
         "orcid": "0009-0002-0056-9611;0000-0003-1903-2232;0000-0002-3416-9950;0000-0002-6049-9232",
         "linkedin": ";;;farzan-farnia-00798335",
         "or_profile": "~Shizhan_Gong1;~Yankai_Jiang1;~Qi_Dou2;~Farzan_Farnia1",
-        "aff": "the Chinese University of Hong Kong;Shanghai Artificial Intelligence Laboratory;The Chinese University of Hong Kong;The Chinese University of Hong Kong",
+        "aff": "the Chinese University of Hong Kong;Shanghai AI Laboratory;The Chinese University of Hong Kong;The Chinese University of Hong Kong",
         "aff_domain": "cse.cuhk.edu.hk;pjlab.org.cn;cuhk.edu.hk;cuhk.edu.hk",
         "position": "PhD student;Researcher;Assistant Professor;Assistant Professor"
     },
@@ -1030,7 +1030,7 @@
         "orcid": ";;;;",
         "linkedin": ";weigao-sun-01ab4a1b3/;;;chengyu05/",
         "or_profile": "~Disen_Lan1;~Weigao_Sun1;~Jiaxi_Hu1;~Jusen_Du1;~Yu_Cheng1",
-        "aff": "Fudan University+South China University of Technology;Shanghai Artificial Intelligence Laboratory;Hong Kong University of Science and Technology;Nanjing University;The Chinese University of Hong Kong",
+        "aff": "Fudan University+South China University of Technology;Shanghai AI Laboratory;Hong Kong University of Science and Technology;Nanjing University;The Chinese University of Hong Kong",
         "aff_domain": "fudan.edu.cn+scut.edu.cn;pjlab.org.cn;connect.hkust-gz.edu.cn;nju.edu.cn;cuhk.edu.hk",
         "position": "PhD student+Undergrad student;Researcher;PhD student;Undergrad student;Associate Professor"
     },
@@ -1135,7 +1135,7 @@
         "orcid": ";;;0009-0006-0663-1227;;0000-0002-5419-9292;0000-0003-3772-1613;;;0000-0003-4380-5573",
         "linkedin": ";;;;;;;;;",
         "or_profile": "~Yuqin_Dai1;~Zhouheng_Yao1;~Chunfeng_Song1;~Qihao_Zheng1;~Weijian_Mai2;~Kunyu_Peng1;~Shuai_Lu3;~Wanli_Ouyang1;~Jian_Yang1;~Jiamin_Wu2",
-        "aff": ";Nanjing University;;Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;Karlsruher Institut f\u00fcr Technologie;Tsinghua University;;Nanjing University of Science and Technology;The Chinese University of Hong Kong",
+        "aff": ";Nanjing University;;Shanghai AI Laboratory;Shanghai AI Laboratory;Karlsruher Institut f\u00fcr Technologie;Tsinghua University;;Nanjing University of Science and Technology;The Chinese University of Hong Kong",
         "aff_domain": ";nju.edu;;pjlab.org.cn;pjlab.org.cn;kit.edu;tsinghua.edu.cn;;njust.edu.cn;cuhk.edu.hk",
         "position": ";Undergrad student;;Assistant Professor;Intern;Postdoc;Associate Professor;;Full Professor;Postdoc"
     },
@@ -2650,7 +2650,7 @@
         "orcid": ";0000-0002-2009-3078;;;;;;",
         "linkedin": ";;;;brian-sun-59746b12b/;;zejun-ma-58614365/;",
         "or_profile": "~Yixuan_Li13;~Changli_Tang1;~Jimin_Zhuang1;~Yudong_Yang1;~Guangzhi_Sun1;~Wei_Li78;~Zejun_MA1;~Chao_Zhang20",
-        "aff": "Tsinghua University;Tsinghua University;Tsinghua University;Tsinghua University;University of Cambridge;Bytedance;TikTok;Shanghai Artificial Intelligence Laboratory+Tsinghua University+University College London",
+        "aff": "Tsinghua University;Tsinghua University;Tsinghua University;Tsinghua University;University of Cambridge;Bytedance;TikTok;Shanghai AI Laboratory+Tsinghua University+University College London",
         "aff_domain": "mails.tsinghua.edu.cn;tsinghua.edu.cn;mails.tsinghua.edu.cn;mails.tsinghua.edu.cn;cam.ac.uk;bytedance.com;bytedance.com;pjlab.org.cn+tsinghua.edu.cn+ucl.ac.uk",
         "position": "Undergrad student;PhD student;Undergrad student;Undergrad student;Junior Research Fellow;Researcher;Principal Researcher;Associate Professor+Assistant Professor+Associate Professor"
     },
@@ -3910,7 +3910,7 @@
         "orcid": ";0000-0002-5701-1996;;0000-0002-4763-6060;0000-0001-6016-6465",
         "linkedin": ";;;;",
         "or_profile": "~He_Zhang10;~Ming_Zhou2;~Shaopeng_Zhai1;~Ying_Sun4;~Hui_Xiong1",
-        "aff": ";Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;Hong Kong University of Science and Technology (Guangzhou);Hong Kong University of Science and Technology (Guangzhou)",
+        "aff": ";Shanghai AI Laboratory;Shanghai AI Laboratory;Hong Kong University of Science and Technology (Guangzhou);Hong Kong University of Science and Technology (Guangzhou)",
         "aff_domain": ";pjlab.org.cn;pjlab.org.cn;hkust-gz.edu.cn;hkust.edu",
         "position": ";Researcher;Researcher;Assistant Professor;Full Professor"
     },
@@ -4570,7 +4570,7 @@
         "orcid": ";0000-0001-6114-8453;;;;",
         "linkedin": ";;;;;",
         "or_profile": "~Zhongtian_Ma1;~Qiaosheng_Zhang2;~Bocheng_Zhou1;~Yexin_Zhang3;~Shuyue_Hu1;~Zhen_Wang11",
-        "aff": "Northwestern Polytechnical University;Shanghai Artificial Intelligence Laboratory;Shanghai Jiaotong University+Shanghai Artificial Intelligence Laboratory;;;",
+        "aff": "Northwestern Polytechnical University;Shanghai AI Laboratory;Shanghai Jiaotong University+Shanghai AI Laboratory;;;",
         "aff_domain": "nwpu.edu;pjlab.org.cn;sjtu.edu.cn+pjlab.org.cn;;;",
         "position": "PhD student;Researcher;MS student+Intern;;;"
     },
@@ -6865,7 +6865,7 @@
         "orcid": ";;;;;0009-0001-0595-3084;0000-0003-1062-9526;0000-0002-7709-2543;",
         "linkedin": ";;;;;;;;",
         "or_profile": "~Lifan_Yuan1;~Wendi_Li1;~Huayu_Chen1;~Ganqu_Cui1;~Ning_Ding5;~Kaiyan_Zhang1;~Bowen_Zhou8;~Zhiyuan_Liu1;~Hao_Peng4",
-        "aff": ";Huazhong University of Science and Technology;Tsinghua University;Shanghai Artificial Intelligence Laboratory;Tsinghua University+Tsinghua University;Tsinghua University;Tsinghua University;Tsinghua University;",
+        "aff": ";Huazhong University of Science and Technology;Tsinghua University;Shanghai AI Laboratory;Tsinghua University+Tsinghua University;Tsinghua University;Tsinghua University;Tsinghua University;",
         "aff_domain": ";hust.edu.cn;tsinghua.edu.cn;pjlab.org.cn;mail.tsinghua.edu.cn+mail.tsinghua.edu.cn;mails.tsinghua.edu.cn;tsinghua.edu.cn;tsinghua.edu.cn;",
         "position": ";MS student;PhD student;Researcher;Assistant Professor+Postdoc;PhD student;Full Professor;Associate Professor;"
     },
@@ -7990,7 +7990,7 @@
         "orcid": ";0009-0008-5757-6605;;0000-0001-5612-0341;0000-0002-5517-7255;;;;;",
         "linkedin": ";;;%E6%98%86%E6%98%8C-%E9%BB%8E-2a4a951b2/;;;;;;",
         "or_profile": "~Shaobin_Zhuang1;~Yiwei_Guo2;~Yanbo_Ding2;~Kunchang_Li1;~Xinyuan_Chen1;~Yaohui_Wang1;~Fangyikang_Wang1;~Ying_Zhang9;~Chen_Li11;~Yali_Wang1",
-        "aff": "Shanghai Jiaotong University;Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences;Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Chinese Academy of Sciences;Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Chinese Academy of Sciences;Shanghai Artificial Intelligence Laboratory;Shanghai AI Laboratory;Wechat, Tencent Inc+Zhejiang University;Tencent;;SIAT, Chinese Academy of Sciences",
+        "aff": "Shanghai Jiaotong University;Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences;Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Chinese Academy of Sciences;Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Chinese Academy of Sciences;Shanghai AI Laboratory;Shanghai AI Laboratory;Wechat, Tencent Inc+Zhejiang University;Tencent;;SIAT, Chinese Academy of Sciences",
         "aff_domain": "sjtu.edu.cn;siat.ac.cn;siat.ac.cn;siat.ac.cn;pjlab.org.cn;pjlab.org.cn;tencent.com+zju.edu.cn;tencent.com;;siat.ac.cn",
         "position": "PhD student;MS student;MS student;PhD student;Research Scientist;Research Scientist;Intern+MS student;Senior Researcher;;Full Professor"
     },
@@ -8230,7 +8230,7 @@
         "orcid": "0000-0001-7730-0421;;0009-0007-3665-8882;;;;0009-0006-2546-1403;;0000-0001-6075-4224;0000-0003-0602-169X;;;0000-0001-6016-6465;",
         "linkedin": ";;;;;;yibo-yan-b41439190/;;;;;;;",
         "or_profile": "~Yuan_Gao26;~Hao_Wu27;~Ruiqi_Shu1;~huanshuo_dong1;~Fan_Xu5;~Rui_Ray_Chen1;~Yibo_Yan1;~Qingsong_Wen2;~Xuming_Hu1;~Kun_Wang15;~Jiahao_Wu3;~Li_Qing6;~Hui_Xiong1;~Xiaomeng_Huang1",
-        "aff": "Tsinghua University;Tencent TEG;Tsinghua University+Shanghai Artificial Intelligence Laboratory;;;Institute for Interdisciplinary Information Sciences, Tsinghua University;Hong Kong University of Science and Technology+Squirrel AI;;The Hong Kong University of Science and Technology (Guangzhou)+Hong Kong University of Science and Technology;Nanyang Technological University;;;Hong Kong University of Science and Technology (Guangzhou);Tsinghua University",
+        "aff": "Tsinghua University;Tencent TEG;Tsinghua University+Shanghai AI Laboratory;;;Institute for Interdisciplinary Information Sciences, Tsinghua University;Hong Kong University of Science and Technology+Squirrel AI;;The Hong Kong University of Science and Technology (Guangzhou)+Hong Kong University of Science and Technology;Nanyang Technological University;;;Hong Kong University of Science and Technology (Guangzhou);Tsinghua University",
         "aff_domain": "mails.tsinghua.edu.cn;tencent.com;mails.tsinghua.edu.cn+pjlab.org.cn;;;mail.tsinghua.edu.cn;hkust-gz.edu.cn+squirrel.com;;hkust.edu.hk+ust.hk;ntu.edu.sg;;;hkust.edu;tsinghua.edu.cn",
         "position": "PhD student;Intern;PhD student+Intern;;;Undergrad student;PhD student+Intern;;Assistant Professor+Assistant Professor;Postdoc;;;Full Professor;Full Professor"
     },
@@ -8770,7 +8770,7 @@
         "orcid": ";;;;0000-0002-5390-9053;0000-0002-3196-2347",
         "linkedin": ";;;;;",
         "or_profile": "~Yuhuan_Yang1;~Chaofan_Ma1;~Zhenjie_Mao1;~Jiangchao_Yao1;~Ya_Zhang1;~Yanfeng_Wang1",
-        "aff": "Shanghai Jiaotong University;;Shanghai Jiaotong University;Shanghai Jiaotong University+Shanghai Artificial Intelligence Laboratory;Shanghai Jiaotong University;Shanghai Jiaotong University",
+        "aff": "Shanghai Jiaotong University;;Shanghai Jiaotong University;Shanghai Jiaotong University+Shanghai AI Laboratory;Shanghai Jiaotong University;Shanghai Jiaotong University",
         "aff_domain": "sjtu.edu.cn;;sjtu.edu.cn;sjtu.edu.cn+pjlab.org.cn;sjtu.edu.cn;sjtu.edu.cn",
         "position": "PhD student;;MS student;Assistant Professor+Researcher;Professor;Full Professor"
     },
@@ -8935,7 +8935,7 @@
         "orcid": ";0009-0003-8165-2624;;;",
         "linkedin": ";;%E6%99%93%E6%99%94-xiaoye-qu-%E7%9E%BF-8b9a0a133/;;chengyu05/",
         "or_profile": "~Yafu_Li1;~Xuyang_Hu1;~Xiaoye_Qu1;~Linjie_Li1;~Yu_Cheng1",
-        "aff": "Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;University of Washington+Microsoft;The Chinese University of Hong Kong",
+        "aff": "Shanghai AI Laboratory;Shanghai AI Laboratory;Shanghai AI Laboratory;University of Washington+Microsoft;The Chinese University of Hong Kong",
         "aff_domain": "pjlab.org.cn;pjlab.org.cn;pjlab.org.cn;uw.edu+microsoft.com;cuhk.edu.hk",
         "position": "Researcher;Researcher;Researcher;PhD student+Researcher;Associate Professor"
     },
@@ -10540,7 +10540,7 @@
         "orcid": ";;;;",
         "linkedin": ";;;;",
         "or_profile": "~Zhichen_Dong1;~Zhanhui_Zhou1;~Zhixuan_Liu2;~Chao_Yang3;~Chaochao_Lu1",
-        "aff": "Shanghai Jiaotong University;University of California, Berkeley;Shanghai Jiaotong University+Shanghai Artificial Intelligence Laboratory;;Shanghai AI Laboratory ",
+        "aff": "Shanghai Jiaotong University;University of California, Berkeley;Shanghai Jiaotong University+Shanghai AI Laboratory;;Shanghai AI Laboratory ",
         "aff_domain": "sjtu.edu.cn;berkeley.edu;sjtu.edu.cn+pjlab.org.cn;;pjlab.org.cn",
         "position": "PhD student;PhD student;PhD student+Intern;;Research Scientist"
     },
@@ -11095,7 +11095,7 @@
         "orcid": "0009-0008-6723-1993;0000-0002-7072-3787;;0009-0000-0605-2969;;;;;0000-0002-3683-0554",
         "linkedin": ";;;;;;;;",
         "or_profile": "~Dongxiu_Liu2;~Haoyi_Niu1;~Zhihao_Wang14;~Jinliang_Zheng1;~Yinan_Zheng1;~Zhonghong_Ou1;~Jianming_HU1;~Jianxiong_Li1;~Xianyuan_Zhan1",
-        "aff": "Beijing University of Posts and Telecommunications;Department of Automation, Tsinghua University+Institute for AI Industry Research, Tsinghua University;Peking University+Institute for AI Industry Research, Tsinghua University;Shanghai Artificial Intelligence Laboratory+AIR, Tsinghua University;Tsinghua University;Beijing University of Posts and Telecommunications;Tsinghua University;;Tsinghua University",
+        "aff": "Beijing University of Posts and Telecommunications;Department of Automation, Tsinghua University+Institute for AI Industry Research, Tsinghua University;Peking University+Institute for AI Industry Research, Tsinghua University;Shanghai AI Laboratory+AIR, Tsinghua University;Tsinghua University;Beijing University of Posts and Telecommunications;Tsinghua University;;Tsinghua University",
         "aff_domain": "bupt.edu.cn;tsinghua.edu.cn+tsinghua.edu.cn;stu.pku.edu.cn+air.tsinghua.edu.cn;pjlab.org.cn+tsinghua.edu.cn;tsinghua.edu.cn;bupt.edu.cn;tsinghua.edu.cn;;tsinghua.edu.cn",
         "position": "MS student;MS student+Research Intern;MS student+Intern;Intern+PhD student;PhD student;Full Professor;Associate Professor;;Associate Professor"
     },
@@ -15235,7 +15235,7 @@
         "orcid": "0009-0006-9529-3361;;;0000-0002-6507-9122;;;;;",
         "linkedin": ";;;;kz4225/;;;;",
         "or_profile": "~Zijie_Qiu1;~Jiaqi_Wei1;~Xiang_Zhang17;~Sheng_Xu7;~Kai_Zou2;~Zhi_Jin3;~ZhiQiang_Gao4;~Nanqing_Dong1;~Siqi_Sun2",
-        "aff": "Fudan University;Zhejiang University;;Fudan University+Shanghai AI Laboratory;NetMind.AI+Protagolabs Inc;;Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory+Shanghai Innovation Institute;Fudan University",
+        "aff": "Fudan University;Zhejiang University;;Fudan University+Shanghai AI Laboratory;NetMind.AI+Protagolabs Inc;;Shanghai AI Laboratory;Shanghai AI Laboratory+Shanghai Innovation Institute;Fudan University",
         "aff_domain": "fudan.edu.cn;zju.edu.cn;;fudan.edu.cn+pjlab.org.cn;netmind.ai+protagolabs.ai;;shlab.org.cn;pjlab.org.cn+sii.edu.cn;fudan.edu.cn",
         "position": "Undergrad student;PhD student;;PhD student+Researcher;Founder CEO+Founder CEO;;Assistant Professor;Associate Professor+Associate Professor;Associate Professor"
     },
@@ -15280,7 +15280,7 @@
         "orcid": ";;;;",
         "linkedin": ";weijie-su-abb163177/;;;",
         "or_profile": "~Shi_Liu1;~Weijie_Su2;~Xizhou_Zhu1;~Wenhai_Wang2;~Jifeng_Dai1",
-        "aff": "Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;Shanghai AI Laboratory+Tsinghua University;;Tsinghua University",
+        "aff": "Shanghai AI Laboratory;Shanghai AI Laboratory;Shanghai AI Laboratory+Tsinghua University;;Tsinghua University",
         "aff_domain": "pjlab.org.cn;pjlab.org.cn;pjlab.org.cn+tsinghua.edu.cn;;tsinghua.edu.cn",
         "position": "Intern;Researcher;Researcher+Postdoc;;Associate Professor"
     },
@@ -17755,7 +17755,7 @@
         "orcid": ";0009-0008-0205-3276;;;;",
         "linkedin": ";;;;;",
         "or_profile": "~Zhanke_Zhou1;~Xiao_Feng2;~Zhaocheng_Zhu1;~Jiangchao_Yao1;~Sanmi_Koyejo1;~Bo_Han1",
-        "aff": "Computer Science Department, Stanford University+Hong Kong Baptist University;Hong Kong Baptist University;NVIDIA;Shanghai Jiaotong University+Shanghai Artificial Intelligence Laboratory;;",
+        "aff": "Computer Science Department, Stanford University+Hong Kong Baptist University;Hong Kong Baptist University;NVIDIA;Shanghai Jiaotong University+Shanghai AI Laboratory;;",
         "aff_domain": "cs.stanford+hkbu.edu.hk;hkbu.edu.hk;nvidia.com;sjtu.edu.cn+pjlab.org.cn;;",
         "position": "Visiting student+PhD student;Intern;Researcher;Assistant Professor+Researcher;;"
     },
@@ -19255,7 +19255,7 @@
         "orcid": ";0000-0002-3970-7519;;0000-0001-8132-9083;;0000-0002-7645-9606;",
         "linkedin": ";;;sunxings/;;;",
         "or_profile": "~Zhen_Sun3;~Yunhang_Shen1;~Jie_Li5;~Xing_Sun1;~Pingyang_Dai1;~Liujuan_Cao1;~Rongrong_Ji5",
-        "aff": "Xiamen University;Tencent;Shanghai Artificial Intelligence Laboratory;Tencent YouTu Lab;Xiamen University;Xiamen University;Xiamen University",
+        "aff": "Xiamen University;Tencent;Shanghai AI Laboratory;Tencent YouTu Lab;Xiamen University;Xiamen University;Xiamen University",
         "aff_domain": "xmu.edu.cn;tencent.com;pjlab.org.cn;tencent.com;xmu.edu.cn;xmu.edu.cn;xmu.edu.cn",
         "position": "MS student;Researcher;Postdoc;Principal Researcher;Senior Engineer;Full Professor;Full Professor"
     },
@@ -24025,7 +24025,7 @@
         "orcid": ";;0009-0007-5279-9028;0009-0008-6433-5041;;0000-0003-4488-0102;",
         "linkedin": ";;;;%E6%99%93%E6%99%94-xiaoye-qu-%E7%9E%BF-8b9a0a133/;;chengyu05/",
         "or_profile": "~Chenghao_Fan1;~Zhenyi_Lu2;~Sichen_Liu2;~Chengfeng_Gu1;~Xiaoye_Qu1;~Wei_Wei14;~Yu_Cheng1",
-        "aff": "Huazhong University of Science and Technology;Huazhong University of Science and Technology;Huazhong University of Science and Technology;Independent Researcher;Shanghai Artificial Intelligence Laboratory;Huazhong University of Science and Technology;The Chinese University of Hong Kong",
+        "aff": "Huazhong University of Science and Technology;Huazhong University of Science and Technology;Huazhong University of Science and Technology;Independent Researcher;Shanghai AI Laboratory;Huazhong University of Science and Technology;The Chinese University of Hong Kong",
         "aff_domain": "hust.edu.cn;hust.edu.cn;hust.edu.cn;gmail.com;pjlab.org.cn;hust.edu.cn;cuhk.edu.hk",
         "position": "MS student;MS student;MS student;Independent Researcher;Researcher;Full Professor;Associate Professor"
     },
@@ -27550,7 +27550,7 @@
         "orcid": ";;0009-0006-9529-3361;0000-0002-6507-9122;;;",
         "linkedin": ";;;;;;",
         "or_profile": "~Xiang_Zhang17;~Jiaqi_Wei1;~Zijie_Qiu1;~Sheng_Xu7;~Nanqing_Dong1;~ZhiQiang_Gao4;~Siqi_Sun2",
-        "aff": ";Zhejiang University;Fudan University;Fudan University+Shanghai AI Laboratory;Shanghai Artificial Intelligence Laboratory+Shanghai Innovation Institute;Shanghai Artificial Intelligence Laboratory;Fudan University",
+        "aff": ";Zhejiang University;Fudan University;Fudan University+Shanghai AI Laboratory;Shanghai AI Laboratory+Shanghai Innovation Institute;Shanghai AI Laboratory;Fudan University",
         "aff_domain": ";zju.edu.cn;fudan.edu.cn;fudan.edu.cn+pjlab.org.cn;pjlab.org.cn+sii.edu.cn;shlab.org.cn;fudan.edu.cn",
         "position": ";PhD student;Undergrad student;PhD student+Researcher;Associate Professor+Associate Professor;Assistant Professor;Associate Professor"
     },
@@ -28315,7 +28315,7 @@
         "orcid": ";0000-0002-8486-7562;;",
         "linkedin": ";;;",
         "or_profile": "~Suorong_Yang1;~Peng_Ye4;~Furao_Shen1;~Dongzhan_Zhou1",
-        "aff": "Nanjing University;The Chinese University of Hong Kong;;Shanghai Artificial Intelligence Laboratory",
+        "aff": "Nanjing University;The Chinese University of Hong Kong;;Shanghai AI Laboratory",
         "aff_domain": "nju.edu.cn;cuhk.edu.hk;;pjlab.org.cn",
         "position": "PhD student;Postdoc;;Researcher"
     },
@@ -29170,7 +29170,7 @@
         "orcid": ";;;;;;0009-0006-0771-6441;;;;0000-0001-8052-782X;;;",
         "linkedin": ";;;;;;;;;shawnyanyuv/;;;;",
         "or_profile": "~Dongzhi_Jiang1;~Renrui_Zhang1;~Ziyu_Guo2;~Yanwei_Li1;~Yu_Qi4;~Xinyan_Chen3;~Liuhui_Wang2;~Jianhan_Jin1;~Claire_Guo2;~Shen_Yan2;~Bo_Zhang17;~Chaoyou_Fu1;~Peng_Gao3;~Hongsheng_Li3",
-        "aff": "The Chinese University of Hong Kong;MMLab of CUHK & Shanghai AI Laboratory;Department of Computer Science and Engineering, The Chinese University of Hong Kong;;Northeastern University;University of Science and Technology of China;University of Pennsylvania;Nanjing University;The Chinese University of Hong Kong (Shenzhen)+Communication University of China;Google Research;Shanghai Artificial Intelligence Laboratory;Institute of Automation, Chinese Academy of Sciences;;The Chinese University of Hong Kong",
+        "aff": "The Chinese University of Hong Kong;MMLab of CUHK & Shanghai AI Laboratory;Department of Computer Science and Engineering, The Chinese University of Hong Kong;;Northeastern University;University of Science and Technology of China;University of Pennsylvania;Nanjing University;The Chinese University of Hong Kong (Shenzhen)+Communication University of China;Google Research;Shanghai AI Laboratory;Institute of Automation, Chinese Academy of Sciences;;The Chinese University of Hong Kong",
         "aff_domain": "cuhk.edu.hk;pjlab.org.cn;cse.cuhk.edu.hk;;northeastern.edu;ustc.edu.cn;seas.upenn.edu;nju.edu.cn;cuhk.edu.cn+cuc.edu.cn;google.com;pjlab.org.cn;ia.ac.cn;;cuhk.edu.hk",
         "position": "PhD student;PhD student;PhD student;;PhD student;Undergrad student;MS student;Undergrad student;Master+Undergrad student;Research Scientist;Researcher;PhD student;;Associate Professor"
     },
@@ -30265,7 +30265,7 @@
         "orcid": ";;;0009-0001-0595-3084;;;;0000-0002-4072-0577;;0000-0003-1062-9526",
         "linkedin": ";;;;sun-yb/;;;;;",
         "or_profile": "~Ermo_Hua1;~Che_Jiang1;~Xingtai_Lv1;~Kaiyan_Zhang1;~Youbang_Sun1;~Yuchen_Fan3;~Xuekai_Zhu1;~Biqing_Qi1;~Ning_Ding5;~Bowen_Zhou8",
-        "aff": "Tsinghua University;Tsinghua University;Tsinghua University;Tsinghua University;Northeastern University;Shanghai Jiaotong University+Beijing University of Posts and Telecommunications;Shanghai Jiaotong University;Shanghai Artificial Intelligence Laboratory;Tsinghua University+Tsinghua University;Tsinghua University",
+        "aff": "Tsinghua University;Tsinghua University;Tsinghua University;Tsinghua University;Northeastern University;Shanghai Jiaotong University+Beijing University of Posts and Telecommunications;Shanghai Jiaotong University;Shanghai AI Laboratory;Tsinghua University+Tsinghua University;Tsinghua University",
         "aff_domain": "tsinghua.edu.cn;mail.tsinghua.edu.cn;mails.tsinghua.edu.cn;mails.tsinghua.edu.cn;northeastern.edu;sjtu.edu+bupt.edu.cn;sjtu.edu.cn;pjlab.org.cn;mail.tsinghua.edu.cn+mail.tsinghua.edu.cn;tsinghua.edu.cn",
         "position": "PhD student;PhD student;PhD student;PhD student;PhD student;PhD student+Undergrad student;PhD student;Researcher;Assistant Professor+Postdoc;Full Professor"
     },
@@ -30985,7 +30985,7 @@
         "orcid": ";;;;;0000-0003-1110-5062;;;",
         "linkedin": ";;;;;yuhang-zang/;;;",
         "or_profile": "~Zihan_Liu5;~Shuangrui_Ding1;~Zhixiong_Zhang1;~Xiaoyi_Dong1;~Pan_Zhang1;~Yuhang_Zang1;~Yuhang_Cao3;~Dahua_Lin1;~Jiaqi_Wang1",
-        "aff": "Beihang University;The Chinese University of Hong Kong;Shanghai Jiaotong University+Harbin Institute of Technology;Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;The Chinese University of Hong Kong;Shanghai AI Laboratory",
+        "aff": "Beihang University;The Chinese University of Hong Kong;Shanghai Jiaotong University+Harbin Institute of Technology;Shanghai AI Laboratory;Shanghai AI Laboratory;Shanghai AI Laboratory;Shanghai AI Laboratory;The Chinese University of Hong Kong;Shanghai AI Laboratory",
         "aff_domain": "buaa.edu.cn;ie.cuhk.edu.hk;sjtu.edu.cn+hit.edu.cn;pjlab.org.cn;pjlab.org.cn;pjlab.org.cn;pjlab.org.cn;cuhk.edu.hk;pjlab.org.cn",
         "position": "PhD student;PhD student;PhD student+Undergrad student;Researcher;Researcher;Researcher;Researcher;Associate Professor;Research Scientist"
     },
@@ -31150,7 +31150,7 @@
         "orcid": "0000-0002-1572-6854;0000-0002-5180-7889;0000-0001-6114-8453;0000-0001-9769-7083;0000-0002-3508-027X;",
         "linkedin": "zheng-zhou-81b829250/;;;;;",
         "or_profile": "~Zheng_Zhou1;~Wenquan_Feng1;~Qiaosheng_Zhang2;~Shuchang_Lyu1;~Qi_Zhao14;~Guangliang_Cheng2",
-        "aff": "Beihang University;Beihang University;Shanghai Artificial Intelligence Laboratory;Beihang University;Beihang University;University of Liverpool",
+        "aff": "Beihang University;Beihang University;Shanghai AI Laboratory;Beihang University;Beihang University;University of Liverpool",
         "aff_domain": "buaa.edu.cn;buaa.edu.cn;pjlab.org.cn;buaa.edu.cn;buaa.edu.cn;liverpool.ac.uk",
         "position": "PhD student;Full Professor;Researcher;Postdoc;Full Professor;Associate Professor"
     },
@@ -34585,7 +34585,7 @@
         "orcid": "0000-0003-3031-8223;;0009-0002-8098-403X;0000-0002-5887-8778;0000-0002-7069-4728;0000-0002-3387-4439;",
         "linkedin": ";;;;;;yingchun-wang-6b178927b/",
         "or_profile": "~Lingyu_Li2;~Yixu_Wang1;~Haiquan_Zhao1;~Shuqi_Kong1;~Yan_Teng1;~Chunbo_Li1;~Yingchun_Wang2",
-        "aff": "Shanghai Artificial Intelligence Laboratory+Shanghai Jiaotong University;Shanghai Artificial Intelligence Laboratory+Fudan University;Fudan University;Shanghai Jiaotong University;Shanghai Artificial Intelligence Laboratory;Shanghai Second Medical University;Shanghai Artificial Intelligence Laboratory",
+        "aff": "Shanghai AI Laboratory+Shanghai Jiaotong University;Shanghai AI Laboratory+Fudan University;Fudan University;Shanghai Jiaotong University;Shanghai AI Laboratory;Shanghai Second Medical University;Shanghai AI Laboratory",
         "aff_domain": "pjlab.org.cn+sjtu.edu;pjlab.org.cn+fudan.edu.cn;fudan.edu.cn;sjtu.edu.cn;org.cn;shsmu.edu.cn;org.cn",
         "position": "Intern+MS student;Intern+PhD student;MS student;PhD student;Assistant Professor;Instructor;Full Professor"
     },
@@ -37330,8 +37330,8 @@
         "orcid": ";0000-0001-8280-6988;;",
         "linkedin": ";;hongkang-li-b7a341173/;",
         "or_profile": "~Jiawei_Sun4;~Shuai_Zhang6;~Hongkang_Li1;~Meng_Wang4",
-        "aff": "Rensselaer Polytechnic Institute;New Jersey Institute of Technology;Rensselaer Polytechnic Institute;Rensselaer Polytechnic Institute",
-        "aff_domain": "rpi.edu;njit.edu;rpi.edu;rpi.edu",
+        "aff": "Rensselaer Polytechnic Institute;New Jersey Institute of Technology;University of Pennsylvania;Rensselaer Polytechnic Institute",
+        "aff_domain": "rpi.edu;njit.edu;seas.upenn.edu;rpi.edu",
         "position": "PhD student;Assistant Professor;Postdoc;Associate Professor"
     },
     {
@@ -38710,7 +38710,7 @@
         "orcid": ";0009-0005-4079-7426;;0009-0005-1263-0549;;;0000-0002-8666-1103;0000-0003-1831-9952;0000-0002-8525-9163;;0000-0003-3378-7201;",
         "linkedin": ";;;;;;zhenfei-yin/;;;;lei-bai-641370153/;",
         "or_profile": "~Yiran_Qin1;~Zhelun_Shi1;~Jiwen_Yu1;~Xijun_Wang6;~Enshen_Zhou1;~Lijun_Li1;~Zhenfei_Yin2;~Xihui_Liu1;~Lu_Sheng1;~Jing_Shao3;~LEI_BAI1;~Ruimao_Zhang1",
-        "aff": "The Chinese University of Hong Kong(Shenzhen);Beihang University;University of Hong Kong;University of Science and Technology of China+Xidian University;Beihang University;Shanghai Artificial Intelligence Laboratory;University of Oxford+University of Sydney;University of Hong Kong;Beihang University;Shanghai AI Laboratory;Shanghai AI Laboratory;SUN YAT-SEN UNIVERSITY",
+        "aff": "The Chinese University of Hong Kong(Shenzhen);Beihang University;University of Hong Kong;University of Science and Technology of China+Xidian University;Beihang University;Shanghai AI Laboratory;University of Oxford+University of Sydney;University of Hong Kong;Beihang University;Shanghai AI Laboratory;Shanghai AI Laboratory;SUN YAT-SEN UNIVERSITY",
         "aff_domain": "cuhk.edu.cn;buaa.edu.cn;hku.hk;ustc.edu.cn+xidian.edu.cn;buaa.edu.cn;pjlab.org.cn;oxford.ac.uk+usyd.edu.au;hku.hk;buaa.edu.cn;pjlab.org.cn;pjlab.org.cn;sysu.edu.cn",
         "position": "PhD student;MS student;PhD student;MS student+Undergrad student;MS student;Researcher;Researcher+PhD student;Assistant Professor;Associate Professor;Researcher;Researcher;Associate Professor"
     },
@@ -41875,7 +41875,7 @@
         "orcid": ";0000-0002-8507-7167;0000-0003-0090-9604;;0000-0002-4263-5130;0000-0002-0422-8235;0000-0003-1476-0273",
         "linkedin": ";qi-lv-%EF%BC%88%E5%90%95%E5%A5%87%EF%BC%89-075614311/;;;yinchuan-li-835791189;;",
         "or_profile": "~Hao_Li59;~Qi_Lv1;~Rui_Shao1;~Xiang_Deng1;~Yinchuan_Li1;~Jianye_HAO1;~Liqiang_Nie2",
-        "aff": "Harbin Institute of Technology;Shanghai Artificial Intelligence Laboratory+Harbin Institute of Technology;Harbin Institute of Technology;;Huawei Noah's Ark Lab (AI Lab);Tianjin University;Harbin Institute of Technology (Shenzhen)+Shandong University",
+        "aff": "Harbin Institute of Technology;Shanghai AI Laboratory+Harbin Institute of Technology;Harbin Institute of Technology;;Huawei Noah's Ark Lab (AI Lab);Tianjin University;Harbin Institute of Technology (Shenzhen)+Shandong University",
         "aff_domain": "stu.hit.edu.cn;pjlab.org.cn+hit.edu.cn;hit.edu.cn;;huawei.com;tju.edu.cn;hit.edu.cn+sdu.edu.cn",
         "position": "MS student;Intern+PhD student;Full Professor;;Principal Researcher;Full Professor;dean+Full Professor"
     },
@@ -44020,7 +44020,7 @@
         "orcid": ";0000-0003-2195-2310;;;;;",
         "linkedin": ";;%E6%99%93%E6%99%94-xiaoye-qu-%E7%9E%BF-8b9a0a133/;;;;chengyu05/",
         "or_profile": "~Zican_Hu1;~Wei_Liu25;~Xiaoye_Qu1;~Xiangyu_Yue1;~Chunlin_Chen1;~Zhi_Wang7;~Yu_Cheng1",
-        "aff": "Nanjing University;Hong Kong University of Science and Technology;Shanghai Artificial Intelligence Laboratory;The Chinese University of Hong Kong;Nanjing University;;The Chinese University of Hong Kong",
+        "aff": "Nanjing University;Hong Kong University of Science and Technology;Shanghai AI Laboratory;The Chinese University of Hong Kong;Nanjing University;;The Chinese University of Hong Kong",
         "aff_domain": "nju.edu.cn;connect.ust.hk;pjlab.org.cn;ie.cuhk.edu;nju.edu.cn;;cuhk.edu.hk",
         "position": "MS student;PhD student;Researcher;Assistant Professor;Full Professor;;Associate Professor"
     },
@@ -47260,7 +47260,7 @@
         "orcid": ";;0000-0003-1110-5062;;;;;0000-0002-3052-4177;;;0000-0001-7163-5247;",
         "linkedin": ";;yuhang-zang/;;;;;haodong-duan-bb9349166/;;;;",
         "or_profile": "~Xilin_Wei1;~Xiaoran_Liu1;~Yuhang_Zang1;~Xiaoyi_Dong1;~Pan_Zhang1;~Yuhang_Cao3;~Jian_Tong2;~Haodong_Duan1;~Qipeng_Guo1;~Jiaqi_Wang1;~Xipeng_Qiu1;~Dahua_Lin1",
-        "aff": "Fudan University;Fudan University+Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;Shanghai Artificial Intelligence Laboratory;;Shanghai Artificial Intelligence Laboratory;Shanghai AI Laboratory;Shanghai AI Laboratory;Fudan University;The Chinese University of Hong Kong",
+        "aff": "Fudan University;Fudan University+Shanghai AI Laboratory;Shanghai AI Laboratory;Shanghai AI Laboratory;Shanghai AI Laboratory;Shanghai AI Laboratory;;Shanghai AI Laboratory;Shanghai AI Laboratory;Shanghai AI Laboratory;Fudan University;The Chinese University of Hong Kong",
         "aff_domain": "fudan.edu.cn;fudan.edu.cn+pjlab.org.cn;pjlab.org.cn;pjlab.org.cn;pjlab.org.cn;pjlab.org.cn;;pjlab.org.cn;pjlab.org.cn;pjlab.org.cn;fudan.edu.cn;cuhk.edu.hk",
         "position": "PhD student;PhD student+Intern;Researcher;Researcher;Researcher;Researcher;;Postdoc;Researcher;Research Scientist;Full Professor;Associate Professor"
     },
@@ -47275,7 +47275,7 @@
         "orcid": ";;0009-0007-2516-8407;0009-0001-5735-8674;;;0000-0001-9228-1759;0000-0002-3925-4951",
         "linkedin": ";;;songpei-xu-9b584a189/;;;joemon-jose-1102285/?originalSubdomain=uk;",
         "or_profile": "~Yaoqin_He1;~Junchen_Fu1;~Kaiwen_Zheng4;~Songpei_Xu1;~Fuhai_Chen2;~Jie_Li5;~Joemon_M._Jose1;~Xuri_Ge1",
-        "aff": ";;University of Glasgow;University of Glasgow;Fuzhou University;Shanghai Artificial Intelligence Laboratory;University of Glasgow;Shandong University",
+        "aff": ";;University of Glasgow;University of Glasgow;Fuzhou University;Shanghai AI Laboratory;University of Glasgow;Shandong University",
         "aff_domain": ";;gla.ac.uk;gla.ac.uk;fzu.edu.cn;pjlab.org.cn;glasgow.ac.uk;sdu.edu.cn",
         "position": ";;PhD student;PhD student;Assistant Professor;Postdoc;Professor;Assistant Professor"
     },
@@ -47635,7 +47635,7 @@
         "orcid": "0000-0003-0273-9573;;;0000-0002-8719-448X",
         "linkedin": ";;;",
         "or_profile": "~Xiaoyu_Yang2;~Lijian_Xu1;~Hongsheng_Li3;~Shaoting_Zhang4",
-        "aff": "University of Technology Sydney;Centre for Perceptual and Interactive Intelligence;The Chinese University of Hong Kong;Shanghai Artificial Intelligence Laboratory",
+        "aff": "University of Technology Sydney;Centre for Perceptual and Interactive Intelligence;The Chinese University of Hong Kong;Shanghai AI Laboratory",
         "aff_domain": "uts.edu.au;cpii.hk;cuhk.edu.hk;pjlab.org.cn",
         "position": "PhD student;Researcher;Associate Professor;Full Professor"
     },
@@ -47875,7 +47875,7 @@
         "orcid": "0009-0004-2237-369X;;;;0000-0003-4645-9776;;;;;",
         "linkedin": ";;;;;;;;;",
         "or_profile": "~Haoyun_Jiang1;~Haolin_li2;~jianwei_zhang13;~Fei_Huang3;~Qiang_Hu2;~Minmin_Sun2;~Shuai_Xiao1;~Yong_Li11;~Junyang_Lin1;~Jiangchao_Yao1",
-        "aff": "Shanghai Jiaotong University;Fudan University;Alibaba Group;Alibaba Group;Shanghai Jiaotong University;Alibaba Group;Alibaba Group;;Alibaba Group;Shanghai Jiaotong University+Shanghai Artificial Intelligence Laboratory",
+        "aff": "Shanghai Jiaotong University;Fudan University;Alibaba Group;Alibaba Group;Shanghai Jiaotong University;Alibaba Group;Alibaba Group;;Alibaba Group;Shanghai Jiaotong University+Shanghai AI Laboratory",
         "aff_domain": "sjtu.edu.cn;fudan.edu.cn;alibaba-inc.com;alibaba-inc.com;sjtu.edu.cn;alibaba-inc.com;alibaba-inc.com;;alibaba-inc.com;sjtu.edu.cn+pjlab.org.cn",
         "position": "PhD student;PhD student;Researcher;Researcher;Researcher;Senior Staff Engineer;Researcher;;Principal Researcher;Assistant Professor+Researcher"
     },
@@ -48460,7 +48460,7 @@
         "orcid": ";;;;0000-0002-9956-6308",
         "linkedin": ";;;;",
         "or_profile": "~Yingying_Feng1;~Jie_Li5;~Chi_Xie1;~Lei_Tan4;~Jiayi_Ji1",
-        "aff": "Northeastern University;Shanghai Artificial Intelligence Laboratory;Tongji University;;National University of Singapore+Xiamen University",
+        "aff": "Northeastern University;Shanghai AI Laboratory;Tongji University;;National University of Singapore+Xiamen University",
         "aff_domain": "neu.edu;pjlab.org.cn;tongji.edu.cn;;nus.edu.sg+xmu.edu.cn",
         "position": "PhD student;Postdoc;PhD student;;Postdoc+Postdoc"
     },
@@ -50950,7 +50950,7 @@
         "orcid": ";;;0000-0002-2009-3078;;;;",
         "linkedin": "brian-sun-59746b12b/;;;;;;zejun-ma-58614365/;",
         "or_profile": "~Guangzhi_Sun1;~Yudong_Yang1;~Jimin_Zhuang1;~Changli_Tang1;~Yixuan_Li13;~Wei_Li78;~Zejun_MA1;~Chao_Zhang20",
-        "aff": "University of Cambridge;Tsinghua University;Tsinghua University;Tsinghua University;Tsinghua University;Bytedance;TikTok;Shanghai Artificial Intelligence Laboratory+Tsinghua University+University College London",
+        "aff": "University of Cambridge;Tsinghua University;Tsinghua University;Tsinghua University;Tsinghua University;Bytedance;TikTok;Shanghai AI Laboratory+Tsinghua University+University College London",
         "aff_domain": "cam.ac.uk;mails.tsinghua.edu.cn;mails.tsinghua.edu.cn;tsinghua.edu.cn;mails.tsinghua.edu.cn;bytedance.com;bytedance.com;pjlab.org.cn+tsinghua.edu.cn+ucl.ac.uk",
         "position": "Junior Research Fellow;Undergrad student;Undergrad student;PhD student;Undergrad student;Researcher;Principal Researcher;Associate Professor+Assistant Professor+Associate Professor"
     },
