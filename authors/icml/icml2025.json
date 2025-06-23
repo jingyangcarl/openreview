@@ -825,6 +825,21 @@
         "position": ";Researcher;Full Professor"
     },
     {
+        "id": "1AS7IT3X2A",
+        "author": "Yuwen Tan;Boqing Gong",
+        "authorids": "~Yuwen_Tan1;~Boqing_Gong1",
+        "gender": ";M",
+        "homepage": ";http://boqinggong.info",
+        "dblp": "307/5393;29/7457",
+        "google_scholar": "-6QCROoAAAAJ;lv9ZeVUAAAAJ",
+        "orcid": ";",
+        "linkedin": ";boqing-gong-46aa5821/",
+        "or_profile": "~Yuwen_Tan1;~Boqing_Gong1",
+        "aff": "Boston University;Google",
+        "aff_domain": "bu.edu;google.com",
+        "position": "PhD student;Research Scientist"
+    },
+    {
         "id": "1Agoo9f41i",
         "author": "Cheol Woo Kim;Jai Moondra;Shresth Verma;Madeleine Pollack;Lingkai Kong;Milind Tambe;Swati Gupta",
         "authorids": "~Cheol_Woo_Kim1;~Jai_Moondra1;~Shresth_Verma1;~Madeleine_Pollack1;~Lingkai_Kong1;~Milind_Tambe1;~Swati_Gupta1",
@@ -1065,6 +1080,21 @@
         "position": "PhD student;Researcher;PhD student"
     },
     {
+        "id": "1RlrtH6ydW",
+        "author": "Borhane Blili-Hamelin;Christopher Graziul;Leif Hancox-Li;Hananel Hazan;El-Mahdi El-Mhamdi;Avijit Ghosh;Katherine A Heller;Jacob Metcalf;Fabricio Murai;Eryk Salvaggio;Andrew J Smart;Todd Snider;Mariame Tighanimine;Talia Ringer;Margaret Mitchell;Shiri Dori-Hacohen",
+        "authorids": "~Borhane_Blili-Hamelin1;~Christopher_Graziul1;~Leif_Hancox-Li1;~Hananel_Hazan1;~El-Mahdi_El-Mhamdi1;~Avijit_Ghosh1;~Katherine_A_Heller1;~Jacob_Metcalf1;~Fabricio_Murai1;~Eryk_Salvaggio1;~Andrew_J_Smart1;~Todd_Snider1;~Mariame_Tighanimine2;~Talia_Ringer1;~Margaret_Mitchell3;~Shiri_Dori-Hacohen1",
+        "gender": "M;;M;M;;M;F;M;M;M;M;M;F;Agender woman;F;F",
+        "homepage": "https://borhane.xyz/;;https://boltzmann-brain.github.io/;https://hananel.hazan.org.il/;;https://www.evijit.github.io;;;https://wpi.edu/~fmurai;http://cyberneticforests.com;https://www.andrewthesmart.com/;https://tsnider.github.io/snider/index.html;https://lise-cnrs.cnam.fr/le-laboratoire/les-membres-du-lise/tighanimine-mariame-1125995.kjsp;https://dependenttyp.es;http://m-mitchell.com;",
+        "dblp": ";;261/5964;80/4950.html;;11/2906;32/4403;;30/9221;;;;;;56/2856;",
+        "google_scholar": ";;;https://scholar.google.co.il/citations?user=M8ayghUAAAAJ;;X9y2jJIAAAAJ;;;sF3doEMAAAAJ;uoEzpj4AAAAJ;sjFGOSEAAAAJ;noKm_Y0AAAAJ;;JCJzlXsAAAAJ;5na92fcAAAAJ;https://scholar.google.com/citations?hl=en",
+        "orcid": "0000-0002-9573-3332;;;0000-0003-1446-1628;;;;;0000-0003-4487-6381;0000-0002-9103-3734;;0000-0002-9011-1411;;;;",
+        "linkedin": "borhane;;leif-hancox-li-1a6a7a132/;hananel-hazan;;evijit/;;jakemetcalf/;;eryk-salvaggio/;;;;;margaret-mitchell-9b13429/;",
+        "or_profile": "~Borhane_Blili-Hamelin1;~Christopher_Graziul1;~Leif_Hancox-Li1;~Hananel_Hazan1;~El-Mahdi_El-Mhamdi1;~Avijit_Ghosh1;~Katherine_A_Heller1;~Jacob_Metcalf1;~Fabricio_Murai1;~Eryk_Salvaggio1;~Andrew_J_Smart1;~Todd_Snider1;~Mariame_Tighanimine2;~Talia_Ringer1;~Margaret_Mitchell3;~Shiri_Dori-Hacohen1",
+        "aff": "BABL AI;;vijil;Tufts University;;University of Connecticut;Google;Data & Society Research Institute;Worcester Polytechnic Institute;Elisava ;Google;Eberhard-Karls-Universit\u00e4t T\u00fcbingen;Institut d'Etudes Politiques de Paris (Sciences Po);University of Illinois, Urbana Champaign;;AuCoDe",
+        "aff_domain": "babl.ai;;vijil.ai;tufts.edu;;uconn.edu;google.com;datasociety.net;wpi.edu;elisava.net;google.com;uni-tuebingen.de;sciencespo.fr;illinois.edu;;aucode.io",
+        "position": "Researcher;;Researcher;Principal Researcher;;Researcher;Researcher;Program Director;Assistant Professor;Lecturer;Principal Researcher;Postdoc;Lecturer;Assistant Professor;;CEO & Founder"
+    },
+    {
         "id": "1SMcxxQiSL",
         "author": "Mingyu Jin;Kai Mei;Wujiang Xu;Mingjie Sun;Ruixiang Tang;Mengnan Du;Zirui Liu;Yongfeng Zhang",
         "authorids": "~Mingyu_Jin1;~Kai_Mei1;~Wujiang_Xu1;~Mingjie_Sun1;~Ruixiang_Tang1;~Mengnan_Du1;~Zirui_Liu1;~Yongfeng_Zhang1",
@@ -1153,6 +1183,21 @@
         "aff": ";;Aalto University",
         "aff_domain": ";;aalto.fi",
         "position": ";;Associate Professor"
+    },
+    {
+        "id": "1ZC4RNjqzU",
+        "author": "Hanna Wallach;Meera Desai;A. Feder Cooper;Angelina Wang;Chad Atalla;Solon Barocas;Su Lin Blodgett;Alexandra Chouldechova;Emily Corvi;P. Alex Dow;Jean Garcia-Gathright;Alexandra Olteanu;Nicholas J Pangakis;Stefanie Reed;Emily Sheng;Dan Vann;Jennifer Wortman Vaughan;Matthew Vogel;Hannah Washington;Abigail Z. Jacobs",
+        "authorids": "~Hanna_Wallach1;~Meera_Desai1;~A._Feder_Cooper1;~Angelina_Wang1;~Chad_Atalla1;~Solon_Barocas1;~Su_Lin_Blodgett2;~Alexandra_Chouldechova1;~Emily_Corvi1;~P._Alex_Dow1;~Jean_Garcia-Gathright1;~Alexandra_Olteanu1;~Nicholas_J_Pangakis1;~Stefanie_Reed1;~Emily_Sheng1;~Dan_Vann1;~Jennifer_Wortman_Vaughan1;~Matthew_Vogel1;~Hannah_Washington1;~Abigail_Z._Jacobs1",
+        "gender": "F;F;;F;Non-Binary;M;F;F;Non-Binary;M;F;;M;Not Specified;;M;F;;F;F",
+        "homepage": "http://dirichlet.net;https://meera-desai.com/;https://afedercooper.info;https://angelina-wang.github.io/;https://www.linkedin.com/in/chadatalla/;http://solon.barocas.org/;https://sblodgett.github.io/;http://www.andrew.cmu.edu/user/achoulde/;https://emilycorvi.com;;https://scinoise.wordpress.com/;;https://www.npangakis.com/;https://www.linkedin.com/in/stefanie-sunglao-reed;https://ewsheng.github.io;https://www.microsoft.com/en-us/research/people/danvann/;http://www.jennwv.com/;;;https://azjacobs.com",
+        "dblp": "84/3994;;260/0514;210/1014.html;;98/10036.html;182/2034;125/8515;;06/5720;222/1208;;348/8945;;205/2314;351/4321;w/JenniferWortman;;;",
+        "google_scholar": ";5Pid_UUAAAAJ;https://scholar.google.ch/citations?hl=en;cGemfcYAAAAJ;;rEjgIskAAAAJ;8jbAkOUAAAAJ;https://scholar.google.com/citations?hl=en;;YlmiyYkAAAAJ;q-tmorMAAAAJ;;;;Dh-uFI0AAAAJ;;YRPveMcAAAAJ;;;BJjegLkAAAAJ",
+        "orcid": ";;0000-0002-4892-681X;;;0000-0003-4577-466X;;;;;;;;;;;0000-0002-7807-2018;;;",
+        "linkedin": ";;;angelina-wang-282816108/;;;;;emily-corvi;;jeangg;;;;;vann-dan/;jennifer-wortman-vaughan/;mvogel930/;hannah-washington-phd-2736109/;",
+        "or_profile": "~Hanna_Wallach1;~Meera_Desai1;~A._Feder_Cooper1;~Angelina_Wang1;~Chad_Atalla1;~Solon_Barocas1;~Su_Lin_Blodgett2;~Alexandra_Chouldechova1;~Emily_Corvi1;~P._Alex_Dow1;~Jean_Garcia-Gathright1;~Alexandra_Olteanu1;~Nicholas_J_Pangakis1;~Stefanie_Reed1;~Emily_Sheng1;~Dan_Vann1;~Jennifer_Wortman_Vaughan1;~Matthew_Vogel1;~Hannah_Washington1;~Abigail_Z._Jacobs1",
+        "aff": "Microsoft;University of Michigan - Ann Arbor;Computer Science Department, Stanford University;Stanford University;Microsoft;Cornell University;Microsoft;Carnegie Mellon University;;;Microsoft Research;;Microsoft;;Microsoft Research;Microsoft Research;Microsoft;Microsoft;Microsoft Research;University of Michigan",
+        "aff_domain": "microsoft.com;umich.edu;cs.stanford.edu;stanford.edu;microsoft.com;cornell.edu;microsoft.com;cmu.edu;;;research.microsoft.com;;microsoft.com;;research.microsoft.com;research.microsoft.com;microsoft.com;microsoft.com;microsoft.com;umich.edu",
+        "position": "Partner Research Manager;PhD student;Postdoc;Postdoc;Researcher;Associate Professor;Researcher;Associate Professor;;;Principal Applied Scientist;;Researcher;;Researcher;Researcher;Sr. Principal Researcher;Principal Program Manager;Researcher;Assistant Professor"
     },
     {
         "id": "1ZwOiEGxCe",
@@ -1309,7 +1354,7 @@
         "author": "Yuwei Niu;Shuo He;Qi Wei;Zongyu Wu;Feng Liu;Lei Feng",
         "authorids": "~Yuwei_Niu1;~Shuo_He1;~Qi_Wei4;~Zongyu_Wu1;~Feng_Liu2;~Lei_Feng1",
         "gender": "M;M;M;M;M;M",
-        "homepage": "https://purshow.github.io/;;http://weiq0010.top;https://github.com/Wu-Zongyu;https://fengliu90.github.io/index.html;https://lfeng1995.github.io/",
+        "homepage": "https://purshow.github.io/;;http://weiq0010.top;https://wu-zongyu.github.io/;https://fengliu90.github.io/index.html;https://lfeng1995.github.io/",
         "dblp": "378/2760;186/3430-1;43/2782-4.html;322/4801-1;77/1318-3;76/847-6",
         "google_scholar": "VaYRTxEAAAAJ;hwYvF98AAAAJ;https://scholar.google.com/citations?hl=zh-CN;uq-XDSYAAAAJ;https://scholar.google.com/citations?hl=en;https://scholar.google.com.sg/citations?user=KomQOFkAAAAJ",
         "orcid": "0009-0009-0806-5144;;;0009-0001-8378-7632;0000-0002-5005-9129;0000-0003-2839-5799",
@@ -1408,6 +1453,21 @@
         "aff": "Apple;University of Oxford;Apple;Apple;;Apple",
         "aff_domain": "apple.com;bdi.ox.ac.uk;apple.com;apple.com;;apple.com",
         "position": "Researcher;Researcher;Researcher;Researcher;;Researcher"
+    },
+    {
+        "id": "1rh8iTehBc",
+        "author": "Moming Duan;Mingzhe Du;Rui Zhao;Mengying Wang;Yinghui Wu;Nigel Shadbolt;Bingsheng He",
+        "authorids": "~Moming_Duan1;~Mingzhe_Du1;~Rui_Zhao15;~Mengying_Wang2;~Yinghui_Wu3;~Nigel_Shadbolt1;~Bingsheng_He1",
+        "gender": "M;M;M;F;M;M;M",
+        "homepage": ";https://elfsong.github.io/;https://me.ryey.icu;https://wangmengying.me;https://yinghwu.github.io/;https://www.cs.ox.ac.uk/people/nigel.shadbolt/;http://www.comp.nus.edu.sg/~hebs/",
+        "dblp": "224/5731;;26/2578-9;64/10313-1;32/6122;s/NigelShadbolt;h/BingshengHe.html",
+        "google_scholar": "https://scholar.google.com.hk/citations?user=vEWocfwAAAAJ;CJHW1IgAAAAJ;8WW-7YIAAAAJ;1lBhs4IAAAAJ;9u7wNjUAAAAJ;wTAM67UAAAAJ;https://scholar.google.com.tw/citations?user=RogYLKYAAAAJ",
+        "orcid": "0000-0001-5402-6634;;0000-0003-2993-2023;0000-0001-8150-8436;;;0000-0001-8618-4581",
+        "linkedin": ";;;;;;bingsheng-he-7734b131",
+        "or_profile": "~Moming_Duan1;~Mingzhe_Du1;~Rui_Zhao15;~Mengying_Wang2;~Yinghui_Wu3;~Nigel_Shadbolt1;~Bingsheng_He1",
+        "aff": "National University of Singapore;National University of Singapore;University of Oxford;Amazon;Case Western Reserve University;University of Oxford;National University of Singapore",
+        "aff_domain": "nus.edu;nus.edu;ox.ac.uk;amazon.com;case.edu;ox.ac.uk;nus.edu.sg",
+        "position": "Postdoc;Researcher;Postdoc;Intern;Associate Professor;Full Professor;Full Professor"
     },
     {
         "id": "1ueDWPv7j9",
@@ -2158,6 +2218,21 @@
         "aff": "Yandex;Yandex",
         "aff_domain": "yandex-team.ru;yandex-team.ru",
         "position": "Researcher;Researcher"
+    },
+    {
+        "id": "2qErp0n78A",
+        "author": "Felix Leeb;Zhijing Jin;Bernhard Sch\u00f6lkopf",
+        "authorids": "~Felix_Leeb1;~Zhijing_Jin1;~Bernhard_Sch\u00f6lkopf1",
+        "gender": ";;",
+        "homepage": "https://ei.is.mpg.de/person/fleeb;;",
+        "dblp": ";;",
+        "google_scholar": ";;",
+        "orcid": ";;",
+        "linkedin": ";;",
+        "or_profile": "~Felix_Leeb1;~Zhijing_Jin1;~Bernhard_Sch\u00f6lkopf1",
+        "aff": "Max Planck Institute for Intelligent Systems, Max-Planck Institute;;",
+        "aff_domain": "tuebingen.mpg.de;;",
+        "position": "PhD student;;"
     },
     {
         "id": "2qTwKMDAsD",
@@ -2945,7 +3020,7 @@
         "authorids": "~Anastasia_Koloskova2;~Youssef_Allouah1;~Animesh_Jha1;~Rachid_Guerraoui1;~Sanmi_Koyejo1",
         "gender": "M;M;M;F;M",
         "homepage": "https://youssefallouah.com/;https://anime-sh.github.io/;https://lpdwww.epfl.ch/rachid/;;https://cs.stanford.edu/~sanmi/",
-        "dblp": "312/3936;280/5382;g/RachidGuerraoui;228/9222;14/8885",
+        "dblp": "312/3936;;g/RachidGuerraoui;228/9222;14/8885",
         "google_scholar": "kVZu88cAAAAJ;3nodaq4AAAAJ;;ldJpvE8AAAAJ;EaaOeJwAAAAJ",
         "orcid": "0000-0003-1048-7548;0000-0001-6953-3823;;;0000-0002-4023-419X",
         "linkedin": ";;;;sanmi-koyejo-984754/",
@@ -2970,6 +3045,21 @@
         "position": "Assistant Professor;Associate Professor"
     },
     {
+        "id": "3tdITbjv8t",
+        "author": "Hannah K\u00fchn;Joseph La Delfa;Miguel Vasco;Danica Kragic;Iolanda Leite",
+        "authorids": "~Hannah_K\u00fchn1;~Joseph_La_Delfa1;~Miguel_Vasco1;~Danica_Kragic1;~Iolanda_Leite1",
+        "gender": "F;M;M;F;",
+        "homepage": ";https://www.cafeciaojoe.com/;https://www.miguelvasco.com/;http://www.csc.kth.se/~danik;https://iolandaleite.com/",
+        "dblp": ";;237/9737;82/1211;23/6349",
+        "google_scholar": ";https://scholar.google.com.au/citations?user=Luqfcw4AAAAJ;https://scholar.google.pt/citations?user=Of2hDmMAAAAJ;;tyKNvM8AAAAJ",
+        "orcid": ";0000-0001-9535-3375;;;",
+        "linkedin": "hannah-k%C3%BChn-0537a8311/;https://se.linkedin.com/in/jladelfa;;;",
+        "or_profile": "~Hannah_K\u00fchn1;~Joseph_La_Delfa1;~Miguel_Vasco1;~Danica_Kragic1;~Iolanda_Leite1",
+        "aff": "KTH Royal Institute of Technology;KTH Royal Institute of Technology;KTH Royal Institute of Technology;KTH;KTH Royal Institute of Technology",
+        "aff_domain": "kth.se;kth.se;kth.se;kth.se;kth.se",
+        "position": "PhD student;Postdoc;Postdoc;Professor;Associate Professor"
+    },
+    {
         "id": "3vjsUgCsZ4",
         "author": "Kosuke Nakanishi;Akihiro Kubo;Yuji Yasui;Shin Ishii",
         "authorids": "~Kosuke_Nakanishi1;~Akihiro_Kubo1;~Yuji_Yasui1;~Shin_Ishii1",
@@ -2983,6 +3073,21 @@
         "aff": ";Kyoto University;Honda R&D Co., Ltd.;Kyoto University",
         "aff_domain": ";kyoto-u.ac.jp;jp.honda;kyoto-u.ac.jp",
         "position": ";PhD student;Principal Researcher;Full Professor"
+    },
+    {
+        "id": "3wEY0NB2pG",
+        "author": "Simone Drago;Marco Mussi;Alberto Maria Metelli",
+        "authorids": "~Simone_Drago1;~Marco_Mussi1;~Alberto_Maria_Metelli2",
+        "gender": "M;M;M",
+        "homepage": ";https://marcomussi.github.io/;https://albertometelli.github.io/",
+        "dblp": "383/9682;321/0756;209/4941",
+        "google_scholar": ";3gca-JUAAAAJ;R31IsPwAAAAJ",
+        "orcid": ";0000-0001-8356-6744;0000-0002-3424-5212",
+        "linkedin": "drago-simone/;marcomussi95/;",
+        "or_profile": "~Simone_Drago1;~Marco_Mussi1;~Alberto_Maria_Metelli2",
+        "aff": "Polytechnic Institute of Milan;Politecnico di Milano;Politecnico di Milano",
+        "aff_domain": "polimi.it;polimi.it;polimi.it",
+        "position": "PhD student;Postdoc;Assistant Professor"
     },
     {
         "id": "3xdFvqsVnM",
@@ -3058,6 +3163,21 @@
         "aff": "McGill University;Borealis AI;Wayve;McGill University;University of Montreal",
         "aff_domain": "mail.mcgill.ca;borealisai.com;wayve.ai;mcgill.ca;umontreal.ca",
         "position": "PhD student;Machine Learning Researcher;Principal Researcher;Associate Professor;Full Professor"
+    },
+    {
+        "id": "42Au7FoD8F",
+        "author": "Andrew Gordon Wilson",
+        "authorids": "~Andrew_Gordon_Wilson1",
+        "gender": "Not Specified",
+        "homepage": "https://cims.nyu.edu/~andrewgw",
+        "dblp": "65/10453",
+        "google_scholar": "https://scholar.google.com.tw/citations?user=twWX2LIAAAAJ",
+        "orcid": "",
+        "linkedin": "",
+        "or_profile": "~Andrew_Gordon_Wilson1",
+        "aff": "New York University",
+        "aff_domain": "nyu.edu",
+        "position": "Full Professor"
     },
     {
         "id": "44WiPvzDbu",
@@ -3375,6 +3495,21 @@
         "position": ";PhD student;PhD student;Associate Professor;"
     },
     {
+        "id": "4KhDd0Ozqe",
+        "author": "Tennison Liu;Mihaela van der Schaar",
+        "authorids": "~Tennison_Liu1;~Mihaela_van_der_Schaar2",
+        "gender": "M;F",
+        "homepage": "https://www.vanderschaar-lab.com/research-team/#Tennison;https://www.vanderschaar-lab.com",
+        "dblp": "256/9899;",
+        "google_scholar": "LtdHRjsAAAAJ;DZ3S--MAAAAJ",
+        "orcid": ";",
+        "linkedin": ";",
+        "or_profile": "~Tennison_Liu1;~Mihaela_van_der_Schaar2",
+        "aff": "University of Cambridge;University of California, Los Angeles",
+        "aff_domain": "cam.ac.uk;ucla.edu",
+        "position": "PhD student;Full Professor"
+    },
+    {
         "id": "4LClOWTAth",
         "author": "Gefan Yang;Frank van der Meulen;Stefan Sommer",
         "authorids": "~Gefan_Yang1;~Frank_van_der_Meulen1;~Stefan_Sommer1",
@@ -3400,9 +3535,9 @@
         "orcid": ";;;",
         "linkedin": "megan-tjandrasuwita/;;;chanakyaekbote/",
         "or_profile": "~Megan_Tjandrasuwita1;~Liu_Ziyin1;~Paul_Pu_Liang1;~Chanakya_Ajit_Ekbote1",
-        "aff": "Massachusetts Institute of Technology;Massachusetts Institute of Technology;Massachusetts Institute of Technology;Massachusetts Institute of Technology",
-        "aff_domain": "mit.edu;mit.edu;mit.edu;mit.edu",
-        "position": "PhD student;Postdoc;Assistant Professor;PhD student"
+        "aff": "Massachusetts Institute of Technology;NTT Research;Massachusetts Institute of Technology;Massachusetts Institute of Technology",
+        "aff_domain": "mit.edu;ntt-research.com;mit.edu;mit.edu",
+        "position": "PhD student;Researcher;Assistant Professor;PhD student"
     },
     {
         "id": "4OWGON33HE",
@@ -3553,6 +3688,21 @@
         "aff": "University of Toronto;Google DeepMind;",
         "aff_domain": "utoronto.ca;google.com;",
         "position": "PhD student;Researcher;"
+    },
+    {
+        "id": "4UhTWPwVke",
+        "author": "Sebastin Santy;Prasanta Bhattacharya;Manoel Horta Ribeiro;Kelsey R Allen;Sewoong Oh",
+        "authorids": "~Sebastin_Santy2;~Prasanta_Bhattacharya2;~Manoel_Horta_Ribeiro1;~Kelsey_R_Allen1;~Sewoong_Oh3",
+        "gender": "M;;M;F;",
+        "homepage": "http://sebastinsanty.com/;;https://manoelhortaribeiro.github.io;;",
+        "dblp": "212/5368;;193/5425;153/9528;",
+        "google_scholar": "HsyMg08AAAAJ;;IN55QyEAAAAJ;kpcjFekAAAAJ;",
+        "orcid": "0000-0003-1162-0865;;0000-0002-6159-9657;;",
+        "linkedin": "sebastinsanty/;;;;",
+        "or_profile": "~Sebastin_Santy2;~Prasanta_Bhattacharya2;~Manoel_Horta_Ribeiro1;~Kelsey_R_Allen1;~Sewoong_Oh3",
+        "aff": "University of Washington;;EPFL - EPF Lausanne;Google;",
+        "aff_domain": "cs.washington.edu;;epfl.ch;deepmind.com;",
+        "position": "PhD student;;PhD student;Research Scientist;"
     },
     {
         "id": "4ViG4gQD3i",
@@ -4170,6 +4320,21 @@
         "position": "MS student;Postdoc;PhD student;Researcher;Researcher;Researcher;Full Professor;Researcher;"
     },
     {
+        "id": "5Hpm74b1Ga",
+        "author": "Samuel M\u00fcller;Arik Reuter;Noah Hollmann;David R\u00fcgamer;Frank Hutter",
+        "authorids": "~Samuel_M\u00fcller1;~Arik_Reuter1;~Noah_Hollmann1;~David_R\u00fcgamer1;~Frank_Hutter1",
+        "gender": ";M;;M;M",
+        "homepage": "https://uncoolis.cool;;http://www.noahhollmann.com;https://davidruegamer.github.io/;http://ml.informatik.uni-freiburg.de/~hutter/",
+        "dblp": "284/9655;344/2265;;220/5560;89/5383",
+        "google_scholar": "pevYEjAAAAAJ;https://scholar.google.de/citations?user=ei6AssYAAAAJ;;https://scholar.google.de/citations?user=_DYguksAAAAJ;https://scholar.google.de/citations?user=YUrxwrkAAAAJ",
+        "orcid": ";;0000-0001-8556-518X;;0000-0002-2037-3694",
+        "linkedin": ";;;;frank-hutter-9190b24b/",
+        "or_profile": "~Samuel_M\u00fcller1;~Arik_Reuter1;~Noah_Hollmann1;~David_R\u00fcgamer1;~Frank_Hutter1",
+        "aff": "University of Freiburg, Universit\u00e4t Freiburg;Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen;;LMU Munich;Albert-Ludwigs-Universit\u00e4t Freiburg",
+        "aff_domain": "cs.uni-freiburg.de;lmu.de;;lmu.de;uni-freiburg.de",
+        "position": "PhD student;MS student;;Associate Professor;Full Professor"
+    },
+    {
         "id": "5IpVe9PH14",
         "author": "Chenlu Ye;Yujia Jin;Alekh Agarwal;Tong Zhang",
         "authorids": "~Chenlu_Ye1;~Yujia_Jin1;~Alekh_Agarwal2;~Tong_Zhang2",
@@ -4750,9 +4915,9 @@
         "orcid": ";0000-0003-3620-3769;;;;;",
         "linkedin": "%E5%A4%A9%E5%B3%BB-%E5%A7%9A-259111209/;;;;;;",
         "or_profile": "~Tianjun_Yao1;~Haoxuan_Li6;~Yongqiang_Chen1;~Tongliang_Liu1;~Le_Song1;~Eric_Xing1;~Zhiqiang_Shen1",
-        "aff": "Mohamed bin Zayed University of Artificial Intelligence;Peking University;Carnegie Mellon University;Mohamed bin Zayed University of Artificial Intelligence;College of Computing, Georgia Institute of Technology;School of Computer Science, Carnegie Mellon University;",
-        "aff_domain": "mbzuai.ac.ae;pku.edu.cn;cmu.edu;mbzuai.ac.ae;cc.gatech.edu;cs.cmu.edu;",
-        "position": "PhD student;PhD student;Postdoc;Affiliated Associate Professor;Associate Professor;Full Professor;"
+        "aff": "Georgia Institute of Technology;Peking University;Carnegie Mellon University;Mohamed bin Zayed University of Artificial Intelligence;College of Computing, Georgia Institute of Technology;School of Computer Science, Carnegie Mellon University;",
+        "aff_domain": "gatech.edu;pku.edu.cn;cmu.edu;mbzuai.ac.ae;cc.gatech.edu;cs.cmu.edu;",
+        "position": "Intern;PhD student;Postdoc;Affiliated Associate Professor;Associate Professor;Full Professor;"
     },
     {
         "id": "5zsBvPOIUQ",
@@ -5745,6 +5910,21 @@
         "position": "PhD student;PhD student;Undergrad student;MS student;PhD student;Professor;Associate Professor"
     },
     {
+        "id": "75WZP8whT8",
+        "author": "Jonas Kuntzer;Johannes Kaiser;Tamara T. M\u00fcller;Anneliese Riess;Kristian Schwethelm;Daniel Rueckert",
+        "authorids": "~Jonas_Kuntzer1;~Johannes_Kaiser1;~Tamara_T._M\u00fcller1;~Anneliese_Riess1;~Kristian_Schwethelm1;~Daniel_Rueckert2",
+        "gender": "M;M;;F;M;M",
+        "homepage": ";;;;;https://aim-lab.io/author/daniel-ruckert/",
+        "dblp": ";;;;344/1840;69/2478",
+        "google_scholar": ";;https://scholar.google.de/citations?user=Ljk2Gs8AAAAJ;;Q5X7Kw8AAAAJ;https://scholar.google.co.uk/citations?user=H0O0WnQAAAAJ",
+        "orcid": "0009-0005-2903-3169;;0000-0002-1818-1036;;0009-0007-4702-755X;",
+        "linkedin": ";johannes-kaiser-0278841b9/;;anneliese-riess-b9b31a164;;",
+        "or_profile": "~Jonas_Kuntzer1;~Johannes_Kaiser1;~Tamara_T._M\u00fcller1;~Anneliese_Riess1;~Kristian_Schwethelm1;~Daniel_Rueckert2",
+        "aff": "Technische Universit\u00e4t M\u00fcnchen;Technische Universit\u00e4t M\u00fcnchen;Technical University Munich;Helmholtz Munich;Technische Universit\u00e4t M\u00fcnchen;Imperial College London",
+        "aff_domain": "tum.de;mytum.de;tum.de;helmholtz-munich.de;tum.de;imperial.ac.uk",
+        "position": "PhD student;PhD student;PhD student;PhD student;PhD student;Full Professor"
+    },
+    {
         "id": "77ziPGdQct",
         "author": "Grace Luo;Trevor Darrell;Amir Bar",
         "authorids": "~Grace_Luo1;~Trevor_Darrell2;~Amir_Bar1",
@@ -6514,7 +6694,7 @@
         "author": "Vsevolod Viliuga;Leif Seute;Nicolas Wolf;Simon Wagner;Arne Elofsson;Jan St\u00fchmer;Frauke Gr\u00e4ter",
         "authorids": "~Vsevolod_Viliuga1;~Leif_Seute1;~Nicolas_Wolf1;~Simon_Wagner1;~Arne_Elofsson1;~Jan_St\u00fchmer2;~Frauke_Gr\u00e4ter1",
         "gender": "M;M;;M;M;F;M",
-        "homepage": "https://github.com/ncyx;;;;https://bioinfo.se/;https://www.h-its.org/research/mbm/;",
+        "homepage": "https://github.com/proteinator;;;;https://bioinfo.se/;https://www.h-its.org/research/mbm/;",
         "dblp": ";;;152/4244;77/3277.html;35/9500;91/8483",
         "google_scholar": ";https://scholar.google.de/citations?user=BPCn0u0AAAAJ;;j8LinAoAAAAJ;https://scholar.google.se/citations?user=s3OCM3AAAAAJ;https://scholar.google.de/citations?user=ctkiSbUAAAAJ;pGukv5YAAAAJ",
         "orcid": ";;;;0000-0002-7115-9751;0000-0003-2891-3381;0009-0002-0122-5482",
@@ -6725,7 +6905,7 @@
         "authorids": "~Shiwei_Li3;~Xiandi_Luo1;~Xing_Tang2;~Haozhao_Wang1;~Hao_Chen73;~weihongluo1;~Yuhua_Li2;~xiuqiang_He3;~Ruixuan_Li1",
         "gender": "M;;M;M;M;M;F;M;M",
         "homepage": "https://leopold1423.github.io/;;https://xingt-tang.github.io;https://wanghaozhao.mysxl.cn/;;https://github.com/lobby66;;https://he-xiuqiang.github.io/;http://idc.hust.edu.cn/rxli/index.html",
-        "dblp": ";;09/2824-7;224/4500.html;;;79/5796-3;11/5357-1;60/4429.html",
+        "dblp": "09/7826-2.html;;09/2824-7;224/4500.html;;;79/5796-3;11/5357-1;60/4429.html",
         "google_scholar": "H0egTIsAAAAJ;;rtRexdQAAAAJ;https://scholar.google.com.hk/citations?user=yFrOuMEAAAAJ;;;https://scholar.google.com/citations?hl=zh-CN;3lprwmsAAAAJ;https://scholar.google.com/scholar?q=ruixuan+li",
         "orcid": "0000-0002-7067-0275;;0000-0003-4360-0754;0000-0002-7591-5315;0009-0008-0473-5625;;;0000-0002-4115-8205;0000-0002-7791-5511",
         "linkedin": "%E4%B8%96%E4%BC%9F-%E6%9D%8E-813a1723a/;%E6%98%BE%E8%BF%AA-%E7%BD%97-4aa009321/;;;;;;;https://www.linkedin.cn/incareer/in/ruixuan-li-b367319",
@@ -6958,6 +7138,21 @@
         "aff": "Southeast University;Southeast University;Southeast University, China",
         "aff_domain": "seu.edu.cn;seu.edu.cn;seu.edu.cn",
         "position": "PhD student;Associate Professor;Professor"
+    },
+    {
+        "id": "8samCaCwKu",
+        "author": "Frithjof Gressmann;Ashley Chen;Lily Hexuan Xie;Nancy Amato;Lawrence Rauchwerger",
+        "authorids": "~Frithjof_Gressmann1;~Ashley_Chen1;~Lily_Hexuan_Xie1;~Nancy_Amato1;~Lawrence_Rauchwerger1",
+        "gender": "M;F;;F;M",
+        "homepage": "https://frthjf.com/;;;https://parasollab.web.illinois.edu/people/amato/;https://siebelschool.illinois.edu/about/people/faculty/rwerger",
+        "dblp": "200/0179;;;;",
+        "google_scholar": "https://scholar.google.com/citations?hl=en;;;AmaB9c4AAAAJ;",
+        "orcid": "0009-0002-4155-7393;;;;",
+        "linkedin": "frithjof-gressmann-6a1606229/;ashley-k-chen/;lily-xie-h618;;",
+        "or_profile": "~Frithjof_Gressmann1;~Ashley_Chen1;~Lily_Hexuan_Xie1;~Nancy_Amato1;~Lawrence_Rauchwerger1",
+        "aff": "University of Illinois, Urbana Champaign;University of Illinois, Urbana Champaign;University of Illinois, Urbana Champaign;University of Illinois, Urbana Champaign;University of Illinois, Urbana Champaign",
+        "aff_domain": "illinois.edu;illinois.edu;uiuc.edu;illinois.edu;uiuc.edu",
+        "position": "PhD student;PhD student;Researcher;Full Professor;Full Professor"
     },
     {
         "id": "8tE4DkYUex",
@@ -7905,6 +8100,21 @@
         "position": "PhD student;MS student;Full Professor;Associate Professor"
     },
     {
+        "id": "9skHxuHyM4",
+        "author": "Tobin South;Samuele Marro;Thomas Hardjono;Robert Mahari;Cedric Deslandes Whitney;Alan Chan;Alex Pentland",
+        "authorids": "~Tobin_South1;~Samuele_Marro1;~Thomas_Hardjono1;~Robert_Mahari1;~Cedric_Deslandes_Whitney1;~Alan_Chan2;~Alex_Pentland1",
+        "gender": "Not Specified;M;M;M;M;M;M",
+        "homepage": "https://tobin.page;;https://hardjono.mit.edu;https://robertmahari.com/;;https://achan.ca;https://www.media.mit.edu/people/sandy/overview/",
+        "dblp": ";313/1563;;;385/7524;;p/AlexPentland",
+        "google_scholar": "r5pPBFMAAAAJ;;;3qM8lPsAAAAJ;-hx7ClMAAAAJ;lmQmYPgAAAAJ;P4nfoKYAAAAJ",
+        "orcid": "0000-0003-2740-9829;;;0000-0003-2372-2746;0000-0001-8148-1966;;",
+        "linkedin": ";samuelemarro/;;robert-mahari-874310157/;cedricwhitney/;alan-chan-51858378/;",
+        "or_profile": "~Tobin_South1;~Samuele_Marro1;~Thomas_Hardjono1;~Robert_Mahari1;~Cedric_Deslandes_Whitney1;~Alan_Chan2;~Alex_Pentland1",
+        "aff": "Massachusetts Institute of Technology;University of Oxford;Massachusetts Institute of Technology;Massachusetts Institute of Technology;University of California, Berkeley;Centre for the Governance of AI;Massachusetts Institute of Technology",
+        "aff_domain": "mit.edu;robots.ox.ac.uk;mit.edu;mit.edu;berkeley.edu;governance.ai;mit.edu",
+        "position": "PhD student;PhD student;Principal Researcher;PhD;PhD student;Researcher;Full Professor"
+    },
+    {
         "id": "9stlHtljkj",
         "author": "Saumya Gaurang Shah;Abishek Sankararaman;Balakrishnan Murali Narayanaswamy;Vikramank Singh",
         "authorids": "~Saumya_Gaurang_Shah1;~Abishek_Sankararaman1;~Balakrishnan_Murali_Narayanaswamy1;~Vikramank_Singh1",
@@ -8023,6 +8233,21 @@
         "aff": "Tsinghua University;Tencent TEG;Shanghai Artificial Intelligence Laboratory;;;Institute for Interdisciplinary Information Sciences, Tsinghua University;Squirrel AI;;Hong Kong University of Science and Technology;Nanyang Technological University;;;Hong Kong University of Science and Technology (Guangzhou);Tsinghua University",
         "aff_domain": "mails.tsinghua.edu.cn;tencent.com;pjlab.org.cn;;;mail.tsinghua.edu.cn;squirrel.com;;ust.hk;ntu.edu.sg;;;hkust.edu;tsinghua.edu.cn",
         "position": "PhD student;Intern;Intern;;;Undergrad student;Intern;;Assistant Professor;Postdoc;;;Full Professor;Full Professor"
+    },
+    {
+        "id": "A0HtZM0MpZ",
+        "author": "David A. Danhofer;Davide D'Ascenzo;Rafael Dubach;Tomaso A Poggio",
+        "authorids": "~David_A._Danhofer1;~Davide_D'Ascenzo1;~Rafael_Dubach1;~Tomaso_A_Poggio2",
+        "gender": "M;;M;M",
+        "homepage": "https://kidara.github.io/;https://rafaeldubach.com/;;https://cbmm.mit.edu/about/people/poggio",
+        "dblp": "356/3138;;;12/5544",
+        "google_scholar": "E_rNRYwAAAAJ;HX_O1rAAAAAJ;;WgAGy7wAAAAJ",
+        "orcid": "0000-0002-0607-8488;;0009-0004-5256-1149;",
+        "linkedin": "davide-dascenzo/;rafael-dubach/;david-danhofer/;",
+        "or_profile": "~Davide_D'Ascenzo1;~Rafael_Dubach1;~David_Danhofer1;~Tomaso_Poggio1",
+        "aff": "Massachusetts Institute of Technology;Massachusetts Institute of Technology;ETHZ - ETH Zurich;Massachusetts Institute of Technology",
+        "aff_domain": "mit.edu;mit.edu;ethz.ch;mit.edu",
+        "position": "Intern;Researcher;MS student;Full Professor"
     },
     {
         "id": "A31Ep22iQ7",
@@ -8175,6 +8400,21 @@
         "position": "PhD student;;;"
     },
     {
+        "id": "ACzL62Jp4E",
+        "author": "Shayne Longpre;Kevin Klyman;Ruth Elisabeth Appel;Sayash Kapoor;Rishi Bommasani;Michelle Sahar;Sean McGregor;Avijit Ghosh;Borhane Blili-Hamelin;Nathan Butters;Alondra Nelson;Dr. Amit Elazari;Andrew Sellars;Casey John Ellis;Dane Sherrets;Dawn Song;Harley Geiger;Ilona Cohen;Lauren McIlvenny;Madhulika Srikumar;Mark M. Jaycox;Markus Anderljung;Nadine Farid Johnson;Nicholas Carlini;Nicolas Miailhe;Nik Marda;Peter Henderson;Rebecca S. Portnoff;Rebecca Weiss;Victoria Westerhoff;Yacine Jernite;Rumman Chowdhury;Percy Liang;Arvind Narayanan",
+        "authorids": "~Shayne_Longpre1;~Kevin_Klyman1;~Ruth_Elisabeth_Appel1;~Sayash_Kapoor2;~Rishi_Bommasani1;~Michelle_Sahar1;~Sean_McGregor1;~Avijit_Ghosh1;~Borhane_Blili-Hamelin1;~Nathan_Butters1;~Alondra_Nelson2;~Dr._Amit_Elazari1;~Andrew_Sellars1;~Casey_John_Ellis1;~Dane_Sherrets1;~Dawn_Song1;~Harley_Geiger1;~Ilona_Cohen1;~Lauren_McIlvenny1;~Madhulika_Srikumar1;~Mark_M._Jaycox1;~Markus_Anderljung1;~Nadine_Farid_Johnson1;~Nicholas_Carlini1;~Nicolas_Miailhe1;~Nik_Marda1;~Peter_Henderson1;~Rebecca_S._Portnoff1;~Rebecca_Weiss1;~Victoria_Westerhoff1;~Yacine_Jernite1;~Rumman_Chowdhury1;~Percy_Liang1;~Arvind_Narayanan1",
+        "gender": "M;M;F;M;M;F;M;M;M;M;;F;;;M;F;M;F;;F;;M;F;;M;M;M;;;F;M;;;",
+        "homepage": "https://www.shaynelongpre.com;;https://ruthappel.github.io/;https://www.cs.princeton.edu/~sayashk/;https://rishibommasani.github.io/;;https://seanbmcgregor.com/;https://www.evijit.github.io;https://borhane.xyz/;;https://www.ias.edu/sss/faculty/nelson;https://amitelazari.com/;;https://cje.io;https://www.danesherrets.com;;;;;https://www.linkedin.com/in/madhulikasrikumar/;;http://markusanderljung.com/;;http://nicholas.carlini.com;;https://nikmarda.com/;http://www.peterhenderson.co/;;;https://www.victoriawesterhoff.com/;http://cs.nyu.edu/~jernite/yj/;http://www.rummanchowdhury.com;https://cs.stanford.edu/~pliang/;https://www.cs.princeton.edu/~arvindn/",
+        "dblp": "190/7024;;401/7727;;245/8673;;;11/2906;;;;;;;;s/DXSong;;;;;;;;145/1806;;;h/PeterHenderson2;153/5743;159/0930;;http://dblp.uni-trier.de/pers/hd/j/Jernite:Yacine;;04/1701;08/3080.html",
+        "google_scholar": "ADd_YfkAAAAJ;PhN2CjMAAAAJ;3flEE1wAAAAJ;;WMBXw1EAAAAJ;;kpHcM8YAAAAJ;X9y2jJIAAAAJ;;;https://scholar.google.com/citations?hl=en;https://scholar.google.com/citations?hl=en;;;;;;;;;;QxKw7T0AAAAJ;;;;7M9oqI4AAAAJ;dy_JBs0AAAAJ;;;;AK_7EBgAAAAJ;;pouyVyUAAAAJ;0Bi5CMgAAAAJ",
+        "orcid": ";;0000-0003-2344-2023;;;;0000-0001-5803-4981;;0000-0002-9573-3332;;;;;;;;;;;;;;;;;;;;;;;;;",
+        "linkedin": "shayne-redford-longpre/;;;;;michelle-sahar-822934205/;seanbmcgregor/;evijit/;borhane;nathanbutters/;alondranelson/;amit-elazari-bar-on/;;https://linkedin.com/in/caseyjohnellis;dane-sherrets-7a049973/;;harleylorenzgeiger/;ilona-cohen-3094b255;;https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile;;markus-anderljung-21369974/;nadinefj/;;nmiailhe/;nmarda/;phende/;;;victoriawesterhoff;;;;",
+        "or_profile": "~Shayne_Longpre1;~Kevin_Klyman1;~Ruth_Elisabeth_Appel1;~Sayash_Kapoor2;~Rishi_Bommasani1;~Michelle_Sahar1;~Sean_McGregor1;~Avijit_Ghosh1;~Borhane_Blili-Hamelin1;~Nathan_Butters1;~Alondra_Nelson2;~Dr._Amit_Elazari1;~Andrew_Sellars1;~Casey_John_Ellis1;~Dane_Sherrets1;~Dawn_Song1;~Harley_Geiger1;~Ilona_Cohen1;~Lauren_McIlvenny1;~Madhulika_Srikumar1;~Mark_M._Jaycox1;~Markus_Anderljung1;~Nadine_Farid_Johnson1;~Nicholas_Carlini1;~Nicolas_Miailhe1;~Nik_Marda1;~Peter_Henderson1;~Rebecca_S._Portnoff1;~Rebecca_Weiss1;~Victoria_Westerhoff1;~Yacine_Jernite1;~Rumman_Chowdhury1;~Percy_Liang1;~Arvind_Narayanan1",
+        "aff": "Massachusetts Institute of Technology;Stanford University;Stanford University;Princeton University;Stanford University;OpenPolicy;UL Research Institutes;University of Connecticut;BABL AI;AI Risk and Vulnerability Alliance;Institue for Advanced Study;OpenPolicy;;University of Sydney, University of Sydney;HackerOne;University of California, Berkeley;Hacking Policy Council;HackerOne;;;;Centre for the Governance of AI;Columbia University;Google;IE University;Mozilla;Princeton University;;MLCommons Association ;Microsoft;;Twitter;Stanford University;Princeton University",
+        "aff_domain": "mit.edu;stanford.edu;stanford.edu;princeton.edu;stanford.edu;openpolicy.co;ul.org;uconn.edu;babl.ai;avidml.org;ias.edu;openpolicy.co;;usyd.edu.au;hackerone.com;berkeley.edu;hackingpolicycouncil.org;hackerone.com;;;;goverance.ai;columbia.edu;google.com;ie.edu;mozilla.com;princeton.edu;;mlcommons.org;microsoft.com;;twitter.com;stanford.edu;princeton.edu",
+        "position": "PhD student;MS student;Postdoc;PhD student;PhD student;Cybersecurity & AI Policy Director ;Principal Researcher;Researcher;Researcher;Researcher;Full Professor;CEO and Co-Founder;;Undergrad student;Researcher;Full Professor;Coordinator;Chief Legal and Policy Officer;;;;Researcher;Policy Director;Researcher;Researcher;Technical Lead, AI Governance;Assistant Professor;;executive director ;Principal Researcher;;Director;Associate Professor;Full Professor"
+    },
+    {
         "id": "AEHtq4xHSU",
         "author": "Dhruv Rohatgi;Tanya Marwah;Zachary Chase Lipton;Jianfeng Lu;Ankur Moitra;Andrej Risteski",
         "authorids": "~Dhruv_Rohatgi1;~Tanya_Marwah1;~Zachary_Chase_Lipton1;~Jianfeng_Lu1;~Ankur_Moitra1;~Andrej_Risteski2",
@@ -8278,6 +8518,21 @@
         "aff": ";Hong Kong University of Science and Technology;;Hong Kong Baptist University;Tencent AI Lab;Tencent;Alibaba Group ;Alibaba Group;The Chinese University of Hong Kong;Hong Kong University of Science and Technology (Guangzhou)",
         "aff_domain": ";connect.hkust-gz.edu.cn;;hkbu.edu.hk;tencent.com;tencent.com;alibaba-inc.com;alibaba-inc.com;cuhk.edu.hk;ust.hk",
         "position": ";PhD student;;Researcher;Researcher;Researcher;Senior Staff Algorithm Engineer;Researcher;Professor;Assistant Professor"
+    },
+    {
+        "id": "ASOb5Cw8Rv",
+        "author": "OU DENG;Qun Jin",
+        "authorids": "~OU_DENG1;~Qun_Jin1",
+        "gender": "M;",
+        "homepage": ";",
+        "dblp": ";",
+        "google_scholar": ";",
+        "orcid": "0000-0003-1172-1789;",
+        "linkedin": ";",
+        "or_profile": "~OU_DENG1;~Qun_Jin1",
+        "aff": "Waseda University;",
+        "aff_domain": "waseda.jp;",
+        "position": "PhD student;"
     },
     {
         "id": "ATNEHkXFrW",
@@ -8593,6 +8848,21 @@
         "aff": ";Xiaohongshu;Xiaohongshu;Carnegie Mellon University",
         "aff_domain": ";xiaohongshu.com;xiaohongshu.com;cs.cmu.edu",
         "position": ";Researcher;Researcher;PhD student"
+    },
+    {
+        "id": "Al5mEX6eHF",
+        "author": "Matej Pi\u010dulin;Bernarda Petek;Irena Ograjen\u0161ek;Erik Strumbelj",
+        "authorids": "~Matej_Pi\u010dulin1;~Bernarda_Petek1;~Irena_Ograjen\u0161ek1;~Erik_Strumbelj1",
+        "gender": "M;F;F;M",
+        "homepage": ";https://fri.uni-lj.si/sl/o-fakulteti/osebje/bernarda-petek;;",
+        "dblp": ";;;82/6768",
+        "google_scholar": ";;;B4CBwQIAAAAJ",
+        "orcid": "0000-0002-3883-476X;;0000-0002-2248-1517;",
+        "linkedin": ";;;",
+        "or_profile": "~Matej_Pi\u010dulin1;~Bernarda_Petek1;~Irena_Ograjen\u0161ek1;~Erik_Strumbelj1",
+        "aff": "Faculty of Information and Computer Science;University of Ljubljana;University of Ljubljana;University of Ljubljana",
+        "aff_domain": "fri.uni-lj.si;uni-lj.si;uni-lj.si;uni-lj.si",
+        "position": "Teaching Assistant;PhD student;Full Professor;Full Professor"
     },
     {
         "id": "Al6qG8BlKg",
@@ -8983,6 +9253,21 @@
         "aff": "Zhejiang University;Hong Kong Polytechnic University;Westlake University;Westlake University;Zhejiang University;King's College London, University of London;The Hong Kong Polytechnic University, The Hong Kong Polytechnic University;University College London;Westlake University;University College London;King's College London",
         "aff_domain": "zju.edu.cn;polyu.edu.hk;westlake.edu.cn;westlake.edu;zju.edu.cn;kcl.ac.uk;comp.polyu.edu.hk;ucl.ac.uk;westlake.edu.cn;cs.ucl.ac.uk;kcl.ac.uk",
         "position": "Undergrad student;PhD student;PhD student;PhD student;Principal Researcher;Full Professor;Full Professor;Professor;Full Professor;Researcher;Postdoc"
+    },
+    {
+        "id": "BCP8UU2BcU",
+        "author": "Matthew Riemer;Zahra Ashktorab;Djallel Bouneffouf;Payel Das;Miao Liu;Justin D. Weisz;Murray Campbell",
+        "authorids": "~Matthew_Riemer1;~Zahra_Ashktorab1;~Djallel_Bouneffouf2;~Payel_Das1;~Miao_Liu1;~Justin_D._Weisz1;~Murray_Campbell1",
+        "gender": "M;F;M;F;M;M;M",
+        "homepage": ";https://zahraashktorab.com;;;https://sites.google.com/view/miaoliuhome;;https://researcher.watson.ibm.com/researcher/view.php?person=us-mcam",
+        "dblp": "166/1499;;45/11240-1;56/7926;;02/133;72/3339",
+        "google_scholar": "PK7UzAwAAAAJ;yvZVcDQAAAAJ;;;7QHvAEYAAAAJ;;8rykXfcAAAAJ",
+        "orcid": ";;;;;0000-0003-2228-2398;0000-0001-8158-894X",
+        "linkedin": ";;;;miao-liu-3273a32b;;murray-campbell-5b42a75/",
+        "or_profile": "~Matthew_Riemer1;~Zahra_Ashktorab1;~Djallel_Bouneffouf2;~Payel_Das1;~Miao_Liu1;~Justin_D._Weisz1;~Murray_Campbell1",
+        "aff": "International Business Machines;;;IBM, International Business Machines;International Business Machines;International Business Machines;International Business Machines",
+        "aff_domain": "ibm.com;;;us.ibm.com;ibm.com;ibm.com;ibm.com",
+        "position": "Researcher;;;Principal Researcher;Research Staff Member;Researcher;Research Scientist"
     },
     {
         "id": "BDaMEdNejx",
@@ -9795,6 +10080,21 @@
         "position": "PhD student;PhD student;Full Professor"
     },
     {
+        "id": "CA9NxmmUG5",
+        "author": "Sanchaita Hazra;Bodhisattwa Prasad Majumder;Tuhin Chakrabarty",
+        "authorids": "~Sanchaita_Hazra1;~Bodhisattwa_Prasad_Majumder1;~Tuhin_Chakrabarty2",
+        "gender": "F;;M",
+        "homepage": "https://sanchaitahazra.com/;https://www.majumderb.com/;https://tuhinjubcse.github.io/",
+        "dblp": ";138/6177;227/2812",
+        "google_scholar": ";cEM1a5gAAAAJ;HCmFuo8AAAAJ",
+        "orcid": ";;",
+        "linkedin": ";;",
+        "or_profile": "~Sanchaita_Hazra1;~Bodhisattwa_Prasad_Majumder1;~Tuhin_Chakrabarty2",
+        "aff": "University of Utah;Allen Institute for Artificial Intelligence;State University of New York at Stony Brook",
+        "aff_domain": "utah.edu;allenai.org;stonybrook.edu",
+        "position": "PhD student;Researcher;Assistant Professor"
+    },
+    {
         "id": "CAPNgWkEEk",
         "author": "Mohamad Al Ahdab;john leth;Zheng-Hua Tan",
         "authorids": "~Mohamad_Al_Ahdab1;~john_leth1;~Zheng-Hua_Tan1",
@@ -10123,6 +10423,21 @@
         "aff": "University of Oxford;University of Oxford;University of Oxford;University of Oxford;Microsoft;",
         "aff_domain": "ox.ac.uk;oxford.ac.uk;ox.ac.uk;cs.ox.ac.uk;microsoft.com;ox.ac.uk",
         "position": "PhD student;PhD student;PhD student;Associate Professor;Researcher;Postdoc"
+    },
+    {
+        "id": "CYJlJgEzZs",
+        "author": "Yash Goel;Ayan Sengupta;Tanmoy Chakraborty",
+        "authorids": "~Yash_Goel1;~Ayan_Sengupta1;~Tanmoy_Chakraborty2",
+        "gender": "M;M;M",
+        "homepage": ";https://victor7246.github.io/;http://tanmoychak.com",
+        "dblp": ";;65/2136-2.html",
+        "google_scholar": ";90EGfboAAAAJ;https://scholar.google.co.in/citations?user=C5S9JnIAAAAJ",
+        "orcid": ";;0000-0002-0210-0369",
+        "linkedin": "yash-goel-6ba26322a/;;tanmoy-chakraborty-89553324/",
+        "or_profile": "~Yash_Goel1;~Ayan_Sengupta1;~Tanmoy_Chakraborty2",
+        "aff": "Indian Institute of Technology, Delhi;Indian Institute of Technology, Delhi;Indian Institute of Technology, Delhi",
+        "aff_domain": "iitd.ac.in;iitd.ac.in;iitd.ac.in",
+        "position": "Undergrad student;PhD student;Associate Professor"
     },
     {
         "id": "CYmaCpGDDG",
@@ -10578,16 +10893,16 @@
         "id": "D4Y71nbGRg",
         "author": "Minghao Fu;Guo-Hua Wang;Liangfu Cao;Qing-Guo Chen;Zhao Xu;Weihua Luo;Kaifu Zhang",
         "authorids": "~Minghao_Fu4;~Guo-Hua_Wang1;~Liangfu_Cao1;~Qing-Guo_Chen1;~Zhao_Xu7;~Weihua_Luo2;~Kaifu_Zhang2",
-        "gender": "M;;M;M;;M;M",
-        "homepage": "http://www.lamda.nju.edu.cn/fumh/;;https://github.com/carlfu127;;;;",
-        "dblp": "262/3405;;;63/10301;;22/1116.html;",
-        "google_scholar": "https://scholar.google.com/citations?hl=zh-CN;;;GlqRHLcAAAAJ;;tsKl9GUAAAAJ;e3gpYTYAAAAJ",
-        "orcid": "0000-0002-4685-6600;;;;;0000-0002-5002-6933;",
-        "linkedin": ";;;;;;",
-        "or_profile": "~Minghao_Fu4;~Guo-Hua_Wang1;~Liangfu_Cao1;~Qing-Guo_Chen1;~Zhao_Xu7;~Weihua_Luo2;~Kaifu_Zhang2",
-        "aff": "Alibaba Group;;Alibaba Group;Alibaba Group;;Alibaba International Digital Commerce Group;Alibaba Group",
-        "aff_domain": "alibaba-inc.com;;alibaba-inc.com;alibaba-inc.com;;alibaba-inc.com;alibaba-inc.com",
-        "position": "Intern;;Researcher;Researcher;;Researcher;vice president"
+        "gender": "M;M;M;M;M;M;",
+        "homepage": "http://www.lamda.nju.edu.cn/fumh/;https://github.com/carlfu127;;;;;http://www.lamda.nju.edu.cn/wangguohua",
+        "dblp": "262/3405;;63/10301;;22/1116.html;;247/1178",
+        "google_scholar": "https://scholar.google.com/citations?hl=zh-CN;;GlqRHLcAAAAJ;https://scholar.google.com.au/citations?user=uiDNWw0ABBBJ;tsKl9GUAAAAJ;e3gpYTYAAAAJ;9T7z-kYAAAAJ",
+        "orcid": "0000-0002-4685-6600;;;;0000-0002-5002-6933;;0000-0002-5446-1051",
+        "linkedin": ";;;xuzhaotech/;;;",
+        "or_profile": "~Minghao_Fu4;~Liangfu_Cao1;~Qing-Guo_Chen1;~Zhao_Xu7;~Weihua_Luo2;~Kaifu_Zhang2;~Wang_Guo-Hua1",
+        "aff": "Alibaba Group;Alibaba Group;Alibaba Group;Alibaba Group;Alibaba International Digital Commerce Group;Alibaba Group;Alibaba Group",
+        "aff_domain": "alibaba-inc.com;alibaba-inc.com;alibaba-inc.com;alibaba-inc.com;alibaba-inc.com;alibaba-inc.com;alibaba-inc.com",
+        "position": "Intern;Researcher;Researcher;Researcher;Researcher;vice president;Researcher"
     },
     {
         "id": "D5RNACOZEI",
@@ -10710,6 +11025,21 @@
         "position": "PhD student;PhD student;Assistant Professor;PhD student"
     },
     {
+        "id": "DH84SmPVxR",
+        "author": "Wesley Pasfield",
+        "authorids": "~Wesley_Pasfield1",
+        "gender": "M",
+        "homepage": "https://wesleypasfield.com",
+        "dblp": "",
+        "google_scholar": "",
+        "orcid": "",
+        "linkedin": "wesley-p-82202315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "or_profile": "~Wesley_Pasfield1",
+        "aff": "University of San Diego",
+        "aff_domain": "sandiego.edu",
+        "position": "Instructor"
+    },
+    {
         "id": "DHRUMwDOXy",
         "author": "Yushan Jiang;Wenchao Yu;Geon Lee;Dongjin Song;Kijung Shin;Wei Cheng;Yanchi Liu;Haifeng Chen",
         "authorids": "~Yushan_Jiang1;~Wenchao_Yu1;~Geon_Lee1;~Dongjin_Song2;~Kijung_Shin2;~Wei_Cheng1;~Yanchi_Liu1;~Haifeng_Chen1",
@@ -10813,6 +11143,21 @@
         "aff": "SUN YAT-SEN UNIVERSITY;SUN YAT-SEN UNIVERSITY;Tencent AI Lab;Sun Yat-sen University;SUN YAT-SEN UNIVERSITY;Tencent;;Tencent AI Lab",
         "aff_domain": "sysu.edu.cn;sysu.edu.cn;tencent.com;sysu.edu.cn;sysu.edu.cn;tencent.com;;tencent.com",
         "position": "PhD student;PhD student;Researcher;PhD student;Full Professor;Researcher;;Senior researcher    "
+    },
+    {
+        "id": "DMRrbb36r5",
+        "author": "Ossi R\u00e4is\u00e4;Boris van Breugel;Mihaela van der Schaar",
+        "authorids": "~Ossi_R\u00e4is\u00e41;~Boris_van_Breugel2;~Mihaela_van_der_Schaar2",
+        "gender": "M;;F",
+        "homepage": ";;https://www.vanderschaar-lab.com",
+        "dblp": "296/0031;284/0835;",
+        "google_scholar": "https://scholar.google.fi/citations?user=FpmQ-jcAAAAJ;https://scholar.google.com/citations?hl=en;DZ3S--MAAAAJ",
+        "orcid": ";;",
+        "linkedin": "ossi-r%C3%A4is%C3%A4-749502139/;;",
+        "or_profile": "~Ossi_R\u00e4is\u00e41;~Boris_van_Breugel2;~Mihaela_van_der_Schaar2",
+        "aff": "University of Helsinki;University of Cambridge;University of California, Los Angeles",
+        "aff_domain": "helsinki.fi;cam.ac.uk;ucla.edu",
+        "position": "PhD student;PhD student;Full Professor"
     },
     {
         "id": "DRvtabzN0n",
@@ -11760,6 +12105,21 @@
         "position": "Researcher;Researcher;Principal Researcher;Associate Professor;Full Professor"
     },
     {
+        "id": "ELErARGR5U",
+        "author": "Shih-Wai Lin;Rongwu Xu;Xiaojian Li;Wei Xu",
+        "authorids": "~Shih-Wai_Lin2;~Rongwu_Xu1;~Xiaojian_Li2;~Wei_Xu14",
+        "gender": "M;M;M;M",
+        "homepage": "http://rongwuxu.com;;http://people.iiis.tsinghua.edu.cn/~weixu/;https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4551614",
+        "dblp": "315/6942;;;",
+        "google_scholar": "HyjNrDMAAAAJ;Ehfmt54AAAAJ;6jN5vScAAAAJ;",
+        "orcid": ";;;",
+        "linkedin": ";;;",
+        "or_profile": "~Rongwu_Xu1;~Xiaojian_Li2;~Wei_Xu14;~LIN_SHIH-WAI1",
+        "aff": "Tsinghua University;Tsinghua University;Tsinghua University;Tsinghua University",
+        "aff_domain": "tsinghua.edu.cn;mail.tsinghua.edu.cn;tsinghua.edu.cn;mail.tsinghua.edu.cn",
+        "position": "MS student;Intern;Associate Professor;PhD student"
+    },
+    {
         "id": "EMHED4WTHT",
         "author": "Liang CHEN;Xueting Han;Li Shen;Jing Bai;Kam-Fai Wong",
         "authorids": "~Liang_CHEN15;~Xueting_Han2;~Li_Shen1;~Jing_Bai3;~Kam-Fai_Wong2",
@@ -11833,6 +12193,21 @@
         "aff": "Institute of Automation, Chinese Academy of Sciences;Shanghai Jiaotong University;Griffith University;;ByteDance AI Lab;ByteDance Research;Tsinghua University;University of California, Los Angeles",
         "aff_domain": "ia.ac.cn;sjtu.edu.cn;griffith.edu.au;;bytedance.com;bytedance.com;tsinghua.edu.cn;cs.ucla.edu",
         "position": "PhD student;PhD student;PhD student;;Researcher;Research Scientist;Associate Professor;Associate Professor"
+    },
+    {
+        "id": "ET6qJpllEi",
+        "author": "Patrik Reizinger;Randall Balestriero;David Klindt;Wieland Brendel",
+        "authorids": "~Patrik_Reizinger1;~Randall_Balestriero1;~David_Klindt1;~Wieland_Brendel1",
+        "gender": "M;M;;M",
+        "homepage": "https://rpatrik96.github.io/;https://randallbalestriero.github.io/;;",
+        "dblp": "249/5412;175/5364;;37/11107",
+        "google_scholar": "zIT0fdIAAAAJ;S1x_xqcAAAAJ;;v-JL-hsAAAAJ",
+        "orcid": "0000-0001-9861-0293;;;",
+        "linkedin": "patrik-reizinger/;randallbalestriero/;;",
+        "or_profile": "~Patrik_Reizinger1;~Randall_Balestriero1;~David_Klindt1;~Wieland_Brendel1",
+        "aff": "Eberhard-Karls-Universit\u00e4t T\u00fcbingen;Brown University;;ELLIS Institute T\u00fcbingen",
+        "aff_domain": "uni-tuebingen.de;brown.edu;;tue.ellis.eu",
+        "position": "PhD student;Assistant Professor;;Principal Researcher"
     },
     {
         "id": "ETIsFhZwhJ",
@@ -12208,6 +12583,21 @@
         "aff": ";Wuhan University;Sun Yat-Sen University;Nanyang Technological University;Tsinghua University;SUN YAT-SEN UNIVERSITY",
         "aff_domain": ";whu.edu.cn;mail.sysu.edu.cn;e.ntu.edu.sg;tsinghua.edu.cn;sysu.edu.cn",
         "position": ";PhD student;Associate Professor;PhD student;Full Professor;Full Professor"
+    },
+    {
+        "id": "ErKu9lP91g",
+        "author": "Judy Hanwen Shen",
+        "authorids": "~Judy_Hanwen_Shen1",
+        "gender": "F",
+        "homepage": "http://heyyjudes.github.io/",
+        "dblp": "217/2243",
+        "google_scholar": "LCjSZ3eS8pIC",
+        "orcid": "",
+        "linkedin": "",
+        "or_profile": "~Judy_Hanwen_Shen1",
+        "aff": "Stanford University",
+        "aff_domain": "stanford.edu",
+        "position": "PhD student"
     },
     {
         "id": "EscpGI2XAx",
@@ -13440,6 +13830,21 @@
         "position": "PhD student;Associate Professor;Assistant Professor"
     },
     {
+        "id": "GCqffUAyiu",
+        "author": "Soumya Banerjee;Andrew Krapivin",
+        "authorids": "~Soumya_Banerjee3;~Andrew_Krapivin1",
+        "gender": "M;M",
+        "homepage": "https://sites.google.com/site/neelsoumya;",
+        "dblp": "05/5654-3;",
+        "google_scholar": "https://scholar.google.co.uk/citations?user=WQwMsyQAAAAJ;",
+        "orcid": "0000-0001-7748-9885;",
+        "linkedin": "soumya-banerjee-46a86133/;andrew-krapivin",
+        "or_profile": "~Soumya_Banerjee3;~Andrew_Krapivin1",
+        "aff": "University of Cambridge;University of Cambridge",
+        "aff_domain": "cam.ac.uk;cam.ac.uk",
+        "position": "Researcher;MS student"
+    },
+    {
         "id": "GDvO6viRCF",
         "author": "Dominik Fuchsgruber;Tom Wollschl\u00e4ger;Johannes Bordne;Stephan G\u00fcnnemann",
         "authorids": "~Dominik_Fuchsgruber1;~Tom_Wollschl\u00e4ger1;~Johannes_Bordne1;~Stephan_G\u00fcnnemann1",
@@ -13755,6 +14160,21 @@
         "position": "Integrated PhD student;PhD student;Full Professor;Research Scientist;Research Scientist"
     },
     {
+        "id": "GYZLed4d3M",
+        "author": "Indradyumna Roy;Saswat Meher;Eeshaan Jain;Soumen Chakrabarti;Abir De",
+        "authorids": "~Indradyumna_Roy1;~Saswat_Meher1;~Eeshaan_Jain1;~Soumen_Chakrabarti1;~Abir_De1",
+        "gender": "M;M;M;Not Specified;M",
+        "homepage": "https://indradyumna.github.io/;;https://eeshaanjain.github.io;https://www.cse.iitb.ac.in/~soumen/;",
+        "dblp": "124/9185.html;;;c/SChakrabarti;118/7174",
+        "google_scholar": "qb70i84AAAAJ;https://scholar.google.com/citations?hl=en;r5rqqJEAAAAJ;https://scholar.google.com.tw/citations?user=LfF2zfQAAAAJ;https://scholar.google.co.in/citations?user=_9ZKKbIAAAAJ",
+        "orcid": ";;;;",
+        "linkedin": ";;eeshaanjain/;;",
+        "or_profile": "~Indradyumna_Roy1;~Saswat_Meher1;~Eeshaan_Jain1;~Soumen_Chakrabarti1;~Abir_De1",
+        "aff": "Indian Institute of Technology Bombay;;EPFL - EPF Lausanne;Indian Institute of Technology Bombay;Indian Institute of Technology Bombay,",
+        "aff_domain": "iitb.ac.in;;epfl.ch;iitb.ac.in;iitb.ac.in",
+        "position": "PhD student;;PhD student;Professor;Assistant Professor"
+    },
+    {
         "id": "GZ7gwOZ6Or",
         "author": "Ruben Weitzman;Peter M\u00f8rch Groth;Lood Van Niekerk;Aoi Otani;Yarin Gal;Debora Susan Marks;Pascal Notin",
         "authorids": "~Ruben_Weitzman1;~Peter_M\u00f8rch_Groth1;~Lood_Van_Niekerk1;~Aoi_Otani1;~Yarin_Gal1;~Debora_Susan_Marks1;~Pascal_Notin1",
@@ -13935,6 +14355,21 @@
         "position": "MS student;PhD student;Researcher;Associate Professor;;Full Professor"
     },
     {
+        "id": "Gl3V36BkCL",
+        "author": "Zerui Cheng;Edoardo Contente;Oleg Aleksandrovich Golev;Jonathan Hayase;Andrew Miller;Niusha Moshrefi;Anshul Nasery;Sewoong Oh;Himanshu Tyagi;Pramod Viswanath",
+        "authorids": "~Zerui_Cheng1;~Edoardo_Contente1;~Oleg_Aleksandrovich_Golev1;~Jonathan_Hayase2;~Andrew_Miller3;~Niusha_Moshrefi1;~Anshul_Nasery2;~Sewoong_Oh3;~Himanshu_Tyagi1;~Pramod_Viswanath2",
+        "gender": "M;;M;M;;F;M;M;M;M",
+        "homepage": "https://www.zerui-cheng.com/;;;https://jhayase.github.io/;https;//soc1024.com;;https://cse.iitb.ac.in/~anshuln;;http://pramodv.ece.illinois.edu;https://homes.cs.washington.edu/~sewoong/",
+        "dblp": "330/4351.html;;;244/9599;;;268/5650;11/4803;;80/4366",
+        "google_scholar": "BK4DaPAAAAAJ;gotchs4AAAAJ;https://scholar.google.com/citations?hl=en;Zw-l1d8AAAAJ;;bTFRzc8AAAAJ;lmvY2SMAAAAJ;;lPycXNcAAAAJ;55TAOdgAAAAJ",
+        "orcid": "0000-0003-3397-9844;;0009-0008-7878-9992;0000-0002-3757-6586;;;;;;",
+        "linkedin": "zerui-cheng/;edoardo-contente/;oleg-golev/;jonathan-hayase-5ab849128;;niusha-moshrefi/;;;;",
+        "or_profile": "~Zerui_Cheng1;~Edoardo_Contente1;~Oleg_Aleksandrovich_Golev1;~Jonathan_Hayase2;~Andrew_Miller3;~Niusha_Moshrefi1;~Anshul_Nasery2;~Himanshu_Tyagi1;~Pramod_Viswanath2;~Sewoong_Oh1",
+        "aff": "Princeton University;Sentient;Sentient Foundation;University of Washington;University of Illinois, Urbana Champaign;Princeton University;University of Washington;Indian Institute of Science;University of Illinois, Urbana Champaign;University of Washington",
+        "aff_domain": "princeton.edu;sentient.foundation;sentient.foundation;washington.edu;illinois.edu;princeton.edu;uw.edu;iisc.ac.in;illinois.edu;uw.edu",
+        "position": "PhD student;Researcher;Researcher;PhD student;Associate Professor;PhD student;PhD student;Assistant Professor;Full Professor;Full Professor"
+    },
+    {
         "id": "GmqZ3WvkeV",
         "author": "Aditi Mavalankar;Hassan Mansoor;Zita Marinho;Mariia Samsikova;Tom Schaul",
         "authorids": "~Aditi_Mavalankar1;~Hassan_Mansoor1;~Zita_Marinho1;~Mariia_Samsikova2;~Tom_Schaul2",
@@ -14023,6 +14458,21 @@
         "aff": "Hong Kong Polytechnic University;Hong Kong Polytechnic University;Hong Kong Polytechnic University;Chongqing University;",
         "aff_domain": "polyu.edu.hk;polyu.edu.hk;polyu.edu.hk;cqu.edu.cn;",
         "position": "Postdoc;Assistant Professor;PhD student;Full Professor;"
+    },
+    {
+        "id": "GrBXso0e17",
+        "author": "Andrew Craig Cullen;Paul Montague;Sarah Monazam Erfani;Benjamin I. P. Rubinstein",
+        "authorids": "~Andrew_Craig_Cullen1;~Paul_Montague1;~Sarah_Monazam_Erfani1;~Benjamin_I._P._Rubinstein1",
+        "gender": "M;M;;M",
+        "homepage": "https://www.andrewcraigcullen.com;;https://people.eng.unimelb.edu.au/smonazam/;http://www.bipr.net/",
+        "dblp": "238/6828;50/805;136/0170;90/1092",
+        "google_scholar": "BeXBviIAAAAJ;;https://scholar.google.com.au/citations?user=Jq9ocx4AAAAJ;https://scholar.google.com.au/citations?user=hMG_gR4AAAAJ",
+        "orcid": "0000-0001-8243-6470;0000-0001-9461-7471;;0000-0002-2947-6980",
+        "linkedin": ";;;benjaminrubinstein/",
+        "or_profile": "~Andrew_Craig_Cullen1;~Paul_Montague1;~Sarah_Monazam_Erfani1;~Benjamin_I._P._Rubinstein1",
+        "aff": "The University of Melbourne;Defence Science and Technology Group;The University of Melbourne;The University of Melbourne",
+        "aff_domain": "unimelb.edu.au;dst.defence.gov.au;unimelb.edu.au;unimelb.edu.au",
+        "position": "Postdoc;Researcher;Associate Professor;Associate Professor"
     },
     {
         "id": "GrF14Q0DNW",
@@ -14173,6 +14623,21 @@
         "aff": "Nanjing University of Science and Technology;Nanjing University of Science and Technology",
         "aff_domain": "njust.edu.cn;njust.edu.cn",
         "position": "Full Professor;PhD student"
+    },
+    {
+        "id": "H72JEXAPwo",
+        "author": "Jillian Fisher;Ruth Elisabeth Appel;Chan Young Park;Yujin Potter;Liwei Jiang;Taylor Sorensen;Shangbin Feng;Yulia Tsvetkov;Margaret Roberts;Jennifer Pan;Dawn Song;Yejin Choi",
+        "authorids": "~Jillian_Fisher1;~Ruth_Elisabeth_Appel1;~Chan_Young_Park1;~Yujin_Potter1;~Liwei_Jiang2;~Taylor_Sorensen1;~Shangbin_Feng1;~Yulia_Tsvetkov1;~Margaret_Roberts1;~Jennifer_Pan1;~Dawn_Song1;~Yejin_Choi1",
+        "gender": "F;F;F;F;F;M;M;F;F;F;F;F",
+        "homepage": "http://jfisher52.github.io;https://ruthappel.github.io/;https://chan0park.github.io;;https://liweijiang.me;https://tsor13.github.io;https://bunsenfeng.github.io/;https://homes.cs.washington.edu/~yuliats/;http://margaretroberts.net;https://jenpan.com/;;https://yejinc.github.io/",
+        "dblp": "336/3238;401/7727;15/480;;;294/0706;295/9571;75/8157;;225/7717;s/DXSong;89/579-1",
+        "google_scholar": "Gnk0E_QAAAAJ;3flEE1wAAAAJ;https://scholar.google.com/citations?hl=en;ZDG9RD8AAAAJ;lcPsDgUAAAAJ;https://scholar.google.com/citations?hl=en;Y3rLP9UAAAAJ;SEDPkrsAAAAJ;;5EIL7zMAAAAJ;;vhP-tlcAAAAJ",
+        "orcid": ";0000-0003-2344-2023;;;;0000-0002-3251-3527;0000-0002-4133-1987;0000-0002-4634-7128;;0000-0002-4818-0122;;",
+        "linkedin": "jillianrosefisher/;;;;;sorensen-taylor/;;;;jenpan/;;",
+        "or_profile": "~Jillian_Fisher1;~Ruth_Elisabeth_Appel1;~Chan_Young_Park1;~Yujin_Potter1;~Liwei_Jiang2;~Taylor_Sorensen1;~Shangbin_Feng1;~Yulia_Tsvetkov1;~Margaret_Roberts1;~Jennifer_Pan1;~Dawn_Song1;~Yejin_Choi1",
+        "aff": "University of Washington;Stanford University;Department of Computer Science, University of Washington;University of California, Berkeley;University of Washington;Google DeepMind;University of Washington;Department of Computer Science, University of Washington;University of California, San Diego;Stanford University;University of California, Berkeley;NVIDIA",
+        "aff_domain": "uw.edu;stanford.edu;cs.washington.edu;berkeley.edu;washington.edu;deepmind.com;cs.washington.edu;cs.washington.edu;ucsd.edu;stanford.edu;berkeley.edu;nvidia.com",
+        "position": "PhD student;Postdoc;Postdoc;Postdoc;PhD student;Intern;PhD student;Associate Professor;Full Professor;Full Professor;Full Professor;Researcher"
     },
     {
         "id": "H76PMm7hf2",
@@ -14790,6 +15255,21 @@
         "position": "PhD student;;Associate Professor"
     },
     {
+        "id": "HuvAM5x2xG",
+        "author": "Kaiyu Yang;Gabriel Poesia;Jingxuan He;Wenda Li;Kristin E. Lauter;Swarat Chaudhuri;Dawn Song",
+        "authorids": "~Kaiyu_Yang1;~Gabriel_Poesia1;~Jingxuan_He1;~Wenda_Li1;~Kristin_E._Lauter1;~Swarat_Chaudhuri2;~Dawn_Song1",
+        "gender": "M;M;M;M;F;F;M",
+        "homepage": "https://yangky11.github.io;https://gpoesia.com;https://www.sri.inf.ethz.ch/people/jingxuan;https://wenda302.github.io;https://ai.facebook.com/people/kristin-lauter/;;http://www.cs.utexas.edu/~swarat",
+        "dblp": "177/9276;150/2695.html;;132/9868.html;08/1510;s/DXSong;37/6100",
+        "google_scholar": "FciCu4EAAAAJ;as5iYn4AAAAJ;ylHZY58AAAAJ;ufYxQkEAAAAJ;TmuUs30AAAAJ;;9j6RBYQAAAAJ",
+        "orcid": "0000-0002-2777-612X;;;;;;0000-0002-6859-1391",
+        "linkedin": "kaiyuy;;;;kristin-lauter-6508a410/?fbclid=IwAR08l11qSLSgripTtUitzaGOeqECvw-A0xBhz3ZeqSGVZL28xbq6AO_jBgw;;swarat-chaudhuri-609b3092/",
+        "or_profile": "~Kaiyu_Yang1;~Gabriel_Poesia1;~Jingxuan_He1;~Wenda_Li1;~Kristin_E._Lauter1;~Dawn_Song1;~Swarat_Chaudhuri1",
+        "aff": "Meta;Stanford University;University of California, Berkeley;University of Edinburgh;Meta Facebook;University of California, Berkeley;University of Texas at Austin",
+        "aff_domain": "meta.com;stanford.edu;berkeley.edu;ed.ac.uk;fb.com;berkeley.edu;utexas.edu",
+        "position": "Researcher;PhD student;Postdoc;Lecturer;Principal Researcher;Full Professor;Full Professor"
+    },
+    {
         "id": "Hw6MDsaor9",
         "author": "Shi Liu;Weijie Su;Xizhou Zhu;Wenhai Wang;Jifeng Dai",
         "authorids": "~Shi_Liu1;~Weijie_Su2;~Xizhou_Zhu1;~Wenhai_Wang2;~Jifeng_Dai1",
@@ -14908,6 +15388,21 @@
         "aff": "Columbia University;Columbia University;Department of Computer Science, University of Toronto;Columbia University",
         "aff_domain": "columbia.edu;columbia.edu;cs.toronto.edu;columbia.edu",
         "position": "Undergrad student;PhD student;Full Professor;Assistant Professor"
+    },
+    {
+        "id": "I7nESnBvib",
+        "author": "Amir-Hossein Karimi",
+        "authorids": "~Amir-Hossein_Karimi1",
+        "gender": "",
+        "homepage": "https://sites.google.com/view/amirhkarimi",
+        "dblp": "",
+        "google_scholar": "https://scholar.google.ca/citations?user=umI56k0AAAAJ",
+        "orcid": "",
+        "linkedin": "amir-hossein-karimi-4a008538/",
+        "or_profile": "~Amir-Hossein_Karimi1",
+        "aff": "University of Waterloo",
+        "aff_domain": "uwaterloo.ca",
+        "position": "Assistant Professor"
     },
     {
         "id": "I8DVh2jnEA",
@@ -15405,6 +15900,21 @@
         "position": "PhD student;PhD student;PhD student;PhD student;Assistant Professor;Assistant Professor"
     },
     {
+        "id": "IxCvgUme5S",
+        "author": "Rashid Mushkani;Hugo Berard;Allison Cohen;Shin Koseki",
+        "authorids": "~Rashid_Mushkani1;~Hugo_Berard2;~Allison_Cohen1;~Shin_Koseki1",
+        "gender": "M;F;;M",
+        "homepage": ";;https://unesco-payasage.umontreal.ca;https://rsdmu.com/",
+        "dblp": "205/3145;;;",
+        "google_scholar": "P5d_140AAAAJ;;;PClylNUAAAAJ",
+        "orcid": ";;;",
+        "linkedin": ";allison-brooke-cohen/;;",
+        "or_profile": "~Hugo_Berard2;~Allison_Cohen1;~Shin_Koseki1;~RSDMU1",
+        "aff": "University of Montreal, University of Montreal;Montreal Institute for Learning Algorithms, University of Montreal, Universit\u00e9 de Montr\u00e9al;Universit\u00e9 de Montr\u00e9al;Universit\u00e9 de Montr\u00e9al",
+        "aff_domain": "iro.umontreal.ca;mila.umontreal.ca;umontreal.ca;umontreal.ca",
+        "position": "PhD student;Researcher;Assistant Professor;PhD student"
+    },
+    {
         "id": "IyVcxU0RKI",
         "author": "Yuxin Zuo;Shang Qu;Yifei Li;Zhang-Ren Chen;Xuekai Zhu;Ermo Hua;Kaiyan Zhang;Ning Ding;Bowen Zhou",
         "authorids": "~Yuxin_Zuo1;~Shang_Qu1;~Yifei_Li22;~Zhang-Ren_Chen1;~Xuekai_Zhu1;~Ermo_Hua1;~Kaiyan_Zhang1;~Ning_Ding5;~Bowen_Zhou8",
@@ -15478,6 +15988,21 @@
         "aff": "Princeton University;Princeton University;Princeton University;New York University;Princeton University;Princeton University",
         "aff_domain": "princeton.edu;cs.princeton.edu;princeton.edu;nyu.edu;princeton.edu;princeton.edu",
         "position": "PhD student;MS student;Undergrad student;Faculty Fellow/Assistant Professor;Full Professor;Professor"
+    },
+    {
+        "id": "J5MmGPWKfb",
+        "author": "Andy K Zhang;Kevin Klyman;Yifan Mai;Yoav Levine;Yian Zhang;Rishi Bommasani;Percy Liang",
+        "authorids": "~Andy_K_Zhang2;~Kevin_Klyman1;~Yifan_Mai1;~Yoav_Levine1;~Yian_Zhang1;~Rishi_Bommasani1;~Percy_Liang1",
+        "gender": "M;M;Non-Binary;M;;M;",
+        "homepage": "https://no.website;;https://yifanmai.com/;;;https://rishibommasani.github.io/;https://cs.stanford.edu/~pliang/",
+        "dblp": ";;156/8369;199/1895;;245/8673;04/1701",
+        "google_scholar": ";PhN2CjMAAAAJ;QLbLGIMAAAAJ;;;WMBXw1EAAAAJ;pouyVyUAAAAJ",
+        "orcid": ";;0009-0004-7270-2607;;;;",
+        "linkedin": ";;yifan-mai;;;;",
+        "or_profile": "~Andy_K_Zhang2;~Kevin_Klyman1;~Yifan_Mai1;~Yoav_Levine1;~Yian_Zhang1;~Rishi_Bommasani1;~Percy_Liang1",
+        "aff": "Computer Science Department, Stanford University;Stanford University;Stanford University;;;Stanford University;Stanford University",
+        "aff_domain": "cs.stanford.edu;stanford.edu;stanford.edu;;;stanford.edu;stanford.edu",
+        "position": "Researcher;MS student;Researcher;;;PhD student;Associate Professor"
     },
     {
         "id": "J5SbLoq7Uv",
@@ -15705,6 +16230,21 @@
         "position": "PhD student;PhD student;Professor;Adjunct Professor"
     },
     {
+        "id": "JMoWFkwnvv",
+        "author": "Golnaz Mesbahi;Parham Mohammad Panahi;Olya Mastikhina;Steven Tang;Martha White;Adam White",
+        "authorids": "~Golnaz_Mesbahi1;~Parham_Mohammad_Panahi1;~Olya_Mastikhina1;~Steven_Tang1;~Martha_White1;~Adam_White1",
+        "gender": "F;M;;M;F;M",
+        "homepage": "https://golnazmes.github.io/;https://panahiparham.github.io;;https://steventango.github.io/;http://marthawhite.ca;http://adamwhite.ca",
+        "dblp": ";;;;60/7057;91/10481",
+        "google_scholar": ";https://scholar.google.ca/citations?user=LCRB4rcAAAAJ;C_JEofwAAAAJ;;t5zdD_IAAAAJ;https://scholar.google.ca/citations?user=1GqGhcsAAAAJ",
+        "orcid": ";;;;0000-0002-5356-2950;",
+        "linkedin": "golnazmes/;parham-mohammad-panahi-216941175;;steven--tang/;;",
+        "or_profile": "~Golnaz_Mesbahi1;~Parham_Mohammad_Panahi1;~Olya_Mastikhina1;~Steven_Tang1;~Martha_White1;~Adam_M_White1",
+        "aff": ";University of Alberta;Universit\u00e9 de Montr\u00e9al;University of Alberta;University of Alberta;University of Alberta",
+        "aff_domain": ";ualberta.ca;umontreal.ca;ualberta.ca;ualberta.ca;ualberta.ca",
+        "position": ";Researcher;PhD student;MS student;Associate Professor;Assistant Professor"
+    },
+    {
         "id": "JN8O01IZYR",
         "author": "Niccol\u00f2 Ajroldi;Antonio Orvieto;Jonas Geiping",
         "authorids": "~Niccol\u00f2_Ajroldi1;~Antonio_Orvieto3;~Jonas_Geiping1",
@@ -15725,7 +16265,7 @@
         "authorids": "~Yunpeng_Qu1;~Kun_Yuan1;~Jinhua_Hao1;~Kai_Zhao8;~Qizhi_Xie1;~Ming_Sun4;~Chao_Zhou7",
         "gender": "M;M;M;M;M;M;M",
         "homepage": ";https://yoookoo.github.io/yuankun/;https://eric-hao.github.io/;https://k-zha14.github.io/;https://github.com/KeiChiTse;https://msunming.github.io/;",
-        "dblp": ";;372/0042;;123/4373;39/1471-8.html;",
+        "dblp": "366/7443;;372/0042;;123/4373;39/1471-8.html;",
         "google_scholar": "OAOigegAAAAJ;fCeZ32EAAAAJ;hVMNCSQAAAAJ;HwSWNyUAAAAJ;;https://scholar.google.com.hk/citations?hl=zh-CN;https://scholar.google.com/citations?hl=zh-CN",
         "orcid": "0009-0006-9700-6290;;0000-0003-4571-2063;;0000-0001-6171-9789;;",
         "linkedin": ";;;;;;",
@@ -16033,6 +16573,21 @@
         "aff": "University of Pennsylvania;School of Engineering and Science, University of Pennsylvania;University of Pennsylvania",
         "aff_domain": "upenn.edu;seas.upenn.edu;upenn.edu",
         "position": "PhD student;MS student;Full Professor"
+    },
+    {
+        "id": "JkcSsFWdGP",
+        "author": "Yuhe Guo;Huayi Tang;Jiahong Ma;Hongteng Xu;Zhewei Wei",
+        "authorids": "~Yuhe_Guo1;~Huayi_Tang1;~Jiahong_Ma1;~Hongteng_Xu1;~Zhewei_Wei1",
+        "gender": "F;;;M;M",
+        "homepage": "https://yuziguo.github.io/;;;https://hongtengxu.github.io;http://weizhewei.com",
+        "dblp": "217/5485.html;;;38/10816;94/4260",
+        "google_scholar": "NZXaCVgAAAAJ;;;7gYVOO8AAAAJ;https://scholar.google.com.hk/citations?user=qZ7dj4gAAAAJ",
+        "orcid": ";;;0000-0003-4192-5360;0000-0003-3620-5086",
+        "linkedin": ";;;;",
+        "or_profile": "~Yuhe_Guo1;~Huayi_Tang1;~Jiahong_Ma1;~Hongteng_Xu1;~Zhewei_Wei1",
+        "aff": "Renmin University of China;;;Renmin University of China;Renmin University of China",
+        "aff_domain": "ruc.edu.cn;;;ruc.edu.cn;ruc.edu.cn",
+        "position": "PhD student;;;Associate Professor;Full Professor"
     },
     {
         "id": "JmOCquEAqW",
@@ -16483,6 +17038,21 @@
         "aff": "Google DeepMind;Google DeepMind ;ETHZ - ETH Zurich;Google DeepMind;Google;Google DeepMind;;Google;;Google DeepMind;Google DeepMind;Google DeepMind;Google;;Google;Google DeepMind",
         "aff_domain": "deepmind.com;google.com;ethz.ch;deepmind.com;deepmind.com;google.com;;google.com;;deepmind.com;deepmind.com;google.com;google.com;;google.com;deepmind.com",
         "position": "Researcher;Researcher;PhD student;Research Scientist;Researcher;Researcher;;Researcher;;Researcher;Research Scientist;Senior Staff Research Scientist;Researcher;;Researcher;Researcher"
+    },
+    {
+        "id": "KL8bi77TFF",
+        "author": "ali borji",
+        "authorids": "~ali_borji1",
+        "gender": "M",
+        "homepage": "https://scholar.google.com.tw/citations?user=7jTNT1IAAAAJ",
+        "dblp": "49/6311",
+        "google_scholar": "7jTNT1IAAAAJ",
+        "orcid": "",
+        "linkedin": "ali-borji-5736433a/",
+        "or_profile": "~ali_borji1",
+        "aff": "PrimerAI",
+        "aff_domain": "primer.ai",
+        "position": "ML Engineer"
     },
     {
         "id": "KM7pXWG1xj",
@@ -17025,6 +17595,21 @@
         "position": "PhD student;PhD student;Associate Professor"
     },
     {
+        "id": "L6RpQ1h4Nx",
+        "author": "Nikhil Kandpal;Colin Raffel",
+        "authorids": "~Nikhil_Kandpal2;~Colin_Raffel1",
+        "gender": "M;",
+        "homepage": "https://nkandpa2.github.io;http://colinraffel.com",
+        "dblp": "247/5935;149/0082",
+        "google_scholar": "jGdqlOwAAAAJ;I66ZBYwAAAAJ",
+        "orcid": ";",
+        "linkedin": ";",
+        "or_profile": "~Nikhil_Kandpal2;~Colin_Raffel1",
+        "aff": "University of Toronto;Hugging Face",
+        "aff_domain": "cs.toronto.edu;huggingface.co",
+        "position": "PhD student;Researcher"
+    },
+    {
         "id": "L6U7nYc4ah",
         "author": "Lan-Cuong Nguyen;Quan Nguyen-Tri;Bang Tran Khanh;Dung D. Le;Long Tran-Thanh;Khoat Than",
         "authorids": "~Lan-Cuong_Nguyen1;~Quan_Nguyen-Tri1;~Bang_Tran_Khanh1;~Dung_D._Le2;~Long_Tran-Thanh1;~Khoat_Than1",
@@ -17220,6 +17805,21 @@
         "position": "PhD student;Full Professor"
     },
     {
+        "id": "LEYmr1TsBW",
+        "author": "Elliot Meyerson;Xin Qiu",
+        "authorids": "~Elliot_Meyerson1;~Xin_Qiu1",
+        "gender": "M;M",
+        "homepage": ";https://vsonicv.github.io/",
+        "dblp": "149/2699;83/7479-1",
+        "google_scholar": "RT_LBQ4AAAAJ;https://scholar.google.com/citations?hl=en",
+        "orcid": ";",
+        "linkedin": "ekmeyerson/;xin-qiu-4a5ba0116/",
+        "or_profile": "~Elliot_Meyerson1;~Xin_Qiu1",
+        "aff": "Cognizant AI Labs;Cognizant",
+        "aff_domain": "cognizant.com;cognizant.com",
+        "position": "Research Scientist;Principal Research Scientist & Sr. Director"
+    },
+    {
         "id": "LFF7kUQ5Rp",
         "author": "Ze Cheng;Zhuoyu Li;Wang Xiaoqiang;Jianing Huang;Zhizhou Zhang;Zhongkai Hao;Hang Su",
         "authorids": "~Ze_Cheng2;~Zhuoyu_Li2;~Wang_Xiaoqiang1;~Jianing_Huang1;~Zhizhou_Zhang1;~Zhongkai_Hao1;~Hang_Su3",
@@ -17263,6 +17863,21 @@
         "aff": "Simon Fraser University;Samsung",
         "aff_domain": "sfu.ca;samsung.com",
         "position": "Assistant Professor;Research Scientist"
+    },
+    {
+        "id": "LL39y0Tfxb",
+        "author": "Lionel Wong;Ayman Ali;Raymond M Xiong;Zejiang Shen;Yoon Kim;Monica Agrawal",
+        "authorids": "~Lionel_Wong1;~Ayman_Ali1;~Raymond_M_Xiong1;~Zejiang_Shen1;~Yoon_Kim1;~Monica_Agrawal1",
+        "gender": ";M;M;;;F",
+        "homepage": ";;https://rayarxti.github.io/;;https://people.csail.mit.edu/yoonkim/;https://people.csail.mit.edu/magrawal/",
+        "dblp": ";;;;;https://dblp.org/pers/a/Agrawal:Monica.html",
+        "google_scholar": ";S-iDFMsAAAAJ;;;n_ts4eYAAAAJ;R4Q7jzgAAAAJ",
+        "orcid": ";0000-0002-2791-2793;;;;",
+        "linkedin": ";;;;;",
+        "or_profile": "~Lionel_Wong1;~Ayman_Ali1;~Raymond_M_Xiong1;~Zejiang_Shen1;~Yoon_Kim1;~Monica_Agrawal1",
+        "aff": ";Duke University;Duke University;;Massachusetts Institute of Technology;Layer Health",
+        "aff_domain": ";duke.edu;duke.edu;;mit.edu;layerhealth.com",
+        "position": ";Resident;Undergrad student;;Assistant Professor;Researcher"
     },
     {
         "id": "LL8R2QUEvB",
@@ -17595,6 +18210,21 @@
         "position": ";MS student;Researcher;Associate Professor;Full Professor"
     },
     {
+        "id": "LkdH35003E",
+        "author": "Andreas Haupt;Erik Brynjolfsson",
+        "authorids": "~Andreas_Haupt1;~Erik_Brynjolfsson1",
+        "gender": "M;M",
+        "homepage": "https://brynjolfsson.com;https://www.andyhaupt.com/",
+        "dblp": "b/EBrynjolfsson.html;158/5197.html",
+        "google_scholar": "lqyGZpQAAAAJ;O6NknDYAAAAJ",
+        "orcid": "0000-0002-8031-6990;0000-0002-2952-4188",
+        "linkedin": "erikbrynjolfsson/;indraos/",
+        "or_profile": "~Erik_Brynjolfsson1;~Andreas_Alexander_Haupt1",
+        "aff": "Stanford University;Stanford University",
+        "aff_domain": "stanford.edu;stanford.edu",
+        "position": "Full Professor;Postdoc"
+    },
+    {
         "id": "LkgwdSzlb6",
         "author": "Jintao Tong;Yixiong Zou;Guangyao Chen;Yuhua Li;Ruixuan Li",
         "authorids": "~Jintao_Tong1;~Yixiong_Zou1;~Guangyao_Chen1;~Yuhua_Li2;~Ruixuan_Li1",
@@ -17713,6 +18343,21 @@
         "aff": ";Tongji University;The Chinese University of Hong Kong;;University of Science and Technology of China;National University of Singapore;Nanyang Technological University;University of North Carolina at Chapel Hill;Tongji University",
         "aff_domain": ";tongji.edu.cn;se.cuhk.edu.hk;;ustc.edu.cn;nus.edu.sg;ntu.edu.sg;unc.edu;tongji.edu.cn",
         "position": ";Undergrad student;Postdoc;;Undergrad student;Postdoc;Postdoc;Assistant Professor;Associate Professor"
+    },
+    {
+        "id": "Lrv20S5RZV",
+        "author": "Michael Kirchhof;Gjergji Kasneci;Enkelejda Kasneci",
+        "authorids": "~Michael_Kirchhof1;~Gjergji_Kasneci2;~Enkelejda_Kasneci1",
+        "gender": "M;M;F",
+        "homepage": "https://www.hci.uni-tuebingen.de/chair/team/michael-kirchhof;https://www.gov.sot.tum.de/rds/prof-dr-gjergji-kasneci/;https://www.edu.sot.tum.de/hctl/prof-dr-enkelejda-kasneci/",
+        "dblp": "65/6349;69/3216;08/1610",
+        "google_scholar": "Xtgj8q0AAAAJ;Zbc8GK4AAAAJ;https://scholar.google.de/citations?user=bZVkVvoAAAAJ",
+        "orcid": "0000-0003-4521-9391;0000-0002-3123-7268;0000-0003-3146-4484",
+        "linkedin": "michael-kirchhof;;",
+        "or_profile": "~Michael_Kirchhof1;~Gjergji_Kasneci2;~Enkelejda_Kasneci1",
+        "aff": "Apple;University of Tuebingen;Technische Universit\u00e4t M\u00fcnchen",
+        "aff_domain": "apple.com;uni-tuebingen.de;tum.de",
+        "position": "Researcher;Professor;Full Professor"
     },
     {
         "id": "Lw0kC75dY0",
@@ -18360,6 +19005,21 @@
         "position": "PhD student;Researcher;Assistant Professor;Principal Researcher;Research Scientist;Postdoc"
     },
     {
+        "id": "MxCJbuJhWG",
+        "author": "Yan Zhuang;Qi Liu;Zachary Pardos;Patrick C. Kyllonen;Jiyun Zu;Zhenya Huang;Shijin Wang;Enhong Chen",
+        "authorids": "~Yan_Zhuang4;~Qi_Liu3;~Zachary_Pardos1;~Patrick_C._Kyllonen1;~Jiyun_Zu1;~Zhenya_Huang2;~Shijin_Wang1;~Enhong_Chen1",
+        "gender": "M;M;;M;F;M;M;M",
+        "homepage": "http://home.ustc.edu.cn/~zykb/;http://staff.ustc.edu.cn/~qiliuql/;https://gse.berkeley.edu/zachary-pardos;http://ets.org;;http://staff.ustc.edu.cn/~huangzhy/;;http://staff.ustc.edu.cn/~cheneh",
+        "dblp": ";95/2446-3;45/6140.html;;;178/8690;74/5750-1.html;07/258",
+        "google_scholar": "7MX_P5cAAAAJ;5EoHAFwAAAAJ;OQvFtBMAAAAJ;;;dVZuU90AAAAJ;;Q9h02J0AAAAJ",
+        "orcid": "0000-0001-7351-377X;0000-0001-6956-5550;0000-0002-6016-7051;;0000-0003-1076-5093;0000-0003-1661-0420;0000-0002-9202-7678;0000-0002-4835-4102",
+        "linkedin": ";;zacharypardos/;;jiyun-zu-a1b5a7a/;;;",
+        "or_profile": "~Yan_Zhuang4;~Qi_Liu3;~Zachary_Pardos1;~Patrick_C._Kyllonen1;~Jiyun_Zu1;~Zhenya_Huang2;~Shijin_Wang1;~Enhong_Chen1",
+        "aff": "University of Science and Technology of China;University of Science and Technology of China;University of California, Berkeley;Educational Testing Service;Educational Testing Service;University of Science and Technology of China;State Key Laboratory of Cognitive Intelligence;University of Science and Technology of China",
+        "aff_domain": "ustc.edu.cn;ustc.edu.cn;berkeley.edu;ets.org;ets.org;ustc.edu.cn;iflytek.com;ustc.edu.cn",
+        "position": "PhD student;Full Professor;Associate Professor;Principal Researcher;Researcher;Associate Professor;Vice Dean;Full Professor"
+    },
+    {
         "id": "Myx2kJFzAn",
         "author": "Amirhossein Kazemnejad;Milad Aghajohari;Eva Portelance;Alessandro Sordoni;Siva Reddy;Aaron Courville;Nicolas Le Roux",
         "authorids": "~Amirhossein_Kazemnejad1;~Milad_Aghajohari1;~Eva_Portelance1;~Alessandro_Sordoni2;~Siva_Reddy1;~Aaron_Courville3;~Nicolas_Le_Roux2",
@@ -18990,6 +19650,21 @@
         "position": "PhD student;Postdoc;Assistant Professor;Principal Researcher;Postdoc;Postdoc"
     },
     {
+        "id": "Njaljr4V8L",
+        "author": "Mahdi Samiei;Mohamadreza Fereydooni;Yousef Javaherian;Mahdieh Soleymani Baghshah",
+        "authorids": "~Mahdi_Samiei1;~Mohamadreza_Fereydooni1;~Yousef_Javaherian1;~Mahdieh_Soleymani_Baghshah1",
+        "gender": "M;M;M;F",
+        "homepage": ";;https://yousefjavaherian.ir;http://sharif.edu/~soleymani/",
+        "dblp": ";;;21/473",
+        "google_scholar": ";W06Uw7wAAAAJ;;S1U0KlgAAAAJ",
+        "orcid": ";;;",
+        "linkedin": "mmsamiei/;mohamadreza-fereydooni/;yousef-javaherian-555847148;",
+        "or_profile": "~Mahdi_Samiei1;~Mohamadreza_Fereydooni1;~Yousef_Javaherian1;~Mahdieh_Baghshah1",
+        "aff": ";Sharif University of Technology;Sharif University of Technology;Sharif University of Technology",
+        "aff_domain": ";sharif.edu;sharif.edu;sharif.edu",
+        "position": ";MS student;MS student;Associate Professor"
+    },
+    {
         "id": "NkVCB1Cpgl",
         "author": "Ya-Chi Chu;Wenzhi Gao;Yinyu Ye;Madeleine Udell",
         "authorids": "~Ya-Chi_Chu1;~Wenzhi_Gao1;~Yinyu_Ye1;~Madeleine_Udell1",
@@ -19093,6 +19768,21 @@
         "aff": "University of California, San Diego;University of California, San Diego;University of California, San Diego",
         "aff_domain": "ucsd.edu;ucsd.edu;ucsd.edu",
         "position": "PhD student;PhD student;Associate Professor"
+    },
+    {
+        "id": "Nr2ulBN50q",
+        "author": "Audrey Poinsot;Panayiotis Panayiotou;Alessandro Leite;Nicolas CHESNEAU;\u00d6zg\u00fcr \u015eim\u015fek;Marc Schoenauer",
+        "authorids": "~Audrey_Poinsot1;~Panayiotis_Panayiotou1;~Alessandro_Leite1;~Nicolas_CHESNEAU2;~\u00d6zg\u00fcr_\u015eim\u015fek1;~Marc_Schoenauer1",
+        "gender": "F;;Not Specified;M;F;M",
+        "homepage": "https://audreypoinsot.github.io/academic_website/;https://www.panispani.com/;https://orcid.org/0000-0002-3071-8019;;https://researchportal.bath.ac.uk/en/persons/\u00f6zg\u00fcr-\u015fim\u015fek;http://www.lri.fr/~marc",
+        "dblp": ";;80/8766;;;67/5235",
+        "google_scholar": "wVvqvuwAAAAJ;AfaKtVwAAAAJ;V3fDydQAAAAJ;https://scholar.google.fr/citations?user=zIWH2_8AAAAJ;https://scholar.google.co.uk/citations?user=z1BYZG0AAAAJ;GrCk6WoAAAAJ",
+        "orcid": ";;0000-0002-3071-8019;;0000-0001-5449-0437;0000-0003-1450-6830",
+        "linkedin": "audrey-poinsot/;;;;;marc-schoenauer-521a6610/",
+        "or_profile": "~Audrey_Poinsot1;~Panayiotis_Panayiotou1;~Alessandro_Leite1;~Nicolas_CHESNEAU2;~\u00d6zg\u00fcr_\u015eim\u015fek1;~Marc_Schoenauer1",
+        "aff": "Universit\u00e9 Paris-Saclay;University of Bath;Institut National des Sciences Appliqu\u00e9es de Rouen;;University of Bath;INRIA",
+        "aff_domain": "universite-paris-saclay.fr;bath.ac.uk;insa-rouen.fr;;bath.ac.uk;inria.fr",
+        "position": "PhD student;PhD student;Associate Professor;;Full Professor;Emeritus"
     },
     {
         "id": "NrcKQ3ASLZ",
@@ -19710,6 +20400,21 @@
         "position": "PhD student;Postdoc;Collaborator"
     },
     {
+        "id": "OT3WJRwCIf",
+        "author": "Ruta Binkyte;Ivaxi Sheth;Zhijing Jin;Mohammad Havaei;Bernhard Sch\u00f6lkopf;Mario Fritz",
+        "authorids": "~Ruta_Binkyte1;~Ivaxi_Sheth1;~Zhijing_Jin1;~Mohammad_Havaei2;~Bernhard_Sch\u00f6lkopf1;~Mario_Fritz1",
+        "gender": "F;F;;;;M",
+        "homepage": "http://www.lix.polytechnique.fr/Labo/Ruta.BINKYTE-SADAUSKIENE/;;;;;https://cispa.saarland/group/fritz/",
+        "dblp": "291/4280;291/2912.html;;;;",
+        "google_scholar": "ujrfUKIAAAAJ;Isz5M1UAAAAJ;;;;https://scholar.google.de/citations?user=4V1nNm4AAAAJ",
+        "orcid": "0000-0001-8781-3730;;;;;",
+        "linkedin": "ruta-binkyte/;;;;;",
+        "or_profile": "~Ruta_Binkyte1;~Ivaxi_Sheth1;~Zhijing_Jin1;~Mohammad_Havaei2;~Bernhard_Sch\u00f6lkopf1;~Mario_Fritz1",
+        "aff": "CISPA Helmholtz Center for Information Security;CISPA, saarland university, saarland informatics campus;;;;Saarland University",
+        "aff_domain": "cispa.de;cispa.saarland;;;;uni-saarland.de",
+        "position": "Postdoc;PhD student;;;;Full Professor"
+    },
+    {
         "id": "OTDdeygJTP",
         "author": "Taneesh Gupta;Rahul Madhavan;Xuchao Zhang;Chetan Bansal;Saravan Rajmohan",
         "authorids": "~Taneesh_Gupta1;~Rahul_Madhavan1;~Xuchao_Zhang1;~Chetan_Bansal1;~Saravan_Rajmohan2",
@@ -19954,15 +20659,15 @@
         "author": "Talor Abramovich;Meet Udeshi;Minghao Shao;Kilian Lieret;Haoran Xi;Kimberly Milner;Sofija Jancheska;John Yang;Carlos E Jimenez;Farshad Khorrami;Prashanth Krishnamurthy;Brendan Dolan-Gavitt;Muhammad Shafique;Karthik R Narasimhan;Ramesh Karri;Ofir Press",
         "authorids": "~Talor_Abramovich1;~Meet_Udeshi1;~Minghao_Shao3;~Kilian_Lieret1;~Haoran_Xi1;~Kimberly_Milner1;~Sofija_Jancheska1;~John_Yang3;~Carlos_E_Jimenez1;~Farshad_Khorrami1;~Prashanth_Krishnamurthy1;~Brendan_Dolan-Gavitt1;~Muhammad_Shafique1;~Karthik_R_Narasimhan1;~Ramesh_Karri1;~Ofir_Press1",
         "gender": ";M;M;M;F;;;M;M;M;;M;M;M;M;M",
-        "homepage": ";https://mudeshi.in;https://www.linkedin.com/in/shao-minghao/;https://lieret.net;;https://github.com/rollingcoconut;;https://john-b-yang.github.io/;https://www.carlosejimenez.com;https://engineering.nyu.edu/faculty/farshad-khorrami;;http://engineering.nyu.edu/people/brendan-dolan-gavitt;https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/muhammad-shafique.html;http://www.karthiknarasimhan.com;http://engineering.nyu.edu/people/ramesh-karri/;https://ofir.io/about",
+        "homepage": ";https://mudeshi.in;https://www.linkedin.com/in/shao-minghao/;https://lieret.net;;;;https://john-b-yang.github.io/;https://www.carlosejimenez.com;https://engineering.nyu.edu/faculty/farshad-khorrami;;http://engineering.nyu.edu/people/brendan-dolan-gavitt;https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/muhammad-shafique.html;http://www.karthiknarasimhan.com;http://engineering.nyu.edu/people/ramesh-karri/;https://ofir.io/about",
         "dblp": "387/8505;285/4879;307/9631;276/7672;226/2733;;;;153/0588;94/5644;24/3420;94/7563.html;s/MuhammadShafique;147/0322;;185/0577",
         "google_scholar": "https://scholar.google.com/citations?hl=en;YlIc4EQAAAAJ;;byA9yI0AAAAJ;;;;71G11ksAAAAJ;Ue4wghAAAAAJ;NdOqlPQAAAAJ;W-_zgGgAAAAJ;https://scholar.google.com.tw/citations?user=MzAxRscAAAAJ;xSR276UAAAAJ;euc0GX4AAAAJ;https://scholar.google.com.tw/citations?user=o60TaTEAAAAJ;LeHa8psAAAAJ",
         "orcid": ";0000-0001-7297-0880;0009-0002-4467-6224;0000-0003-2792-7511;;;;;0000-0001-9370-3909;;;0000-0002-8867-4282;0000-0002-2607-8135;;;",
         "linkedin": "talor-abramovich-492a01214/;;;kilian-lieret-ph-d-0b0667104/;haoran-xi-22841327b;;sofija-jancheska/;jyang20/;;;;;mshafiquewahlah;;;",
         "or_profile": "~Talor_Abramovich1;~Meet_Udeshi1;~Minghao_Shao3;~Kilian_Lieret1;~Haoran_Xi1;~Kimberly_Milner1;~Sofija_Jancheska1;~John_Yang3;~Carlos_E_Jimenez1;~Farshad_Khorrami1;~Prashanth_Krishnamurthy1;~Brendan_Dolan-Gavitt1;~Muhammad_Shafique1;~Karthik_R_Narasimhan1;~Ramesh_Karri1;~Ofir_Press1",
-        "aff": "NVIDIA;New York University;New York University;Princeton University;New York University;New York University;New York University;Stanford University;Princeton University;New York University;New York University;New York University;New York University;Princeton University;New York University;Princeton University",
-        "aff_domain": "nvidia.com;nyu.edu;nyu.edu;princeton.edu;nyu.edu;nyu.edu;nyu.edu;stanford.edu;princeton.edu;nyu.edu;nyu.edu;nyu.edu;nyu.edu;princeton.edu;nyu.edu;princeton.edu",
-        "position": "Researcher;PhD student;PhD student;Researcher;PhD student;MS student;PhD student;PhD student;PhD student;Full Professor;Research Scientist and Adjunct Faculty;Assistant Professor;Full Professor;Assistant Professor;Full Professor;Postdoc"
+        "aff": "NVIDIA;New York University;New York University;Princeton University;New York University;;New York University;Stanford University;Princeton University;New York University;New York University;New York University;New York University;Princeton University;New York University;Princeton University",
+        "aff_domain": "nvidia.com;nyu.edu;nyu.edu;princeton.edu;nyu.edu;;nyu.edu;stanford.edu;princeton.edu;nyu.edu;nyu.edu;nyu.edu;nyu.edu;princeton.edu;nyu.edu;princeton.edu",
+        "position": "Researcher;PhD student;PhD student;Researcher;PhD student;;PhD student;PhD student;PhD student;Full Professor;Research Scientist and Adjunct Faculty;Assistant Professor;Full Professor;Assistant Professor;Full Professor;Postdoc"
     },
     {
         "id": "Ofa1cspTrv",
@@ -21315,6 +22020,36 @@
         "position": "Researcher;Researcher;Researcher;Researcher;Researcher;;Researcher;Principal Researcher;Principal Researcher;Principal Researcher"
     },
     {
+        "id": "QLKBm1PaCU",
+        "author": "Paul Youssef;Zhixue Zhao;Daniel Braun;J\u00f6rg Schl\u00f6tterer;Christin Seifert",
+        "authorids": "~Paul_Youssef1;~Zhixue_Zhao2;~Daniel_Braun3;~J\u00f6rg_Schl\u00f6tterer1;~Christin_Seifert1",
+        "gender": ";;M;;",
+        "homepage": ";;https://www.daniel-braun.science;;",
+        "dblp": ";;185/0447-3;160/1725;",
+        "google_scholar": "https://scholar.google.de/citations?user=VhMWcqYAAAAJ;;https://scholar.google.de/citations?user=qjt66goAAAAJ;5A2TGRgAAAAJ;",
+        "orcid": "0009-0004-4953-4553;;0000-0001-8120-3368;0000-0002-3678-0390;",
+        "linkedin": ";;daniel-braun-76a8b82a/;;",
+        "or_profile": "~Paul_Youssef1;~Zhixue_Zhao2;~Daniel_Braun3;~J\u00f6rg_Schl\u00f6tterer1;~Christin_Seifert1",
+        "aff": "Phillips-Universit\u00e4t Marburg;;Unversity of Marburg;Phillips-Universit\u00e4t Marburg;",
+        "aff_domain": "uni-marburg.de;;uni-marburg.de;uni-marburg.de;",
+        "position": "PhD student;;Full Professor;Junior Research Group Lead;"
+    },
+    {
+        "id": "QMgCDPWL9Y",
+        "author": "Seungwook Han;Jyothish Pari;Samuel J. Gershman;Pulkit Agrawal",
+        "authorids": "~Seungwook_Han1;~Jyothish_Pari1;~Samuel_J._Gershman1;~Pulkit_Agrawal1",
+        "gender": ";M;M;M",
+        "homepage": ";https://jyopari.github.io/;https://people.eecs.berkeley.edu/~pulkitag/;http://gershmanlab.com/",
+        "dblp": "119/3428;297/5770.html;149/2672;44/10432",
+        "google_scholar": "B6tpjKkAAAAJ;WyIW46YAAAAJ;UpZmJI0AAAAJ;0HuMHFwAAAAJ",
+        "orcid": ";;;",
+        "linkedin": ";jyo-pari-1a70bb1b3;;",
+        "or_profile": "~Seungwook_Han1;~Jyothish_Pari1;~Pulkit_Agrawal1;~Samuel_Gershman1",
+        "aff": "MIT-IBM Watson AI Lab;Massachusetts Institute of Technology;Massachusetts Institute of Technology;Harvard University",
+        "aff_domain": "ibm.com;mit.edu;mit.edu;harvard.edu",
+        "position": "Researcher;PhD student;Assistant Professor;Professor"
+    },
+    {
         "id": "QQegZj99sk",
         "author": "Shenyuan Gao;Siyuan Zhou;Yilun Du;Jun Zhang;Chuang Gan",
         "authorids": "~Shenyuan_Gao1;~Siyuan_Zhou2;~Yilun_Du1;~Jun_Zhang25;~Chuang_Gan1",
@@ -21588,16 +22323,31 @@
         "id": "Qi9rPcdiTY",
         "author": "Zongzhao Li;Jiacheng Cen;Bing Su;Tingyang Xu;Yu Rong;Deli Zhao;Wenbing Huang",
         "authorids": "~Zongzhao_Li2;~Jiacheng_Cen1;~Bing_Su1;~Tingyang_Xu1;~Yu_Rong1;~Deli_Zhao1;~Wenbing_Huang1",
-        "gender": ";;M;M;M;M;M",
-        "homepage": ";;https://gsai.ruc.edu.cn/bingsu;;https://royrong.me/;https://zhaodeli.github.io;https://gsai.ruc.edu.cn/english/wenbing_huang",
+        "gender": ";M;M;M;M;M;M",
+        "homepage": ";https://github.com/cenjc;https://gsai.ruc.edu.cn/bingsu;;https://royrong.me/;https://zhaodeli.github.io;https://gsai.ruc.edu.cn/english/wenbing_huang",
         "dblp": ";;41/5270-1;157/0940;24/10036-1;77/1992;155/3181-1.html",
-        "google_scholar": ";;https://scholar.google.com.sg/citations?user=d3g2VJQAAAAJ;6gIs5YMAAAAJ;https://scholar.google.com.hk/citations?user=itezhEMAAAAJ;https://scholar.google.com/citations?hl=en;0yNkmO4AAAAJ",
+        "google_scholar": ";HepdygEAAAAJ;https://scholar.google.com.sg/citations?user=d3g2VJQAAAAJ;6gIs5YMAAAAJ;https://scholar.google.com.hk/citations?user=itezhEMAAAAJ;https://scholar.google.com/citations?hl=en;0yNkmO4AAAAJ",
         "orcid": ";;0000-0001-8560-1910;0009-0002-0106-8376;0000-0001-7387-302X;0000-0002-8838-578X;",
         "linkedin": ";;;;;;",
         "or_profile": "~Zongzhao_Li2;~Jiacheng_Cen1;~Bing_Su1;~Tingyang_Xu1;~Yu_Rong1;~Deli_Zhao1;~Wenbing_Huang1",
-        "aff": ";;Renmin University of China;Alibaba Group;Alibaba Group ;Alibaba Group;Renmin University of China",
-        "aff_domain": ";;ruc.edu.cn;alibaba-inc.com;alibaba-inc.com;alibaba-inc.com;ruc.edu.cn",
-        "position": ";;Associate Professor;Researcher;Senior Staff Algorithm Engineer;Director;Associate Professor"
+        "aff": ";Renmin University of China;Renmin University of China;Alibaba Group;Alibaba Group ;Alibaba Group;Renmin University of China",
+        "aff_domain": ";ruc.edu.cn;ruc.edu.cn;alibaba-inc.com;alibaba-inc.com;alibaba-inc.com;ruc.edu.cn",
+        "position": ";PhD student;Associate Professor;Researcher;Senior Staff Algorithm Engineer;Director;Associate Professor"
+    },
+    {
+        "id": "QlEfwyq9rx",
+        "author": "Cheng Chen;Chin Wang Cheong;Jing Li;William K. Cheung;Ivor Tsang",
+        "authorids": "~Cheng_Chen20;~Chin_Wang_Cheong1;~Jing_Li17;~William_K._Cheung1;~Ivor_Tsang1",
+        "gender": "M;;;;",
+        "homepage": "https://scholar.google.com.au/citations?user=1zZ4zYIAAAAJ&hl=en;;;;",
+        "dblp": ";;;;",
+        "google_scholar": "https://scholar.google.com.au/citations?user=1zZ4zYIAAAAJ;;;;",
+        "orcid": ";0000-0003-2604-8793;;;",
+        "linkedin": "cheng-chen-8a256599/;;;;",
+        "or_profile": "~Cheng_Chen20;~Chin_Wang_Cheong1;~Jing_Li17;~William_K._Cheung1;~Ivor_Tsang1",
+        "aff": "University of Technology Sydney;Hong Kong Baptist University;;;",
+        "aff_domain": "uts.edu;hkbu.edu.hk;;;",
+        "position": "PhD student;PhD student;;;"
     },
     {
         "id": "QlEx8f3S61",
@@ -22620,6 +23370,21 @@
         "position": "PhD student;Assistant Professor"
     },
     {
+        "id": "RrvhbxO2hd",
+        "author": "Hanqi Yan;Linhai Zhang;Jiazheng Li;Zhenyi Shen;Yulan He",
+        "authorids": "~Hanqi_Yan2;~Linhai_Zhang1;~Jiazheng_Li2;~Zhenyi_Shen1;~Yulan_He1",
+        "gender": "M;M;M;F;F",
+        "homepage": ";https://jiazhengli.com/;https://www.zhenyishen.com/;https://www.kcl.ac.uk/people/yulan-he;https://hanqi-qi.github.io/homepage/",
+        "dblp": "256/3827.html;155/6074-2;;75/5430;https://dblp.uni-trier.de/pid/254/8174",
+        "google_scholar": "ZPHhl0AAAAAJ;https://scholar.google.com/citations?hl=en;https://scholar.google.co.uk/citations?user=c1sWjkQAAAAJ;https://scholar.google.co.uk/citations?user=SP9r32UAAAAJ;YmWi1lgAAAAJ",
+        "orcid": ";;;0000-0003-3948-5845;",
+        "linkedin": "linhai-zhang-5ab370330/;;;yulan-he-277234a/?originalSubdomain=uk;",
+        "or_profile": "~Linhai_Zhang1;~Jiazheng_Li2;~Zhenyi_Shen1;~Yulan_He1;~hanqi_yan1",
+        "aff": "King's College London;King's College London, University of London;King's College London, University of London;King's College London, University of London;King's College London",
+        "aff_domain": "kcl.ac.uk;kcl.ac.uk;kcl.ac.uk;kcl.ac.uk;kcl.ac.uk",
+        "position": "Postdoc;PhD student;PhD student;Full Professor;Postdoc"
+    },
+    {
         "id": "RsyMfsqzeG",
         "author": "Alexandre Verine;Florian Le Bronnec;Kunhao Zheng;Alexandre Allauzen;Yann Chevaleyre;benjamin negrevergne",
         "authorids": "~Alexandre_Verine1;~Florian_Le_Bronnec1;~Kunhao_Zheng1;~Alexandre_Allauzen1;~Yann_Chevaleyre1;~benjamin_negrevergne1",
@@ -22633,6 +23398,21 @@
         "aff": "Ecole Normale Sup\u00e9rieure de Paris;Universit\u00e9 Pierre et Marie Curie - Paris 6, Sorbonne Universit\u00e9 - Facult\u00e9 des Sciences (Paris VI);Meta Facebook;Universit\u00e9 Paris-Dauphine;Universit\u00e9 Paris-Dauphine (Paris IX);",
         "aff_domain": "ens.fr;isir.upmc.fr;meta.com;dauphine.fr;dauphine.fr;",
         "position": "Postdoc;PhD student;PhD student;Full Professor;Full Professor;"
+    },
+    {
+        "id": "RuLsq4LSZK",
+        "author": "Alex Gu;Naman Jain;Wen-Ding Li;Manish Shetty;Kevin Ellis;Koushik Sen;Armando Solar-Lezama",
+        "authorids": "~Alex_Gu1;~Naman_Jain2;~Wen-Ding_Li1;~Manish_Shetty1;~Kevin_Ellis1;~Koushik_Sen2;~Armando_Solar-Lezama1",
+        "gender": "M;M;;M;M;M;M",
+        "homepage": "https://minimario.github.io/;https://naman-ntc.github.io/;https://www.cs.cornell.edu/~wdli/;https://manishs.org;https://www.cs.cornell.edu/~ellisk/;https://people.eecs.berkeley.edu/~ksen/;https://people.csail.mit.edu/asolar/",
+        "dblp": "285/4734;;132/0674;270/0520;;https://dblp.uni-trier.de/pid/04/418.html;95/6919",
+        "google_scholar": "jRQtBp0AAAAJ;6oqV3v8AAAAJ;2G2mr9QAAAAJ;Fcu7r3YAAAAJ;L7XI6asAAAAJ;Vn3L_ioAAAAJ;https://scholar.google.com.tw/citations?user=8BX3BokAAAAJ",
+        "orcid": ";;;;;;",
+        "linkedin": "alex-gu-8b7664175/;;;;;;",
+        "or_profile": "~Alex_Gu1;~Naman_Jain2;~Wen-Ding_Li1;~Manish_Shetty1;~Kevin_Ellis1;~Koushik_Sen2;~Armando_Solar-Lezama1",
+        "aff": "Massachusetts Institute of Technology;University of California, Berkeley;Cornell University;University of California, Berkeley;Cornell University;UC Berkeley, University of California, Berkeley;Massachusetts Institute of Technology",
+        "aff_domain": "mit.edu;berkeley.edu;cornell.edu;berkeley.edu;cornell.edu;cs.berkeley.edu;mit.edu",
+        "position": "PhD student;PhD student;PhD student;PhD student;Assistant Professor;Full Professor;Full Professor"
     },
     {
         "id": "RuMfpz8bTw",
@@ -22693,6 +23473,21 @@
         "aff": "Shanghai Jiaotong University;Shanghai Jiaotong University;Shanghai Jiaotong University;Shanghai Jiaotong University;Shanghai Jiaotong University",
         "aff_domain": "sjtu.edu.cn;sjtu.edu.cn;sjtu.edu.cn;sjtu.edu.cn;sjtu.edu.cn",
         "position": "PhD student;MS student;PhD student;PhD student;Full Professor"
+    },
+    {
+        "id": "Rxd2TpV6Eg",
+        "author": "D. Sculley;William Cukierski;Phil Culliton;Sohier Dane;Maggie M Demkin;Ryan Holbrook;Addison Howard;Paul T Mooney;Walter Reade;Meg Risdal;Nate Keating",
+        "authorids": "~D._Sculley1;~William_Cukierski1;~Phil_Culliton1;~Sohier_Dane1;~Maggie_M_Demkin1;~Ryan_Holbrook1;~Addison_Howard2;~Paul_T_Mooney1;~Walter_Reade1;~Meg_Risdal1;~Nate_Keating1",
+        "gender": ";M;;;F;;M;M;;;M",
+        "homepage": "http://www.eecs.tufts.edu/~dsculley;;;;;;https://www.kaggle.com/addisonhoward;;;https://www.meg.dev;",
+        "dblp": "https://dblp.uni-trier.de/pers/hd/s/Sculley:D=;42/11214;;;;;;;;;",
+        "google_scholar": "l_O64B8AAAAJ;btZpioYAAAAJ;;;;;;pq0Y_oMAAAAJ;;https://scholar.google.ca/citations?user=3PgHqowAAAAJ;",
+        "orcid": ";;;;;0009-0007-1881-6883;;;;;",
+        "linkedin": "d-sculley-90467310/;wcukierski/;philculliton;sohierdane;mmdemkin/;;;;reade/;megan-risdal-4617812a/;nate-keating-02157963/",
+        "or_profile": "~D._Sculley1;~William_Cukierski1;~Phil_Culliton1;~Sohier_Dane1;~Maggie_M_Demkin1;~Ryan_Holbrook1;~Addison_Howard2;~Paul_T_Mooney1;~Walter_Reade1;~Meg_Risdal1;~Nate_Keating1",
+        "aff": ";Google;Google;Google;Google;Kaggle;;Google;Google;Google;Google",
+        "aff_domain": ";google.com;google.com;google.com;google.com;kaggle.com;;google.com;google.com;google.com;google.com",
+        "position": ";Head of Competitions;Researcher;Researcher;Researcher;Data scientist;;Researcher;Data Scientist;Researcher;Researcher"
     },
     {
         "id": "Rxg8vCZSee",
@@ -23337,7 +24132,7 @@
         "or_profile": "~Tuan_Truong1;~Huy_Nguyen5;~Minh_Le2;~Trung_Le2;~Nhat_Ho1;~ChauNguyen1",
         "aff": "University of British Columbia;University of Texas at Austin;VinAI Research;Monash University;University of Texas, Austin;Hanoi National University of Education",
         "aff_domain": "cs.ubc.ca;utexas.edu;vinai.io;monash.edu;utexas.edu;hnue.edu.vn",
-        "position": "Undergrad student;PhD student;Researcher;Assistant Professor;Assistant Professor;Undergrad student"
+        "position": "Undergrad student;PhD student;Research Resident;Assistant Professor;Assistant Professor;Undergrad student"
     },
     {
         "id": "SgIg3cZjuN",
@@ -23428,6 +24223,21 @@
         "aff": "University of California, Berkeley;University of Amsterdam;University of Oxford;;Montreal Institute for Learning Algorithms, University of Montreal, Universit\u00e9 de Montr\u00e9al;",
         "aff_domain": "berkeley.edu;uva.nl;ox.ac.uk;;mila.umontreal.ca;",
         "position": "Intern;PhD student;Full Professor;;Assistant Professor;"
+    },
+    {
+        "id": "SlgXCLZFj3",
+        "author": "Zijun Liu;Kaiming Liu;Yiqi Zhu;Xuanyu Lei;Zonghan Yang;Zhenhe Zhang;Peng Li;Yang Liu",
+        "authorids": "~Zijun_Liu2;~Kaiming_Liu1;~Yiqi_Zhu1;~Xuanyu_Lei1;~Zonghan_Yang1;~Zhenhe_Zhang2;~Peng_Li2;~Yang_Liu19",
+        "gender": "M;M;M;M;M;M;M;M",
+        "homepage": ";https://github.com/KMing-L;https://github.com/zhu-yiqi;https://github.com/leixy20;https://minicheshire.github.io/;https://github.com/zzh2021010869;http://www.lpeng.net/;http://nlp.csai.tsinghua.edu.cn/~ly/",
+        "dblp": ";53/7206.html;;326/4857.html;222/7860;;83/6353-30;51/3710-5",
+        "google_scholar": "vXsVhPcAAAAJ;X9bm8UMAAAAJ;;ZF--wKwAAAAJ;rt9HOIUAAAAJ;;hgYzkOQAAAAJ;https://scholar.google.com.hk/citations?user=lVhoKNcAAAAJ",
+        "orcid": ";;;;;;0000-0003-1374-5979;0000-0002-3087-242X",
+        "linkedin": "%E5%AD%90%E5%90%9B-%E5%88%98-164596263/;;;;;;;",
+        "or_profile": "~Zijun_Liu2;~Kaiming_Liu1;~Yiqi_Zhu1;~Xuanyu_Lei1;~Zonghan_Yang1;~Zhenhe_Zhang2;~Peng_Li2;~Yang_Liu19",
+        "aff": "Department of Computer Science and Technology, Tsinghua University;Tsinghua University;Tsinghua University;Tsinghua University;Department of Computer Science and Technology, Tsinghua University;Tsinghua University;Tsinghua University;Tsinghua University",
+        "aff_domain": "cs.tsinghua.edu.cn;mails.tsinghua.edu.cn;mails.tsinghua.edu.cn;mails.tsinghua.edu.cn;cs.tsinghua.edu.cn;mail.tsinghua.edu.cn;tsinghua.edu.cn;tsinghua.edu.cn",
+        "position": "PhD student;Undergrad student;Undergrad student;PhD student;PhD student;Undergrad student;Associate Professor;Professor"
     },
     {
         "id": "SnZ7SKykHh",
@@ -23700,6 +24510,21 @@
         "position": "PhD student;;Researcher;Associate Professor;;Amazon Scholar"
     },
     {
+        "id": "Sz90WdONPz",
+        "author": "OU DENG;Qun Jin",
+        "authorids": "~OU_DENG1;~Qun_Jin1",
+        "gender": "M;",
+        "homepage": ";",
+        "dblp": ";",
+        "google_scholar": ";",
+        "orcid": "0000-0003-1172-1789;",
+        "linkedin": ";",
+        "or_profile": "~OU_DENG1;~Qun_Jin1",
+        "aff": "Waseda University;",
+        "aff_domain": "waseda.jp;",
+        "position": "PhD student;"
+    },
+    {
         "id": "SznX4yic20",
         "author": "Jing Ma;Hanlin Li;Xiang Xiang",
         "authorids": "~Jing_Ma5;~Hanlin_Li6;~Xiang_Xiang1",
@@ -23713,6 +24538,21 @@
         "aff": "Huazhong University of Science and Technology;Huazhong University of Science and Technology;",
         "aff_domain": "hust.edu.cn;hust.edu.cn;",
         "position": "MS student;Undergrad student;"
+    },
+    {
+        "id": "T21ixFVruG",
+        "author": "Tim Tobiasch;Moritz Willig;Antonia W\u00fcst;Lukas Helff;Wolfgang Stammer;Constantin A. Rothkopf;Kristian Kersting",
+        "authorids": "~Tim_Tobiasch1;~Moritz_Willig1;~Antonia_W\u00fcst1;~Lukas_Helff1;~Wolfgang_Stammer1;~Constantin_A._Rothkopf1;~Kristian_Kersting1",
+        "gender": "M;;M;M;M;M;M",
+        "homepage": ";https://www.aiml.informatik.tu-darmstadt.de/people/awuest/index.html;https://ml-research.github.io/people/lhelff/index.html;https://ml-research.github.io/people/wstammer/;http://www.ml.informatik.tu-darmstadt.de/;https://www.pip.tu-darmstadt.de;",
+        "dblp": "247/6267;;;256/5497;40/3793;71/5555;",
+        "google_scholar": "https://scholar.google.de/citations?user=1EDRWTsAAAAJ;;;66-aU5AAAAAJ;QY-earAAAAAJ;https://scholar.google.com/citations?hl=en;",
+        "orcid": ";;;0000-0003-3793-8046;0000-0002-2873-9152;;",
+        "linkedin": ";;;https://linkedin.com/in/wolfgang-stammer-7835a4207/en-us?trk=people-guest_people_search-card;;;tim-tobiasch-45a6a2237",
+        "or_profile": "~Moritz_Willig1;~Antonia_W\u00fcst1;~Lukas_Helff1;~Wolfgang_Stammer1;~Kristian_Kersting1;~Constantin_Rothkopf1;~Tim_Nelson_Tobiasch1",
+        "aff": "Technical University of Darmstadt;Technische Universit\u00e4t Darmstadt;Technische Universit\u00e4t Darmstadt;CS Department, TU Darmstadt;TU Darmstadt;Technische Universit\u00e4t Darmstadt;Philosophy Institute, Department of History and Social Sciences, Technische Universit\u00e4t Darmstadt",
+        "aff_domain": "cs.tu-darmstadt.de;tu-darmstadt.de;tu-darmstadt.de;cs.tu-darmstadt.de;tu-darmstadt.de;tu-darmstadt.de;tu-darmstadt.de",
+        "position": "PhD student;PhD student;PhD student;PhD student;Full Professor;Full Professor;MA student"
     },
     {
         "id": "T2HxvNtDfJ",
@@ -23803,6 +24643,21 @@
         "aff": "Archimedes AI;ETHZ - ETH Zurich;Duke University;;;University of Piraeus",
         "aff_domain": "athenarc.gr;ethz.ch;duke.edu;;;unipi.gr",
         "position": "PhD student;MS student;PhD student;;;Full Professor"
+    },
+    {
+        "id": "TEkyydR6il",
+        "author": "Sunayana Rane",
+        "authorids": "~Sunayana_Rane1",
+        "gender": "",
+        "homepage": "",
+        "dblp": "",
+        "google_scholar": "",
+        "orcid": "",
+        "linkedin": "",
+        "or_profile": "",
+        "aff": "",
+        "aff_domain": "",
+        "position": ""
     },
     {
         "id": "TFXxarWZzv",
@@ -24350,7 +25205,7 @@
         "authorids": "~Yanbo_Wang2;~Xiyuan_Wang1;~Quan_Gan1;~Minjie_Wang2;~Qibin_Yang1;~David_Wipf1;~Muhan_Zhang1",
         "gender": "M;;M;;M;M;M",
         "homepage": "https://yanxwb.github.io/;;;;https://github.com/yangqibin-caibi;http://www.davidwipf.com/;https://muhanzhang.github.io/",
-        "dblp": ";95/8542;72/3872;58/10312;;81/6421;157/5518",
+        "dblp": ";95/8542;;58/10312;;81/6421;157/5518",
         "google_scholar": "Rmo7EXQAAAAJ;;;OJja8NgAAAAJ;;YJx1WSgAAAAJ;https://scholar.google.com.hk/citations?user=OBBqkosAAAAJ",
         "orcid": ";;0009-0002-0986-457X;0009-0009-8156-1179;;;0000-0002-7680-6401",
         "linkedin": ";%E5%B8%8C%E5%85%83-%E7%8E%8B-969660221/;quan-gan-231992136/;;;;jerry-muhan-zhang-a33a1777/",
@@ -24900,6 +25755,21 @@
         "position": "PhD student;PhD student;Full Professor;Researcher;Full Professor;Associate Professor"
     },
     {
+        "id": "UTxi86wmas",
+        "author": "Yunke Wang;Yanxi Li;Chang Xu",
+        "authorids": "~Yunke_Wang1;~Yanxi_Li1;~Chang_Xu4",
+        "gender": "Not Specified;M;",
+        "homepage": "https://yunke-wang.github.io/;;https://sydney.edu.au/engineering/about/our-people/academic-staff/c-xu.html",
+        "dblp": "165/9106;24/5261-1;97/2966-2",
+        "google_scholar": "m4wbcOsAAAAJ;;N4F_3eoAAAAJ",
+        "orcid": "0009-0003-9796-530X;;0000-0002-4756-0609",
+        "linkedin": ";yanxi-li-3245a511a/;",
+        "or_profile": "~Yunke_Wang1;~Yanxi_Li1;~Charles_Xu1",
+        "aff": "University of Sydney;University of Sydney;University of Sydney",
+        "aff_domain": "sydney.edu.au;uni.sydney.edu.au;sydney.eud.au",
+        "position": "Postdoc;PhD student;Associate Professor"
+    },
+    {
         "id": "UVoxPlv5E1",
         "author": "Zhihui Xie;Jie chen;Liyu Chen;Weichao Mao;Jingjing Xu;Lingpeng Kong",
         "authorids": "~Zhihui_Xie2;~Jie_chen28;~Liyu_Chen1;~Weichao_Mao1;~Jingjing_Xu1;~Lingpeng_Kong1",
@@ -24973,6 +25843,21 @@
         "aff": "National Technical University of Athens;National Centre For Scientific Research Demokritos;Valeo.ai;",
         "aff_domain": "ntua.gr;iit.demokritos.gr;valeo.com;",
         "position": "PhD student;Researcher;Research scientist;"
+    },
+    {
+        "id": "UXZJ3aL8vE",
+        "author": "Yucen Lily Li;Daohan Lu;Polina Kirichenko;Shikai Qiu;Tim G. J. Rudner;C. Bayan Bruss;Andrew Gordon Wilson",
+        "authorids": "~Yucen_Lily_Li1;~Daohan_Lu1;~Polina_Kirichenko1;~Shikai_Qiu1;~Tim_G._J._Rudner2;~C._Bayan_Bruss1;~Andrew_Gordon_Wilson1",
+        "gender": ";M;F;M;M;Not Specified;Not Specified",
+        "homepage": "https://yucenli.com;;https://polkirichenko.github.io/;https://shikaiqiu.github.io/;https://www.cbbruss.com;https://cims.nyu.edu/~andrewgw;https://timrudner.com",
+        "dblp": "252/6123;268/5530;239/8699;;;65/10453;230/3480",
+        "google_scholar": ";MiwFzDkAAAAJ;05uQHIgAAAAJ;pK0OAsQAAAAJ;ClqvGRQAAAAJ;https://scholar.google.com.tw/citations?user=twWX2LIAAAAJ;https://scholar.google.de/citations?user=MbBntPgAAAAJ",
+        "orcid": ";0000-0002-8733-6177;;;;;",
+        "linkedin": ";daohanlu/;polkirichenko/;;bayan-bruss/;;trudner",
+        "or_profile": "~Yucen_Lily_Li1;~Daohan_Lu1;~Polina_Kirichenko1;~Shikai_Qiu1;~C._Bayan_Bruss1;~Andrew_Gordon_Wilson1;~Tim_Georg_Johann_Rudner1",
+        "aff": "New York University;New York University;Meta AI;New York University;;New York University;New York University",
+        "aff_domain": "nyu.edu;nyu.edu;meta.com;nyu.edu;;nyu.edu;nyu.edu",
+        "position": "PhD student;PhD student;Researcher;PhD student;;Full Professor;Assistant Professor"
     },
     {
         "id": "UYUqCPCZCw",
@@ -25123,6 +26008,21 @@
         "aff": ";;Princeton University;Tsinghua University;University of California, Los Angeles",
         "aff_domain": ";;princeton.edu;mails.tsinghua.edu.cn;cs.ucla.edu",
         "position": ";;Postdoc;PhD student;Associate Professor"
+    },
+    {
+        "id": "Uh13utzs2m",
+        "author": "Rupert Mitchell;Antonio Alliegro;Raffaello Camoriano;Dustin Carri\u00f3n-Ojeda;Antonio Carta;Georgia Chalvatzaki;Nikhil Churamani;Carlo D'Eramo;Samin Hamidi;Robin Hesse;Fabian Hinder;Roshni Ramanna Kamath;Vincenzo Lomonaco;Subarnaduti Paul;Francesca Pistilli;Tinne Tuytelaars;Gido M van de Ven;Kristian Kersting;Simone Schaub-Meyer;Martin Mundt",
+        "authorids": "~Rupert_Mitchell1;~Antonio_Alliegro1;~Raffaello_Camoriano1;~Dustin_Carri\u00f3n-Ojeda1;~Antonio_Carta1;~Georgia_Chalvatzaki1;~Nikhil_Churamani1;~Carlo_D'Eramo2;~Samin_Hamidi1;~Robin_Hesse1;~Fabian_Hinder1;~Roshni_Ramanna_Kamath1;~Vincenzo_Lomonaco1;~Subarnaduti_Paul1;~Francesca_Pistilli1;~Tinne_Tuytelaars1;~Gido_M_van_de_Ven1;~Kristian_Kersting1;~Simone_Schaub-Meyer1;~Martin_Mundt1",
+        "gender": "M;M;M;;;F;M;M;F;M;;F;M;M;F;;;M;F;M",
+        "homepage": "https://www.aiml.informatik.tu-darmstadt.de/people/rmitchell/index.html;https://www.polito.it/personale?p=antonio.alliegro;https://www.iit.it/it/people-details/-/people/raffaello-camoriano;;http://pages.di.unipi.it/carta/;https://www.ias.informatik.tu-darmstadt.de/Team/GeorgiaChalvatzaki;https://www.cl.cam.ac.uk/~nc528/;https://carloderamo.wixsite.com/home;;https://robinhesse.github.io/;;https://www.aiml.informatik.tu-darmstadt.de/people/rkamath/index.html;https://vincenzolomonaco.com;https://scholar.google.com/citations?user=Sh8F8Y0AAAAJ&hl=en;;;;http://www.ml.informatik.tu-darmstadt.de/;https://schaubsi.github.io/;https://owl-ml.uni-bremen.de",
+        "dblp": "254/2746.html;263/2610;166/1687;;178/6658;145/3334;202/6215;182/8953;;187/1593;249/2721.html;300/8367.html;157/5127;327/4052;269/9454;;;40/3793;169/4935;200/8146",
+        "google_scholar": ";yQqW5q0AAAAJ;vBBJ2wkAAAAJ;;;https://scholar.google.gr/citations?user=mlho5FkAAAAJ;https://scholar.google.co.uk/citations?user=ZiCfaBMAAAAJ;https://scholar.google.it/citations?user=1Rt_86gAAAAJ;;gNd-TlcAAAAJ;tTrg_5gAAAAJ;;https://scholar.google.it/citations?user=rQLINtQAAAAJ;Sh8F8Y0AAAAJ;;;;QY-earAAAAAJ;https://scholar.google.ch/citations?user=05-lAc8AAAAJ;riGBurAAAAAJ",
+        "orcid": ";;0000-0002-8890-2732;;;;0000-0001-5926-0091;0000-0003-2712-118X;;;0000-0002-1199-4085;;;;0000-0001-9372-032X;;;0000-0002-2873-9152;;0000-0003-1639-8255",
+        "linkedin": ";antonio-alliegro-788442140;raffaellocamoriano;;;;;carlo-d-eramo-6438a289/;samin-hamidi/;https://linkedin.com/in/robin-hesse-990873164;;roshnikamath;;subarnaduti-paul-985106138/;francesca-pistilli-997b6017a/;;;;;",
+        "or_profile": "~Rupert_Mitchell1;~Antonio_Alliegro1;~Raffaello_Camoriano1;~Dustin_Carri\u00f3n-Ojeda1;~Antonio_Carta1;~Georgia_Chalvatzaki1;~Nikhil_Churamani1;~Carlo_D'Eramo2;~Samin_Hamidi1;~Robin_Hesse1;~Fabian_Hinder1;~Roshni_Ramanna_Kamath1;~Vincenzo_Lomonaco1;~Subarnaduti_Paul1;~Francesca_Pistilli1;~Tinne_Tuytelaars1;~Gido_M_van_de_Ven1;~Kristian_Kersting1;~Simone_Schaub-Meyer1;~Martin_Mundt1",
+        "aff": "Technische Universit\u00e4t Darmstadt;Politecnico di Torino;Istituto Italiano di Tecnologia;;;Technische Universit\u00e4t Darmstadt;University of Cambridge;TU Darmstadt;CS Department, TU Darmstadt, Technische Universit\u00e4t Darmstadt;TU Darmstadt;Universit\u00e4t Bielefeld;Technische Universit\u00e4t Darmstadt;University of Pisa;Universit\u00e4t Bremen;Polytechnic Institute of Turin;;;TU Darmstadt;Technische Universit\u00e4t Darmstadt;Universit\u00e4t Bremen",
+        "aff_domain": "tu-darmstadt.de;polito.it;iit.it;;;tu-darmstadt.de;cam.ac.uk;tu-darmstadt.de;cs.tu-darmstadt.de;tu-darmstadt.de;uni-bielefeld.de;tu-darmstadt.de;unipi.it;uni-bremen.de;polito.it;;;tu-darmstadt.de;tu-darmstadt.de;uni-bremen.de",
+        "position": "PhD student;Postdoc;Researcher;;;Assistant Professor;Postdoc;Postdoc;PhD student;PhD student;PhD student;PhD student;Assistant Professor;PhD student;Assistant Professor;;;Full Professor;Assistant Professor;Full Professor"
     },
     {
         "id": "UjLxG9k4B6",
@@ -25348,6 +26248,21 @@
         "aff": "Shanghai Jiaotong University;Shanghai Jiaotong University;UAES;United Automotive Electronic Systems Co., Ltd.;Shanghai Jiaotong University;United Automotive Electronic Systems Co., Ltd.;UAES;United Automotive Electronic Systems;Shanghai Jiaotong University;Shanghai Jiaotong University;Shanghai Jiaotong University",
         "aff_domain": "sjtu.edu.cn;sjtu.edu.cn;uaes.com;uaes.com;sjtu.edu.cn;uaes.com;uaes.com;uaes.com;sjtu.edu.cn;sjtu.edu.cn;sjtu.edu",
         "position": "Undergrad student;Full Professor;Principal Researcher;Researcher;Full Professor;Researcher;Researcher;Researcher;Full Professor;Full Professor;PhD student"
+    },
+    {
+        "id": "V1FP9WDKa7",
+        "author": "Bruno Kacper Mlodozeniec;David Krueger;Richard E. Turner",
+        "authorids": "~Bruno_Kacper_Mlodozeniec2;~David_Krueger1;~Richard_E_Turner1",
+        "gender": "Not Specified;M;M",
+        "homepage": "https://brunokm.github.io;https://mila.umontreal.ca/en/person/david-scott-krueger/;https://rich-turner-group.github.io/",
+        "dblp": "241/6874;142/2741.html;40/5352",
+        "google_scholar": "kGPBRy8AAAAJ;https://scholar.google.ca/citations?user=5Uz70IoAAAAJ;https://scholar.google.co.uk/citations?user=DgLEyZgAAAAJ",
+        "orcid": ";;",
+        "linkedin": "bkmlodozeniec/;;",
+        "or_profile": "~Bruno_Kacper_Mlodozeniec2;~David_Krueger1;~Richard_E_Turner1",
+        "aff": "University of Cambridge;Montreal Institute for Learning Algorithms, University of Montreal, Universit\u00e9 de Montr\u00e9al;University of Cambridge",
+        "aff_domain": "cam.ac.uk;mila.umontreal.ca;cam.ac.uk",
+        "position": "PhD student;Assistant Professor;Professor"
     },
     {
         "id": "V1YfPJDliw",
@@ -26833,6 +27748,21 @@
         "aff": "CISPA Helmholtz Center for Information Security;CISPA Helmholtz Center for Information Security;;;Google DeepMind;",
         "aff_domain": "cispa.de;cispa.de;;;google.com;",
         "position": "PhD student;Postdoc;;;Research Scientist;"
+    },
+    {
+        "id": "WpePuya3Ki",
+        "author": "Ming Jin;Hyunin Lee",
+        "authorids": "~Ming_Jin2;~Hyunin_Lee1",
+        "gender": "M;M",
+        "homepage": "http://www.jinming.tech/;https://hyunin-lee.github.io/",
+        "dblp": ";353/1740",
+        "google_scholar": "YdxdTtkAAAAJ;kHTDu1YAAAAJ",
+        "orcid": ";",
+        "linkedin": ";",
+        "or_profile": "~Ming_Jin2;~Hyunin_Lee1",
+        "aff": "Virginia Tech;Meta Facebook",
+        "aff_domain": "vt.edu;meta.com",
+        "position": "Assistant Professor;Intern"
     },
     {
         "id": "Wqrqcc8O2v",
@@ -28350,6 +29280,21 @@
         "position": "Researcher;Researcher;Researcher;Associate Professor"
     },
     {
+        "id": "YhZ2PY2nZa",
+        "author": "Sam Bowyer;Laurence Aitchison;Desi R. Ivanova",
+        "authorids": "~Sam_Bowyer1;~Laurence_Aitchison1;~Desi_R._Ivanova1",
+        "gender": "M;;F",
+        "homepage": ";http://www.gatsby.ucl.ac.uk/~laurence/;https://desirivanova.com",
+        "dblp": ";155/1918.html;286/8335",
+        "google_scholar": ";;AmX6sMIAAAAJ",
+        "orcid": ";;",
+        "linkedin": "sam-bowyer-943a0116a/;;dr-ivanova/",
+        "or_profile": "~Sam_Bowyer1;~Laurence_Aitchison1;~Desi_R._Ivanova1",
+        "aff": "University of Bristol;University of Bristol;Oxofrd, University of Oxford",
+        "aff_domain": "bristol.ac.uk;bristol.ac.uk;stats.ox.ac.uk",
+        "position": "PhD student;Assistant Professor;Assistant Professor"
+    },
+    {
         "id": "YjBrt82S3v",
         "author": "Ju-Seung Byun;Andrew Perrault",
         "authorids": "~Ju-Seung_Byun2;~Andrew_Perrault1",
@@ -28378,6 +29323,21 @@
         "aff": "Purdue University;Purdue University;Purdue University;Purdue University;Rutgers University;Purdue University",
         "aff_domain": "purdue.edu;purdue.edu;purdue.edu;cs.purdue.edu;cs.rutgers.edu;cs.purdue.edu",
         "position": "PhD student;PhD student;PhD student;PhD student;PhD student;Full Professor"
+    },
+    {
+        "id": "YmTxiR1HUX",
+        "author": "Yan Shvartzshnaider;Vasisht Duddu",
+        "authorids": "~Yan_Shvartzshnaider1;~Vasisht_Duddu1",
+        "gender": "M;",
+        "homepage": "https://www.yorku.ca/lassonde/privacy/;",
+        "dblp": "72/8176;",
+        "google_scholar": ";",
+        "orcid": ";",
+        "linkedin": ";",
+        "or_profile": "~Yan_Shvartzshnaider1;~Vasisht_Duddu1",
+        "aff": "York University;",
+        "aff_domain": "yorku.ca;",
+        "position": "Assistant Professor;"
     },
     {
         "id": "YngQelHz1X",
@@ -28455,6 +29415,21 @@
         "position": "PhD student;Assistant Professor;Professor"
     },
     {
+        "id": "YuMEUNNpeb",
+        "author": "Ahmed Alaa;Thomas Hartvigsen;Niloufar Golchini;Shiladitya Dutta;Frances Dean;Inioluwa Deborah Raji;Travis Zack",
+        "authorids": "~Ahmed_Alaa1;~Thomas_Hartvigsen1;~Niloufar_Golchini1;~Shiladitya_Dutta1;~Frances_Dean1;~Inioluwa_Deborah_Raji1;~Travis_Zack1",
+        "gender": "M;M;F;M;F;F;M",
+        "homepage": "https://alaalab.berkeley.edu/;https://www.tomhartvigsen.com;;;;;https://www.ucsfhealth.org/providers/dr-travis-zack",
+        "dblp": "140/7324;211/5752;;;;;",
+        "google_scholar": "https://scholar.google.com.eg/citations?user=_pv1sEcAAAAJ;rIjeeRsAAAAJ;;;Y04UhM4AAAAJ;https://scholar.google.com/citations?hl=en;",
+        "orcid": ";;;;;;",
+        "linkedin": ";;niloufar-golchini/;shiladitya-dutta/;;deborah-raji-065751b2/;",
+        "or_profile": "~Ahmed_Alaa1;~Thomas_Hartvigsen1;~Niloufar_Golchini1;~Shiladitya_Dutta1;~Frances_Dean1;~Inioluwa_Deborah_Raji1;~Travis_Zack1",
+        "aff": "University of California, Berkeley;University of Virginia, Charlottesville;University of California, Berkeley;University of California, Berkeley;University of California, Berkeley;University of California, Berkeley;University of California, San Francisco",
+        "aff_domain": "berkeley.edu;virginia.edu;berkeley.edu;berkeley.edu;berkeley.edu;berkeley.edu;ucsf.edu",
+        "position": "Assistant Professor;Assistant Professor;Researcher;MS student;PhD student;PhD student;Assistant Professor"
+    },
+    {
         "id": "YucuAuXMpT",
         "author": "Lukas Braun;Erin Grant;Andrew M Saxe",
         "authorids": "~Lukas_Braun2;~Erin_Grant1;~Andrew_M_Saxe1",
@@ -28518,16 +29493,16 @@
         "id": "Yx0bl5OFvc",
         "author": "Hai-Long Sun;Da-Wei Zhou;Yang Li;Shiyin Lu;Chao Yi;Qing-Guo Chen;Zhao Xu;Weihua Luo;Kaifu Zhang;De-Chuan Zhan;Han-Jia Ye",
         "authorids": "~Hai-Long_Sun1;~Da-Wei_Zhou1;~Yang_Li104;~Shiyin_Lu1;~Chao_Yi1;~Qing-Guo_Chen1;~Zhao_Xu7;~Weihua_Luo2;~Kaifu_Zhang2;~De-Chuan_Zhan1;~Han-Jia_Ye1",
-        "gender": "M;;M;M;M;M;;M;M;M;M",
+        "gender": "M;;M;M;M;M;M;M;M;M;M",
         "homepage": "https://www.lamda.nju.edu.cn/sunhl;http://www.lamda.nju.edu.cn/zhoudw/;;http://www.lamda.nju.edu.cn/lusy;http://www.lamda.nju.edu.cn/yic/;;;;;http://www.lamda.nju.edu.cn/zhandc/;http://www.lamda.nju.edu.cn/yehj",
         "dblp": ";120/6109;;228/8223;159/8631;63/10301;;22/1116.html;;74/498;165/3014",
-        "google_scholar": "zKUG--gAAAAJ;kMNaR-YAAAAJ;g7tY0NAAAAAJ;https://scholar.google.com.hk/citations?user=WFMoc84AAAAJ;;GlqRHLcAAAAJ;;tsKl9GUAAAAJ;e3gpYTYAAAAJ;mYJf4TcAAAAJ;mgOYhtoAAAAJ",
+        "google_scholar": "zKUG--gAAAAJ;kMNaR-YAAAAJ;g7tY0NAAAAAJ;https://scholar.google.com.hk/citations?user=WFMoc84AAAAJ;;GlqRHLcAAAAJ;https://scholar.google.com.au/citations?user=uiDNWw0ABBBJ;tsKl9GUAAAAJ;e3gpYTYAAAAJ;mYJf4TcAAAAJ;mgOYhtoAAAAJ",
         "orcid": ";;;;;;;0000-0002-5002-6933;;0000-0002-3533-2078;",
-        "linkedin": ";;;;;;;;;;",
+        "linkedin": ";;;;;;xuzhaotech/;;;;",
         "or_profile": "~Hai-Long_Sun1;~Da-Wei_Zhou1;~Yang_Li104;~Shiyin_Lu1;~Chao_Yi1;~Qing-Guo_Chen1;~Zhao_Xu7;~Weihua_Luo2;~Kaifu_Zhang2;~De-Chuan_Zhan1;~Han-Jia_Ye1",
-        "aff": "Nanjing University;Nanjing University;Alibaba Group;Alibaba Group;Nanjing University;Alibaba Group;;Alibaba International Digital Commerce Group;Alibaba Group;Nanjing University;Nanjing University",
-        "aff_domain": "nju.edu.cn;nju.edu.cn;alibaba-inc.com;alibaba-inc.com;nju.edu.cn;alibaba-inc.com;;alibaba-inc.com;alibaba-inc.com;nju.edu.cn;nju.edu.cn",
-        "position": "MS student;Associate Researcher;Researcher;Researcher;MS student;Researcher;;Researcher;vice president;Full Professor;Associate Professor"
+        "aff": "Nanjing University;Nanjing University;Alibaba Group;Alibaba Group;Nanjing University;Alibaba Group;Alibaba Group;Alibaba International Digital Commerce Group;Alibaba Group;Nanjing University;Nanjing University",
+        "aff_domain": "nju.edu.cn;nju.edu.cn;alibaba-inc.com;alibaba-inc.com;nju.edu.cn;alibaba-inc.com;alibaba-inc.com;alibaba-inc.com;alibaba-inc.com;nju.edu.cn;nju.edu.cn",
+        "position": "MS student;Associate Researcher;Researcher;Researcher;MS student;Researcher;Researcher;Researcher;vice president;Full Professor;Associate Professor"
     },
     {
         "id": "Z0ffRRtOim",
@@ -30230,7 +31205,7 @@
         "authorids": "~Shiwei_Li3;~Xiandi_Luo1;~Haozhao_Wang1;~Xing_Tang2;~Shijie_Xu1;~weihongluo1;~Yuhua_Li2;~xiuqiang_He3;~Ruixuan_Li1",
         "gender": "M;;M;M;M;M;F;M;M",
         "homepage": "https://leopold1423.github.io/;;https://wanghaozhao.mysxl.cn/;https://xingt-tang.github.io;https://github.com/shijiexu09;https://github.com/lobby66;;https://he-xiuqiang.github.io/;http://idc.hust.edu.cn/rxli/index.html",
-        "dblp": ";;224/4500.html;09/2824-7;;;79/5796-3;11/5357-1;60/4429.html",
+        "dblp": "09/7826-2.html;;224/4500.html;09/2824-7;;;79/5796-3;11/5357-1;60/4429.html",
         "google_scholar": "H0egTIsAAAAJ;;https://scholar.google.com.hk/citations?user=yFrOuMEAAAAJ;rtRexdQAAAAJ;;;https://scholar.google.com/citations?hl=zh-CN;3lprwmsAAAAJ;https://scholar.google.com/scholar?q=ruixuan+li",
         "orcid": "0000-0002-7067-0275;;0000-0002-7591-5315;0000-0003-4360-0754;;;;0000-0002-4115-8205;0000-0002-7791-5511",
         "linkedin": "%E4%B8%96%E4%BC%9F-%E6%9D%8E-813a1723a/;%E6%98%BE%E8%BF%AA-%E7%BD%97-4aa009321/;;;;;;;https://www.linkedin.cn/incareer/in/ruixuan-li-b367319",
@@ -30285,6 +31260,21 @@
         "position": "PhD student;PhD student;PhD student;PhD student;"
     },
     {
+        "id": "asQJx56NqB",
+        "author": "John Hewitt;Robert Geirhos;Been Kim",
+        "authorids": "~John_Hewitt1;~Robert_Geirhos1;~Been_Kim1",
+        "gender": "M;M;",
+        "homepage": "https://nlp.stanford.edu/~johnhew/;https://robertgeirhos.com/;https://beenkim.github.io/",
+        "dblp": "205/9025;176/0076;https://dblp.uni-trier.de/pers/k/Kim:Been.html",
+        "google_scholar": "7C27kVMAAAAJ;w3kGtMIAAAAJ;",
+        "orcid": ";0000-0001-7698-3187;",
+        "linkedin": ";rgeirhos/;",
+        "or_profile": "~John_Hewitt1;~Robert_Geirhos1;~Been_Kim1",
+        "aff": "Google DeepMind;Google DeepMind;Google DeepMind",
+        "aff_domain": "google.com;google.com;google.com",
+        "position": "Researcher;Research Scientist;Research Scientist"
+    },
+    {
         "id": "asgBo3FNdg",
         "author": "Ekin Aky\u00fcrek;Mehul Damani;Adam Zweiger;Linlu Qiu;Han Guo;Jyothish Pari;Yoon Kim;Jacob Andreas",
         "authorids": "~Ekin_Aky\u00fcrek1;~Mehul_Damani1;~Adam_Zweiger1;~Linlu_Qiu1;~Han_Guo1;~Jyothish_Pari1;~Yoon_Kim1;~Jacob_Andreas1",
@@ -30312,7 +31302,7 @@
         "or_profile": "~Nghiem_Tuong_Diep1;~Huy_Nguyen5;~Minh_Le2;~Duy_Minh_Ho_Nguyen1;~Daniel_Sonntag2;~Mathias_Niepert1;~Nhat_Ho1;~ChauNguyen1",
         "aff": "Ho Chi Minh city University of Science, Vietnam National University;University of Texas at Austin;VinAI Research;German Research Center for AI;Carl von Ossietzky Universit\u00e4t Oldenburg;NEC;University of Texas, Austin;Hanoi National University of Education",
         "aff_domain": "hcmus.edu.vn;utexas.edu;vinai.io;dfki.de;uol.de;neclab.eu;utexas.edu;hnue.edu.vn",
-        "position": "Undergrad student;PhD student;Researcher;Researcher;Full Professor;Research Scientist;Assistant Professor;Undergrad student"
+        "position": "Undergrad student;PhD student;Research Resident;Researcher;Full Professor;Research Scientist;Assistant Professor;Undergrad student"
     },
     {
         "id": "auwNRkhkN4",
@@ -30433,6 +31423,21 @@
         "aff": "University of Chinese Academy of Sciences;, Chinese Academy of Sciences;, Chinese Academy of Sciences;South China University of Technology;Huazhong University of Science and Technology",
         "aff_domain": "ucas.ac.cn;ict.ac.cn;ict.ac.cn;scut.edu.cn;hust.edu.cn",
         "position": "PhD student;Assistant Professor;Researcher;PhD student;Full Professor"
+    },
+    {
+        "id": "b2gM1HyAgE",
+        "author": "Sebastian Bordt;Eric Raidl;Ulrike von Luxburg",
+        "authorids": "~Sebastian_Bordt1;~Eric_Raidl1;~Ulrike_von_Luxburg1",
+        "gender": ";M;F",
+        "homepage": "http://www.tml.cs.uni-tuebingen.de/team/bordt/index.php;;",
+        "dblp": "270/0462;174/8238;06/1082",
+        "google_scholar": "https://scholar.google.de/citations?user=6PnL3BgAAAAJ;https://scholar.google.com/citations?hl=de;mMifMdoAAAAJ",
+        "orcid": ";0000-0001-6153-4979;",
+        "linkedin": ";;",
+        "or_profile": "~Sebastian_Bordt1;~Eric_Raidl1;~Ulrike_von_Luxburg1",
+        "aff": "Eberhard-Karls-Universit\u00e4t T\u00fcbingen;Eberhard-Karls-Universit\u00e4t T\u00fcbingen;University of Tuebingen",
+        "aff_domain": "uni-tuebingen.de;uni-tuebingen.de;uni-tuebingen.de",
+        "position": "Postdoc;Postdoc;Professor"
     },
     {
         "id": "b3bJR1quJ3",
@@ -30838,6 +31843,21 @@
         "aff": "University of Oxford;DESY;Durham University",
         "aff_domain": "ox.ac.uk;desy.de;durham.ac.uk",
         "position": "PhD student;Postdoc;Full Professor"
+    },
+    {
+        "id": "bXfF6Dqe9s",
+        "author": "Min-Hsuan Yeh;Jeffrey Wang;Xuefeng Du;Seongheon Park;Leitian Tao;Shawn Im;Yixuan Li",
+        "authorids": "~Min-Hsuan_Yeh1;~Jeffrey_Wang2;~Xuefeng_Du1;~Seongheon_Park1;~Leitian_Tao1;~Shawn_Im1;~Yixuan_Li1",
+        "gender": "M;M;M;M;M;M;F",
+        "homepage": "https://mhyeh.github.io;;https://d12306.github.io/;https://seongheon-96.github.io/;https://taoleitian.github.io/;https://shawn-im.github.io/;http://pages.cs.wisc.edu/~sharonli/",
+        "dblp": "305/6809;;34/3557;331/8077;296/3739;;144/6087-1",
+        "google_scholar": ";;GE_aEh4AAAAJ;https://scholar.google.com/citations?view_op=list_works;F5S6V6sAAAAJ;;https://scholar.google.com/citations?hl=en",
+        "orcid": "0009-0001-4945-712X;;;;;;",
+        "linkedin": "https://linkedin.com/in/mhyeh;jeffrey-wang-762a54274/;xuefeng-du-094723192/;;;;liyixuan",
+        "or_profile": "~Min-Hsuan_Yeh1;~Jeffrey_Wang2;~Xuefeng_Du1;~Seongheon_Park1;~Leitian_Tao1;~Shawn_Im1;~Yixuan_Li1",
+        "aff": "University of Wisconsin - Madison;University of Wisconsin - Madison;University of Wisconsin, Madison;Department of Computer Science, University of Wisconsin - Madison;University of Wisconsin - Madison;Department of Computer Science, University of Wisconsin - Madison;Cornell University",
+        "aff_domain": "wisc.edu;wisc.edu;wisc.edu;cs.wisc.edu;wisc.edu;cs.wisc.edu;cornell.edu",
+        "position": "PhD student;Undergrad student;PhD student;PhD student;PhD student;PhD student;Graduate Student"
     },
     {
         "id": "bXilZCSueG",
@@ -31650,6 +32670,21 @@
         "position": "PhD student;PhD student;Associate Professor;Full Professor"
     },
     {
+        "id": "cRBg1dtj7o",
+        "author": "Jacy Reese Anthis;Ryan Liu;Sean M Richardson;Austin C. Kozlowski;Bernard Koch;Erik Brynjolfsson;James Evans;Michael S. Bernstein",
+        "authorids": "~Jacy_Reese_Anthis1;~Ryan_Liu1;~Sean_M_Richardson1;~Austin_C._Kozlowski1;~Bernard_Koch1;~Erik_Brynjolfsson1;~James_Evans1;~Michael_S._Bernstein1",
+        "gender": ";M;M;;M;M;M;",
+        "homepage": "https://jacyanthis.com;https://theryanl.github.io;https://austinkozlowski.com/;https://soc.ucla.edu/grads/bernard-koch;https://brynjolfsson.com;https://macss.uchicago.edu/directory/James-Evans;http://hci.stanford.edu/msb/;",
+        "dblp": "284/9100;;;;b/EBrynjolfsson.html;;48/2547;",
+        "google_scholar": "lRhxKSAAAAAJ;s3McVn8AAAAJ;1DYGGpMAAAAJ;;lqyGZpQAAAAJ;kV4N4zoAAAAJ;https://scholar.google.com.tw/citations?user=zkhHirIAAAAJ;",
+        "orcid": "0000-0002-4684-348X;;0000-0001-8458-1129;;0000-0002-8031-6990;;0000-0001-8020-9434;",
+        "linkedin": "jacyanthis/;ryanchenliu/;;;erikbrynjolfsson/;;;sean-richard-son/",
+        "or_profile": "~Jacy_Reese_Anthis1;~Ryan_Liu1;~Austin_C._Kozlowski1;~Bernard_Koch1;~Erik_Brynjolfsson1;~James_Evans1;~Michael_S._Bernstein1;~Sean_Richardson1",
+        "aff": "Sentience Institute;Princeton University;University of Chicago;University of California, Los Angeles;Stanford University;;Computer Science Department, Stanford University;University of Chicago",
+        "aff_domain": "sentienceinstitute.org;princeton.edu;uchicago.edu;ucla.edu;stanford.edu;;cs.stanford.edu;uchicago.edu",
+        "position": "Principal Researcher;PhD student;Researcher;PhD student;Full Professor;;Associate Professor;MS student"
+    },
+    {
         "id": "cRmuEY7jhb",
         "author": "Yuya Hikima;Hiroshi Sawada;Akinori Fujino",
         "authorids": "~Yuya_Hikima1;~Hiroshi_Sawada3;~Akinori_Fujino1",
@@ -32115,6 +33150,21 @@
         "position": "MS student;Full Professor;Researcher"
     },
     {
+        "id": "cw7MYyDL33",
+        "author": "Alan Jeffares;Mihaela van der Schaar",
+        "authorids": "~Alan_Jeffares1;~Mihaela_van_der_Schaar2",
+        "gender": ";F",
+        "homepage": "https://alanjeffares.com;https://www.vanderschaar-lab.com",
+        "dblp": "304/1985;",
+        "google_scholar": "e65kJ08AAAAJ;DZ3S--MAAAAJ",
+        "orcid": ";",
+        "linkedin": "alanjeffares;",
+        "or_profile": "~Alan_Jeffares1;~Mihaela_van_der_Schaar2",
+        "aff": "University of Cambridge;University of California, Los Angeles",
+        "aff_domain": "cam.ac.uk;ucla.edu",
+        "position": "PhD student;Full Professor"
+    },
+    {
         "id": "cwpf8S4f5C",
         "author": "Arnold Filtser;Shaofeng H.-C. Jiang;Yi Li;Anurag Murty Naredla;Ioannis Psarros;Qiaoyuan Yang;Qin Zhang",
         "authorids": "~Arnold_Filtser1;~Shaofeng_H.-C._Jiang1;~Yi_Li8;~Anurag_Murty_Naredla1;~Ioannis_Psarros1;~Qiaoyuan_Yang1;~Qin_Zhang1",
@@ -32218,6 +33268,21 @@
         "aff": "ETHZ - ETH Zurich;Technische Universit\u00e4t Berlin;Technische Universit\u00e4t Dresden",
         "aff_domain": "ethz.ch;tu-berlin.de;tu-dresden.de",
         "position": "PhD student;PhD student;Full Professor"
+    },
+    {
+        "id": "d2k8uDYlkh",
+        "author": "Youngwoo Cho;Jaekak Yoo;Dong-Joon Yi;Soyoung Yang;Seung Mi Lee;Mun Seok Jeong;Jaegul Choo",
+        "authorids": "~Youngwoo_Cho1;~Jaekak_Yoo1;~Dong-Joon_Yi1;~Soyoung_Yang1;~Seung_Mi_Lee1;~Mun_Seok_Jeong1;~Jaegul_Choo1",
+        "gender": "M;M;M;F;F;M;M",
+        "homepage": ";;;;;;https://sites.google.com/site/jaegulchoo/",
+        "dblp": "276/6715;;;239/8032;;;07/2074",
+        "google_scholar": "Ys4ejKUAAAAJ;TYcCbDsAAAAJ;https://scholar.google.co.kr/citations?user=MZE2mWsAAAAJ;5Mw3sVAAAAAJ;https://scholar.google.com/citations?hl=ko;gRnO3mYAAAAJ;GHJYsLEAAAAJ",
+        "orcid": "0000-0001-6082-9468;0000-0002-8080-8362;0000-0001-5798-3931;;0000-0002-5956-5853;;",
+        "linkedin": "youngwoo-cho;;dong-joon-yi-a15108269/;soyoung-yang-b96032166/;;;",
+        "or_profile": "~Youngwoo_Cho1;~Jaekak_Yoo1;~Dong-Joon_Yi1;~Soyoung_Yang1;~Seung_Mi_Lee1;~Mun_Seok_Jeong1;~Jaegul_Choo1",
+        "aff": "Korea Advanced Institute of Science & Technology;Hanyang University;Hanyang University;KAIST;Korea Research Institute of Standards and Science;Hanyang University;Korea Advanced Institute of Science & Technology",
+        "aff_domain": "kaist.ac.kr;hanyang.ac.kr;hanyang.ac.kr;ee.kaist.ac.kr;kriss.re.kr;hanyang.ac.kr;kaist.ac.kr",
+        "position": "PhD student;Postdoc;PhD student;PhD student;Principal Researcher;Full Professor;Associate Professor"
     },
     {
         "id": "d2qpEYzyyy",
@@ -33180,6 +34245,21 @@
         "position": "Researcher;Researcher;;Researcher;Principal Researcher"
     },
     {
+        "id": "eI8KegpPyX",
+        "author": "Miriam Doh;Benedikt H\u00f6ltgen;Piera Riccio;Nuria M Oliver",
+        "authorids": "~Miriam_Doh1;~Benedikt_H\u00f6ltgen1;~Piera_Riccio1;~Nuria_M_Oliver1",
+        "gender": "M;F;F;F",
+        "homepage": "https://fm.ls/ben;;http://www.nuriaoliver.com;",
+        "dblp": ";;o/NuriaOliver;",
+        "google_scholar": ";ejhiyEIAAAAJ;https://scholar.google.es/citations?user=VJlCMGYAAAAJ;3QlEoa4AAAAJ",
+        "orcid": ";;0000-0001-5985-691X;0000-0003-2523-6901",
+        "linkedin": "benedikt-h%C3%B6ltgen-b010aa203/;;nuriaoliver;miriam-doh/",
+        "or_profile": "~Benedikt_H\u00f6ltgen1;~Piera_Riccio1;~Nuria_M_Oliver1;~Doh_Miriam1",
+        "aff": "Eberhard-Karls-Universit\u00e4t T\u00fcbingen;ELLIS Alicante;Chief Data Scientist;Universit\u00e9 de Mons",
+        "aff_domain": "uni-tuebingen.de;ellisalicante.org;datapopalliance.org;umons.ac.be",
+        "position": "PhD student;PhD student;Chief Data Scientist;PhD student"
+    },
+    {
         "id": "eIm0PQVu55",
         "author": "Fengbin Guan;Xin Li;Zihao Yu;Yiting Lu;Zhibo Chen",
         "authorids": "~Fengbin_Guan1;~Xin_Li28;~Zihao_Yu3;~Yiting_Lu1;~Zhibo_Chen1",
@@ -33388,6 +34468,21 @@
         "aff": "Johns Hopkins University;Johns Hopkins University",
         "aff_domain": "jhu.edu;jhu.edu",
         "position": "Associate Professor;Postdoc"
+    },
+    {
+        "id": "eax2ixyeQL",
+        "author": "Oliver Eberle;Thomas Austin McGee;Hamza Giaffar;Taylor Whittington Webb;Ida Momennejad",
+        "authorids": "~Oliver_Eberle1;~Thomas_Austin_McGee1;~Hamza_Giaffar1;~Taylor_Whittington_Webb1;~Ida_Momennejad1",
+        "gender": ";M;M;M;F",
+        "homepage": "https://www.tu.berlin/;;https://aoilab.biosci.ucsd.edu/;https://scholar.google.com/citations?user=WCmrJoQAAAAJ&hl=en;https://www.momen-nejad.org",
+        "dblp": "260/6891;;211/7065;183/6144;",
+        "google_scholar": "vZB4qw0AAAAJ;;;WCmrJoQAAAAJ;https://scholar.google.de/citations?user=OFdUAJwAAAAJ",
+        "orcid": "0000-0002-6967-9950;;;;0000-0003-0830-3973",
+        "linkedin": ";thomas-mcgee-a44b8014b;;;ida-momennejad-8661a710/",
+        "or_profile": "~Oliver_Eberle1;~Thomas_Austin_McGee1;~Hamza_Giaffar1;~Taylor_Whittington_Webb1;~Ida_Momennejad1",
+        "aff": "Technische Universit\u00e4t Berlin;University of California, Los Angeles;University of California, San Diego;Microsoft Research;Microsoft Research",
+        "aff_domain": "tu-berlin.de;g.ucla.edu;ucsd.edu;research.microsoft.com;research.microsoft.com",
+        "position": "Postdoc;PhD student;Postdoc;Postdoc;Principal Researcher"
     },
     {
         "id": "ebf2IYBrZO",
@@ -34215,6 +35310,21 @@
         "position": "Assistant Professor"
     },
     {
+        "id": "fRk0nKLKrJ",
+        "author": "Ruth Elisabeth Appel",
+        "authorids": "~Ruth_Elisabeth_Appel1",
+        "gender": "F",
+        "homepage": "https://ruthappel.github.io/",
+        "dblp": "401/7727",
+        "google_scholar": "3flEE1wAAAAJ",
+        "orcid": "0000-0003-2344-2023",
+        "linkedin": "",
+        "or_profile": "~Ruth_Elisabeth_Appel1",
+        "aff": "Stanford University",
+        "aff_domain": "stanford.edu",
+        "position": "Postdoc"
+    },
+    {
         "id": "fRoRsmPHUM",
         "author": "Haoran Zhang;Aparna Balagopalan;Nassim Oufattole;Hyewon Jeong;Yan Wu;Jiacheng Zhu;Marzyeh Ghassemi",
         "authorids": "~Haoran_Zhang4;~Aparna_Balagopalan1;~Nassim_Oufattole1;~Hyewon_Jeong1;~Yan_Wu6;~Jiacheng_Zhu1;~Marzyeh_Ghassemi2",
@@ -34875,6 +35985,21 @@
         "position": "Intern;;Researcher;Researcher;Researcher"
     },
     {
+        "id": "gCPJFcHskT",
+        "author": "Sunayana Rane;Cyrus F. Kirkman;Graham Todd;Amanda Royka;Ryan M.C. Law;Erica Cartmill;Jacob Gates Foster",
+        "authorids": "~Sunayana_Rane1;~Cyrus_F._Kirkman1;~Graham_Todd1;~Amanda_Royka1;~Ryan_M.C._Law1;~Erica_Cartmill1;~Jacob_Gates_Foster1",
+        "gender": ";M;;F;M;F;M",
+        "homepage": ";;;https://amandaroyka.github.io/;https://rmc-law.github.io;https://www.linglab.ucla.edu/;",
+        "dblp": ";;;;;;",
+        "google_scholar": ";;NyBWyCIAAAAJ;;https://scholar.google.co.uk/citations?user=d06kiU8AAAAJ;;dpuY5hkAAAAJ",
+        "orcid": ";0000-0002-6497-8302;;;0000-0002-1175-4604;;",
+        "linkedin": ";cyrus-kirkman-582849195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app;;;;;",
+        "or_profile": "~Sunayana_Rane1;~Cyrus_F._Kirkman1;~Graham_Todd1;~Amanda_Royka1;~Ryan_M.C._Law1;~Erica_Cartmill1;~Jacob_Gates_Foster1",
+        "aff": ";University of California, Los Angeles;New York University;Yale University;University of Cambridge;University of California, Los Angeles;Indiana University Bloomington",
+        "aff_domain": ";ucla.edu;nyu.edu;yale.edu;cam.ac.uk;ucla.edu;iu.edu",
+        "position": ";PhD student;PhD student;PhD student;PhD student;Associate Professor;Full Professor"
+    },
+    {
         "id": "gGY9TNVYs3",
         "author": "Puning Zhao;Rongfei Fan;Shaowei Wang;Li Shen;Qixin Zhang;ZongKe;Tianhang Zheng",
         "authorids": "~Puning_Zhao1;~Rongfei_Fan1;~Shaowei_Wang1;~Li_Shen1;~Qixin_Zhang1;~ZongKe1;~Tianhang_Zheng2",
@@ -35340,6 +36465,21 @@
         "position": "Researcher;Researcher;Researcher"
     },
     {
+        "id": "gnyqRarPzW",
+        "author": "Jing Yang",
+        "authorids": "~Jing_Yang11",
+        "gender": "M",
+        "homepage": "https://jingyangcarl.com/",
+        "dblp": "",
+        "google_scholar": "DFo1j88AAAAJ",
+        "orcid": "",
+        "linkedin": "jingyangcarl/",
+        "or_profile": "~Jing_Yang11",
+        "aff": "USC Institute for Creative Technologies, University of Southern California",
+        "aff_domain": "ict.usc.edu",
+        "position": "PhD student"
+    },
+    {
         "id": "goVzfYtj58",
         "author": "Micha\u0142 Wili\u0144ski;Mononito Goswami;Willa Potosnak;Nina \u017bukowska;Artur Dubrawski",
         "authorids": "~Micha\u0142_Wili\u0144ski1;~Mononito_Goswami1;~Willa_Potosnak2;~Nina_\u017bukowska1;~Artur_Dubrawski2",
@@ -35488,6 +36628,21 @@
         "aff": "Carnegie Mellon University;;Carnegie Mellon University",
         "aff_domain": "cmu.edu;;cmu.edu",
         "position": "PhD student;;Full Professor"
+    },
+    {
+        "id": "gwhPvu97Gm",
+        "author": "Kevin Wei;Patricia Paskov;Sunishchal Dev;Michael J Byun;Anka Reuel;Xavier Roberts-Gaal;Rachel Calcott;Evie Coxon;Chinmay Deshpande",
+        "authorids": "~Kevin_Wei1;~Patricia_Paskov1;~Sunishchal_Dev1;~Michael_J_Byun1;~Anka_Reuel1;~Xavier_Roberts-Gaal1;~Rachel_Calcott1;~Evie_Coxon1;~Chinmay_Deshpande1",
+        "gender": ";F;M;;;;;F;M",
+        "homepage": ";;;;;https://scholar.harvard.edu/xrg;;;",
+        "dblp": ";;;;;;;;",
+        "google_scholar": ";;;;;VwvXaLEAAAAJ;;;R6uOw_sAAAAJ",
+        "orcid": ";;;;;0000-0001-5006-2873;;;",
+        "linkedin": ";patricia-paskov/;sunishchaldev/;michael-byun/;;xavier-roberts-gaal/;;https://de.linkedin.com/in/evie-coxon-5039401b0;chinmay-deshpande-/",
+        "or_profile": "~Kevin_Wei1;~Patricia_Paskov1;~Sunishchal_Dev1;~Michael_J_Byun1;~Anka_Reuel1;~Xavier_Roberts-Gaal1;~Rachel_Calcott1;~Evie_Coxon1;~Chinmay_Deshpande1",
+        "aff": ";RAND Corporation;Algoverse Coding Academy LLC;RAND Corporation;;Harvard University;;Max Planck School of Cognition;Center for Democracy and Technology",
+        "aff_domain": ";rand.org;algoversecodingacademy.com;rand.org;;harvard.edu;;maxplanckschools.de;cdt.org",
+        "position": ";Researcher;Principal Researcher;Fellow;;PhD student;;PhD student;Fellow"
     },
     {
         "id": "gwlJgoq5QZ",
@@ -36079,7 +37234,7 @@
         "author": "Wenyin Zhou;Christopher Iliffe Sprague;Vsevolod Viliuga;Matteo Tadiello;Arne Elofsson;Hossein Azizpour",
         "authorids": "~Wenyin_Zhou1;~Christopher_Iliffe_Sprague1;~Vsevolod_Viliuga1;~Matteo_Tadiello1;~Arne_Elofsson1;~Hossein_Azizpour2",
         "gender": "M;M;M;M;M;M",
-        "homepage": "https://www.kth.se/profile/wenyinz?l=en;https://cisprague.github.io/;https://github.com/ncyx;https://tadteo.github.io/;https://bioinfo.se/;http://www.csc.kth.se/~azizpour/",
+        "homepage": "https://www.kth.se/profile/wenyinz?l=en;https://cisprague.github.io/;https://github.com/proteinator;https://tadteo.github.io/;https://bioinfo.se/;http://www.csc.kth.se/~azizpour/",
         "dblp": ";227/3128;;;77/3277.html;119/1327",
         "google_scholar": ";3HsccBAAAAAJ;;;https://scholar.google.se/citations?user=s3OCM3AAAAAJ;https://scholar.google.se/citations?user=t6CRgJsAAAAJ",
         "orcid": ";0000-0003-4943-2501;;0000-0002-2201-5129;0000-0002-7115-9751;0000-0001-5211-6388",
@@ -36433,6 +37588,21 @@
         "aff": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen;University of Munich, Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen;Universit\u00e4t Vienna;University of Vienna, Vienna, Austria",
         "aff_domain": "dbs.ifi.lmu.de;campus.lmu.de;univie.ac.at;univie.ac.at",
         "position": "PhD student;MS student;Full Professor;Associate Professor"
+    },
+    {
+        "id": "hxwIndG0Z8",
+        "author": "Yanzhou Pan;Jiayi Chen;Jiamin Chen;Zhaozhuo Xu;Denghui Zhang",
+        "authorids": "~Yanzhou_Pan1;~Jiayi_Chen22;~Jiamin_Chen6;~Zhaozhuo_Xu1;~Denghui_Zhang2",
+        "gender": ";F;F;M;",
+        "homepage": ";;;https://ottovonxu.github.io/;",
+        "dblp": ";;;195/4352;",
+        "google_scholar": "qG3yZeIAAAAJ;;;7tDlVAsAAAAJ;",
+        "orcid": ";;;;",
+        "linkedin": ";jiayi-chen-b50588295/;jiamin-chen-wendy/;;",
+        "or_profile": "~Yanzhou_Pan1;~Jiayi_Chen22;~Jiamin_Chen6;~Zhaozhuo_Xu1;~Denghui_Zhang2",
+        "aff": "Google;National University of Singapore;Northeastern University;Stevens Institute of Technology;",
+        "aff_domain": "google.com;nus.edu.sg;neu.edu;stevens.edu;",
+        "position": "Engineer;Researcher;MS student;Assistant Professor;"
     },
     {
         "id": "hyPWP38j5k",
@@ -37365,6 +38535,21 @@
         "position": "Intern;Full Professor;Researcher;Research scientist;VP, Google Fellow;Researcher"
     },
     {
+        "id": "j3totqf8xW",
+        "author": "Abeer Badawi;Md Tahmid Rahman Laskar;Jimmy Huang;Shaina Raza;Elham Dolatabadi",
+        "authorids": "~Abeer_Badawi1;~Md_Tahmid_Rahman_Laskar2;~Jimmy_Huang1;~Shaina_Raza2;~Elham_Dolatabadi1",
+        "gender": "F;M;M;F;F",
+        "homepage": "https://abeerabadawi.wixsite.com/mysite;https://sites.google.com/view/tahmedge/home;https://www.yorku.ca/jhuang;https://www.linkedin.com/in/shainaraza/;https://www.elhamdolatabadi.com/",
+        "dblp": "299/2971.html;250/6292;h/XiangjiHuang.html;;188/3806",
+        "google_scholar": "https://scholar.google.com/citations?hl=en;qpnsWPoAAAAJ;https://scholar.google.ca/citations?user=EBeIYOwAAAAJ;https://scholar.google.ca/citations?user=chcz7RMAAAAJ;https://scholar.google.ca/citations?hl=en",
+        "orcid": "0000-0002-0107-9457;;0000-0003-1292-1491;;0000-0003-2236-2611",
+        "linkedin": "abeer-badawi-842199117/;tahmedge/;;;elham-dolatabadi-linkedin/",
+        "or_profile": "~Abeer_Badawi1;~Md_Tahmid_Rahman_Laskar2;~Jimmy_Huang1;~Shaina_Raza2;~Elham_Dolatabadi1",
+        "aff": "Vector Institute;Dialpad Inc. ;York University;Vector institute;York University",
+        "aff_domain": "vectorinstitute.ai;dialpad.com;yorku.ca;vectorinstitute.ai;yorku.ca",
+        "position": "Researcher;Senior Applied Scientist;Full Professor;Researcher;Assistant Professor"
+    },
+    {
         "id": "j4FXxMiDjL",
         "author": "Maohao Shen;Guangtao Zeng;Zhenting Qi;Zhang-Wei Hong;Zhenfang Chen;Wei Lu;Gregory W. Wornell;Subhro Das;David Daniel Cox;Chuang Gan",
         "authorids": "~Maohao_Shen1;~Guangtao_Zeng1;~Zhenting_Qi1;~Zhang-Wei_Hong1;~Zhenfang_Chen1;~Wei_Lu10;~Gregory_W._Wornell1;~Subhro_Das1;~David_Daniel_Cox1;~Chuang_Gan1",
@@ -37408,6 +38593,21 @@
         "aff": "Ben Gurion University of the Negev;Ben Gurion University of the Negev;Ben Gurion University of the Negev;Fujitsu Research and Development Center Co. Ltm.;Fujitsu Research and Development Center Co. Ltm.;Fujitsu Research and Development Center Co. Ltm.;Ben Gurion University of the Negev, Technion;",
         "aff_domain": "post.bgu.ac.il;post.bgu.ac.il;post.bgu.ac.il;fujitsu.com;fujitsu.com;fujitsu.com;bgu.ac.il;",
         "position": "MS student;PhD student;MS student;Researcher;Principal Researcher;Researcher;Full Professor;"
+    },
+    {
+        "id": "j5eEF77JQz",
+        "author": "Serena Booth",
+        "authorids": "~Serena_Booth1",
+        "gender": "F",
+        "homepage": "http://www.slbooth.com",
+        "dblp": "",
+        "google_scholar": "sf3ROEUAAAAJ",
+        "orcid": "",
+        "linkedin": "",
+        "or_profile": "~Serena_Booth1",
+        "aff": "United States Senate",
+        "aff_domain": "senate.gov",
+        "position": "Principal Researcher"
     },
     {
         "id": "j68NJfjMVH",
@@ -37635,6 +38835,21 @@
         "position": "Researcher;Researcher;;Researcher;Principal Researcher;"
     },
     {
+        "id": "jK4dbpEEMo",
+        "author": "Edward Y Chang;Arihant Choudhary;Parth Behani;Yash Vardhan Pansari",
+        "authorids": "~Edward_Y_Chang1;~Arihant_Choudhary1;~Parth_Behani1;~Yash_Vardhan_Pansari1",
+        "gender": "M;;M;M",
+        "homepage": "http://infolab.stanford.edu/~echang/;;;https://profiles.stanford.edu/yash-pansari;jsessionid=2770C1774990CF740706F69C54AB99D8.cap-su-capappprd97",
+        "dblp": "c/EdwardYChang;;;",
+        "google_scholar": "pZmOvyYAAAAJ;;;",
+        "orcid": ";0000-0002-4648-240X;;",
+        "linkedin": "edward-y-chang-218b182/;arihantchoudhary;parthbehani/;yashvpansari",
+        "or_profile": "~Edward_Y_Chang1;~Arihant_Choudhary1;~Parth_Behani1;~Yash_Vardhan_Pansari1",
+        "aff": "Computer Science Department, Stanford University;University of California, Berkeley;University of California, Berkeley;Trace Technologies Inc.",
+        "aff_domain": "cs.stanford.edu;berkeley.edu;berkeley.edu;tracetec.co",
+        "position": "Full Professor;Undergrad student;Undergrad student;Researcher"
+    },
+    {
         "id": "jMKaATBEKb",
         "author": "Long Ma;Fangwei Zhong;Yizhou Wang",
         "authorids": "~Long_Ma5;~Fangwei_Zhong3;~Yizhou_Wang1",
@@ -37813,6 +39028,21 @@
         "aff": "Columbia University;Columbia University;Columbia University;Columbia University;Columbia University;Columbia University;Columbia University;Columbia University",
         "aff_domain": "columbia.edu;columbia.edu;columbia.edu;columbia.edu;columbia.edu;columbia.edu;columbia.edu;columbia.edu",
         "position": "PhD student;PhD student;Undergrad student;Undergrad student;PhD student;Full Professor;Researcher;Associate Professor"
+    },
+    {
+        "id": "jd1N60VNFE",
+        "author": "Sayash Kapoor;Noam Kolt;Seth Lazar",
+        "authorids": "~Sayash_Kapoor2;~Noam_Kolt1;~Seth_Lazar1",
+        "gender": "M;;M",
+        "homepage": "https://www.cs.princeton.edu/~sayashk/;http://noamkolt.com/;https://www.sethlazar.org",
+        "dblp": ";;",
+        "google_scholar": ";;",
+        "orcid": ";;0000-0001-5378-6033",
+        "linkedin": ";;",
+        "or_profile": "~Sayash_Kapoor2;~Noam_Kolt1;~Seth_Lazar1",
+        "aff": "Princeton University;Hebrew University of Jerusalem;Australian National University",
+        "aff_domain": "princeton.edu;huji.ac.il;anu.edu.au",
+        "position": "PhD student;Assistant Professor;Full Professor"
     },
     {
         "id": "jdBWtGZnYd",
@@ -38398,6 +39628,21 @@
         "aff": ";",
         "aff_domain": ";",
         "position": ";"
+    },
+    {
+        "id": "kJzB6lQmcb",
+        "author": "MA Kimmel;Mueed Ur Rehman;Yonatan Bisk;Gary K. Fedder",
+        "authorids": "~MA_Kimmel1;~Mueed_Ur_Rehman1;~Yonatan_Bisk1;~Gary_K._Fedder1",
+        "gender": "F;;M;M",
+        "homepage": ";;http://www.YonatanBisk.com;https://users.ece.cmu.edu/~fedder/",
+        "dblp": ";351/5852.html;38/9282;31/5940",
+        "google_scholar": "lRvBcUsAAAAJ;https://scholar.google.com/citations?hl=en;bWoGh8UAAAAJ;JOMYt6gAAAAJ",
+        "orcid": ";;0000-0002-2111-9081;0000-0002-2380-5210",
+        "linkedin": ";mueedurrehman;yonatanbisk/;garyfedder/",
+        "or_profile": "~MA_Kimmel1;~Mueed_Ur_Rehman1;~Yonatan_Bisk1;~Gary_K._Fedder1",
+        "aff": "Carnegie Mellon University;Carnegie Mellon University;Carnegie Mellon University;Carnegie Mellon University",
+        "aff_domain": "andrew.cmu.edu;cmu.edu;cmu.edu;cmu.edu",
+        "position": "PhD student;Researcher;Assistant Professor;Full Professor"
     },
     {
         "id": "kLOoc8a3bc",
@@ -39105,6 +40350,21 @@
         "position": "PhD student;MS student;Associate Professor;Full Professor;;"
     },
     {
+        "id": "l8QemUZaIA",
+        "author": "Jaeho Kim;Yunseok Lee;Seulki Lee",
+        "authorids": "~Jaeho_Kim1;~Yunseok_Lee2;~Seulki_Lee1",
+        "gender": "M;M;M",
+        "homepage": "https://sites.google.com/view/jaeho-kim;https://sites.google.com/view/embeddedai/team?authuser=0;https://sites.google.com/view/seulkilee",
+        "dblp": ";;19/1764-2",
+        "google_scholar": "sAZjQWcAAAAJ;;https://scholar.google.com/citations?hl=en",
+        "orcid": "0009-0005-9978-9551;;0009-0004-7162-0845",
+        "linkedin": "jaeho3690/;;seulki-lee-0b9997a5/",
+        "or_profile": "~Jaeho_Kim1;~Yunseok_Lee2;~Seulki_Lee1",
+        "aff": "Ulsan National Institute of Science and Technology;Ulsan National Institute of Science and Technology;Ulsan National Institute of Science and Technology",
+        "aff_domain": "unist.ac.kr;unist.ac.kr;unist.ac.kr",
+        "position": "PhD student;MS student;Assistant Professor"
+    },
+    {
         "id": "l9DJGAtoAj",
         "author": "Jinyu Cai;Yunhe Zhang;Jicong Fan",
         "authorids": "~Jinyu_Cai2;~Yunhe_Zhang1;~Jicong_Fan2",
@@ -39214,7 +40474,7 @@
         "author": "Jisu Han;Jaemin Na;Wonjun Hwang",
         "authorids": "~Jisu_Han2;~Jaemin_Na1;~Wonjun_Hwang1",
         "gender": ";M;M",
-        "homepage": "https://github.com/pilsHan;https://najaemin92.github.io;https://sites.google.com/view/siglearnlab",
+        "homepage": "https://pilshan.github.io/;https://najaemin92.github.io;https://sites.google.com/view/siglearnlab",
         "dblp": "346/8383;258/8825;23/798",
         "google_scholar": "kCVEGswAAAAJ;C1Jl61oAAAAJ;-I8AfBAAAAAJ",
         "orcid": ";0000-0002-8604-2839;0000-0001-8895-0411",
@@ -40185,6 +41445,21 @@
         "position": "Researcher;DNN Research & Algorithm Team Leader;Researcher;Researcher;;Assistant Professor"
     },
     {
+        "id": "mWlnrtOTtm",
+        "author": "Jan Kulveit;Raymond Douglas;Nora Ammann;Deger Turan;David Krueger;David Duvenaud",
+        "authorids": "~Jan_Kulveit1;~Raymond_Douglas1;~Nora_Ammann1;~Deger_Turan1;~David_Krueger1;~David_Duvenaud2",
+        "gender": "Not Specified;;F;M;M;M",
+        "homepage": ";https://raymonddouglas.co.uk;;;https://mila.umontreal.ca/en/person/david-scott-krueger/;https://www.cs.toronto.edu/~duvenaud/",
+        "dblp": ";;;;142/2741.html;86/9380",
+        "google_scholar": "https://scholar.google.cz/citations?user=tBX1aVsAAAAJ;;Fc1IYb8AAAAJ;;https://scholar.google.ca/citations?user=5Uz70IoAAAAJ;https://scholar.google.ca/citations?user=ZLpO3XQAAAAJ",
+        "orcid": "0000-0002-3791-8355;;;;;",
+        "linkedin": ";;nora-ammann-329396139/;vehbidegerturan;;",
+        "or_profile": "~Jan_Kulveit1;~Raymond_Douglas1;~Nora_Ammann1;~Deger_Turan1;~David_Krueger1;~David_Duvenaud2",
+        "aff": "Charles University Prague;;;Stanford University;Montreal Institute for Learning Algorithms, University of Montreal, Universit\u00e9 de Montr\u00e9al;Department of Computer Science, University of Toronto",
+        "aff_domain": "cuni.cz;;;stanford.edu;mila.umontreal.ca;cs.toronto.edu",
+        "position": "Principal Researcher;;;Undergrad student;Assistant Professor;Assistant Professor"
+    },
+    {
         "id": "mXEdUcLtaK",
         "author": "Xingyue Huang;Pablo Barcelo;Michael M. Bronstein;Ismail Ilkan Ceylan;Mikhail Galkin;Juan L Reutter;Miguel Romero Orth",
         "authorids": "~Xingyue_Huang1;~Pablo_Barcelo1;~Michael_M._Bronstein1;~Ismail_Ilkan_Ceylan2;~Mikhail_Galkin1;~Juan_L_Reutter1;~Miguel_Romero_Orth1",
@@ -40530,6 +41805,21 @@
         "position": "Undergrad student;;PhD student;Associate Professor"
     },
     {
+        "id": "mzc1KPkIMJ",
+        "author": "Giovanni Luca Marchetti;Vahid Shahverdi;Stefano Mereta;Matthew Trager;Kathl\u00e9n Kohn",
+        "authorids": "~Giovanni_Luca_Marchetti1;~Vahid_Shahverdi1;~Stefano_Mereta1;~Matthew_Trager2;~Kathl\u00e9n_Kohn1",
+        "gender": "M;;M;;F",
+        "homepage": "https://www.kth.se/profile/glma;https://sites.google.com/view/vahidshahverdi/;https://sites.google.com/view/stefanomereta/home;;https://kathlenkohn.github.io",
+        "dblp": "310/4949;;;176/1439;167/4249",
+        "google_scholar": "ePYa2qAAAAAJ;VxL55WMAAAAJ;;g3sXAWkAAAAJ;jk2kwWIAAAAJ",
+        "orcid": ";0009-0005-2619-9198;0000-0002-4549-2534;;0000-0002-4627-8812",
+        "linkedin": ";vahid-shahverdi-25277436/?originalSubdomain=se;;;",
+        "or_profile": "~Giovanni_Luca_Marchetti1;~Vahid_Shahverdi1;~Stefano_Mereta1;~Matthew_Trager2;~Kathl\u00e9n_Kohn1",
+        "aff": "KTH Royal Institute of Technology;KTH Royal Institute of Technology;KTH Royal Institute of Technology;Amazon;KTH Royal Institute of Technology",
+        "aff_domain": "kth.se;kth.se;kth.se;amazon.com;kth.se",
+        "position": "Postdoc;PhD student;Postdoc;Applied Scientist;Associate Professor"
+    },
+    {
         "id": "mzle2Jnt72",
         "author": "Alexander Tyurin",
         "authorids": "~Alexander_Tyurin1",
@@ -40588,6 +41878,21 @@
         "aff": "Harbin Institute of Technology;Harbin Institute of Technology;Harbin Institute of Technology;;Huawei Noah's Ark Lab (AI Lab);Tianjin University;Shandong University",
         "aff_domain": "stu.hit.edu.cn;hit.edu.cn;hit.edu.cn;;huawei.com;tju.edu.cn;sdu.edu.cn",
         "position": "MS student;PhD student;Full Professor;;Principal Researcher;Full Professor;Full Professor"
+    },
+    {
+        "id": "n1rqG1LnRF",
+        "author": "Weina Jin;Nicholas Vincent;Ghassan Hamarneh",
+        "authorids": "~Weina_Jin1;~Nicholas_Vincent2;~Ghassan_Hamarneh1",
+        "gender": ";M;M",
+        "homepage": ";https://www.nickmvincent.com;http://www.medicalimageanalysis.com",
+        "dblp": ";174/0437;h/GhassanHamarneh",
+        "google_scholar": ";IWa_ZMcAAAAJ;https://scholar.google.ca/citations?user=61DdlkAAAAAJ",
+        "orcid": ";;0000-0001-5040-7448",
+        "linkedin": ";;ghassanhamarneh/",
+        "or_profile": "~Weina_Jin1;~Nicholas_Vincent2;~Ghassan_Hamarneh1",
+        "aff": ";Simon Fraser University;Simon Fraser University",
+        "aff_domain": ";sfu.ca;sfu.ca",
+        "position": ";Assistant Professor;Full Professor"
     },
     {
         "id": "n3IkEjDq4V",
@@ -40738,6 +42043,21 @@
         "aff": "Monash University;Monash University;Monash University;Monash University",
         "aff_domain": "monash.edu;monash.edu;monash.edu.au;monash.edu",
         "position": "PhD student;Assistant Professor;Lecturer;Full Professor"
+    },
+    {
+        "id": "nDFpl2lhoH",
+        "author": "Maya Bechler-Speicher;Ben Finkelshtein;Fabrizio Frasca;Luis M\u00fcller;Jan T\u00f6nshoff;Antoine Siraudin;Viktor Zaverkin;Michael M. Bronstein;Mathias Niepert;Bryan Perozzi;Mikhail Galkin;Christopher Morris",
+        "authorids": "~Maya_Bechler-Speicher1;~Ben_Finkelshtein1;~Fabrizio_Frasca1;~Luis_M\u00fcller1;~Jan_T\u00f6nshoff1;~Antoine_Siraudin1;~Viktor_Zaverkin1;~Michael_M._Bronstein1;~Mathias_Niepert1;~Bryan_Perozzi1;~Mikhail_Galkin1;~Christopher_Morris1",
+        "gender": "Not Specified;M;M;;M;M;M;M;M;;M;M",
+        "homepage": ";https://benfinkelshtein.github.io/;https://noired.github.io;https://luis-mueller.github.io/;https://www.lics.rwth-aachen.de/;https://asiraudin.github.io/;https://viktorzaverkin.github.io/;http://www.inf.usi.ch/bronstein/;http://www.matlog.net;http://www.perozzi.net/;https://migalkin.github.io/;http://christophermorris.info",
+        "dblp": ";278/2449.html;228/1840;264/5619;;;;07/2668;n/MathiasNiepert;91/10813;160/8154;156/7303",
+        "google_scholar": "https://scholar.google.co.il/citations?user=5Fj_AUoAAAAJ;goWM7VwAAAAJ;PT2CDA4AAAAJ;iPxfRnEAAAAJ;;PhWCI7MAAAAJ;OTOXTzgAAAAJ;UU3N6-UAAAAJ;https://scholar.google.de/citations?user=p5vLzq0AAAAJ;rZgbMs4AAAAJ;yfYRbG4AAAAJ;",
+        "orcid": ";;0000-0002-5165-1394;;;;0000-0001-9940-8548;;;;;",
+        "linkedin": "maya-bechler-speicher-815103103/;ben-finkelshtein/;;luis-m%C3%BCller-58a5ba236/;;antoine-siraudin-b2458b198/;;mbronstein/;;;;",
+        "or_profile": "~Maya_Bechler-Speicher1;~Ben_Finkelshtein1;~Fabrizio_Frasca1;~Luis_M\u00fcller1;~Jan_T\u00f6nshoff1;~Antoine_Siraudin1;~Viktor_Zaverkin1;~Michael_M._Bronstein1;~Mathias_Niepert1;~Bryan_Perozzi1;~Mikhail_Galkin1;~Christopher_Morris1",
+        "aff": "Tel Aviv University;University of Oxford;Technion - Israel Institute of Technology, Technion - Israel Institute of Technology;RWTH Aachen University, Rheinisch Westf\u00e4lische Technische Hochschule Aachen;RWTH Aachen University;Rheinisch Westf\u00e4lische Technische Hochschule Aachen;NEC Laboratories Europe;University of Oxford;NEC;Google;Google;Rheinisch Westf\u00e4lische Technische Hochschule Aachen",
+        "aff_domain": "tau.ac.il;cs.ox.ac.uk;campus.technion.ac.il;cs.rwth-aachen.de;rwth-aachen.de;rwth-aachen.de;neclab.eu;ox.ac.uk;neclab.eu;google.com;google.com;rwth-aachen.de",
+        "position": "PhD student;PhD student;Postdoc;PhD student;PhD student;PhD student;Researcher;Full Professor;Research Scientist;Researcher;Researcher;Assistant Professor"
     },
     {
         "id": "nDHEkgVs8V",
@@ -41053,6 +42373,21 @@
         "aff": "Cornell University;Department of Computer Science, Cornell University",
         "aff_domain": "cornell.edu;cs.cornell.edu",
         "position": "Assistant Professor;PhD student"
+    },
+    {
+        "id": "nrlGUdlo16",
+        "author": "Yoonsoo Nam;Seok Hyeong Lee;Cl\u00e9mentine Carla Juliette Domin\u00e9;Yeachan Park;Charles London;Wonyl Choi;Niclas Alexander G\u00f6ring;Seungjai Lee",
+        "authorids": "~Yoonsoo_Nam1;~Seok_Hyeong_Lee1;~Cl\u00e9mentine_Carla_Juliette_Domin\u00e91;~Yeachan_Park1;~Charles_London1;~Wonyl_Choi1;~Niclas_Alexander_G\u00f6ring1;~Seungjai_Lee1",
+        "gender": "M;M;F;M;M;M;M;M",
+        "homepage": "https://www.physics.ox.ac.uk/our-people/yoonsoonam;http://qsms.math.snu.ac.kr/AboutUs;https://clementinedomine.github.io;https://yechanp.github.io/site/;https://le-big-mac.github.io/;https://cs-people.bu.edu/wonyl/;;https://seungjailee.wordpress.com/",
+        "dblp": "274/0898;;346/1036;256/5189.html;;;;",
+        "google_scholar": "https://scholar.google.com/citations?view_op=list_works;;oVZ0fSYAAAAJ;G-EEuLQAAAAJ;;;SpoGWKgAAAAJ;lU9wW2YAAAAJ",
+        "orcid": ";;;0000-0002-4211-6226;;;;0000-0002-7680-4297",
+        "linkedin": "yoonsoo-nam-b5548474/;;clementine-domine-75a6a2150/;;;;;",
+        "or_profile": "~Yoonsoo_Nam1;~Seok_Hyeong_Lee1;~Cl\u00e9mentine_Carla_Juliette_Domin\u00e91;~Yeachan_Park1;~Charles_London1;~Wonyl_Choi1;~Niclas_Alexander_G\u00f6ring1;~Seungjai_Lee1",
+        "aff": "University of Oxford;Seoul National University;University College London, University of London;Korea institute for advanced study;Department of Computer Science, University of Oxford;Boston University, Boston University;University of Oxford;Incheon National University",
+        "aff_domain": "ox.ac.uk;snu.ac.kr;ucl.ac.uk;kias.re.kr;cs.ox.ac.uk;bu.edu;oxford.ac.uk;inu.ac.kr",
+        "position": "PhD student;Postdoc;PhD student;Postdoc;PhD student;PhD student;PhD student;Assistant Professor"
     },
     {
         "id": "nshtqLv4r4",
@@ -43140,6 +44475,21 @@
         "position": "Postdoc;Undergrad student;Undergrad student;Assistant Professor;Assistant Professor"
     },
     {
+        "id": "q7QJyxgAq4",
+        "author": "Sarah Hartman;Cheng Soon Ong;Julia Powles;Petra Kuhnert",
+        "authorids": "~Sarah_Hartman1;~Cheng_Soon_Ong1;~Julia_Powles1;~Petra_Kuhnert1",
+        "gender": "F;M;F;",
+        "homepage": ";https://ong-home.my;;",
+        "dblp": ";58/2283;;",
+        "google_scholar": "RipFvOcAAAAJ;ofMZr0IAAAAJ;;",
+        "orcid": "0000-0002-2427-8440;0000-0002-2302-9733;;",
+        "linkedin": "hartman-sarah;cheng-soon-ong-38bbb524/;julia-powles-458a1a5/;",
+        "or_profile": "~Sarah_Hartman1;~Cheng_Soon_Ong1;~Julia_Powles1;~Petra_Kuhnert1",
+        "aff": "Commonwealth Scientific and Industrial Research Organisation, CSIRO;CSIRO;University of Western Australia;",
+        "aff_domain": "data61.csiro.au;csiro.au;uwa.edu.au;",
+        "position": "Postdoc;Principal Researcher;Associate Professor;"
+    },
+    {
         "id": "q9lITFNKds",
         "author": "Yulun Wu;Doron L Bergman",
         "authorids": "~Yulun_Wu1;~Doron_L_Bergman1",
@@ -43503,16 +44853,16 @@
         "id": "qROnDTwgCr",
         "author": "Pranav Machingal;Rakesh Busi;Nandyala Hemachandra;Petety V. Balaji",
         "authorids": "~Pranav_Machingal1;~Rakesh_Busi1;~Nandyala_Hemachandra1;~Petety_V._Balaji1",
-        "gender": "M;M;;",
-        "homepage": "https://www.ieor.iitb.ac.in/students/pranav;;;",
+        "gender": "M;M;;M",
+        "homepage": "https://www.ieor.iitb.ac.in/students/pranav;;;https://www.bio.iitb.ac.in/~balaji/",
         "dblp": "275/7773;;;",
         "google_scholar": "https://scholar.google.co.in/citations?user=p0ZCnUoAAAAJ;;;",
         "orcid": "0009-0002-7850-9598;0009-0001-0899-6653;;",
         "linkedin": "pranav-machingal-9b6170110/;;;",
         "or_profile": "~Pranav_Machingal1;~Rakesh_Busi1;~Nandyala_Hemachandra1;~Petety_V._Balaji1",
-        "aff": "Indian Institute of Technology, Bombay;Indian Institute of Technology, Bombay;;",
-        "aff_domain": "iitb.ac.in;iitb.ac.in;;",
-        "position": "PhD student;PhD student;;"
+        "aff": "Indian Institute of Technology, Bombay;Indian Institute of Technology, Bombay;;Indian Institute of Technology, Bombay, Dhirubhai Ambani Institute Of Information and Communication Technology",
+        "aff_domain": "iitb.ac.in;iitb.ac.in;;iitb.ac.in",
+        "position": "PhD student;PhD student;;Full Professor"
     },
     {
         "id": "qUTiOeM57J",
@@ -44545,9 +45895,9 @@
         "orcid": ";;;0000-0003-4738-2539",
         "linkedin": ";;;",
         "or_profile": "~Qiyao_Liang1;~Daoyuan_Qian1;~Liu_Ziyin1;~Ila_R_Fiete1",
-        "aff": "Massachusetts Institute of Technology;University of Cambridge;Massachusetts Institute of Technology;Massachusetts Institute of Technology",
-        "aff_domain": "mit.edu;cam.ac;mit.edu;mit.edu",
-        "position": "PhD student;PhD student;Postdoc;Professor"
+        "aff": "Massachusetts Institute of Technology;University of Cambridge;NTT Research;Massachusetts Institute of Technology",
+        "aff_domain": "mit.edu;cam.ac;ntt-research.com;mit.edu",
+        "position": "PhD student;PhD student;Researcher;Professor"
     },
     {
         "id": "rkegUc8d0c",
@@ -45124,15 +46474,15 @@
         "author": "Bill Yuchen Lin;Ronan Le Bras;Kyle Richardson;Ashish Sabharwal;Radha Poovendran;Peter Clark;Yejin Choi",
         "authorids": "~Bill_Yuchen_Lin1;~Ronan_Le_Bras1;~Kyle_Richardson1;~Ashish_Sabharwal1;~Radha_Poovendran1;~Peter_Clark1;~Yejin_Choi1",
         "gender": "M;M;M;M;Not Specified;M;F",
-        "homepage": "http://yuchenlin.xyz/;https://rlebras.github.io/index.html;https://www.nlp-kyle.com/;;https://people.ece.uw.edu/radha/index.html;https://allenai.org/team/peterc;https://yejinc.github.io/",
+        "homepage": "http://yuchenlin.xyz/;https://rlebras.github.io/index.html;https://www.nlp-kyle.com/;;https://people.ece.uw.edu/radha/index.html;https://pclark425.github.io/;https://yejinc.github.io/",
         "dblp": "190/4518;;38/9169;13/154;29/5044;34/1184;89/579-1",
         "google_scholar": "https://scholar.google.com/citations?hl=en;8dXLDSsAAAAJ;LmJN-n4AAAAJ;7VspfeAAAAAJ;EEoNZ7NbVzMC;o-5vyEsAAAAJ;vhP-tlcAAAAJ",
-        "orcid": ";;;;;;",
+        "orcid": ";;;;;0009-0002-0059-5596;",
         "linkedin": ";;;ashish-sabharwal-82a2b661;;peter-clark-a8b556/;",
         "or_profile": "~Bill_Yuchen_Lin1;~Ronan_Le_Bras1;~Kyle_Richardson1;~Ashish_Sabharwal1;~Radha_Poovendran1;~Peter_Clark1;~Yejin_Choi1",
         "aff": "University of Washington;Allen Institute for Artificial Intelligence;Allen Institute for Artificial Intelligence;Allen Institute for AI;University of Washington, Seattle;Allen Institute for Artificial Intelligence;NVIDIA",
         "aff_domain": "uw.edu;allenai.org;allenai.org;allenai.org;uw.edu;allenai.org;nvidia.com",
-        "position": "Assistant Professor;Researcher;Research Scientist;Principal Researcher;Full Professor;Senior Research Manager;Researcher"
+        "position": "Assistant Professor;Researcher;Research Scientist;Principal Researcher;Full Professor;Senior Research Director;Researcher"
     },
     {
         "id": "sTc83mG2H9",
@@ -46080,6 +47430,21 @@
         "position": "PhD student;PhD student;PhD student;PhD student;PhD student"
     },
     {
+        "id": "tctWi7I5wd",
+        "author": "Kirsten Morehouse;Siddharth Swaroop;Weiwei Pan",
+        "authorids": "~Kirsten_Morehouse1;~Siddharth_Swaroop2;~Weiwei_Pan1",
+        "gender": ";;",
+        "homepage": "https://kirstenmorehouse.wordpress.com/;https://siddharthswaroop.github.io/;",
+        "dblp": ";230/8333;",
+        "google_scholar": "77hWrZkAAAAJ;https://scholar.google.com/citations?hl=en;",
+        "orcid": ";;",
+        "linkedin": ";;",
+        "or_profile": "~Kirsten_Morehouse1;~Siddharth_Swaroop2;~Weiwei_Pan1",
+        "aff": "Harvard University;School of Engineering and Applied Sciences, Harvard University;Harvard University",
+        "aff_domain": "harvard.edu;seas.harvard.edu;harvard.edu",
+        "position": "PhD student;Postdoc;Postdoc"
+    },
+    {
         "id": "teJdFzLnKh",
         "author": "Jinpeng Chen;Runmin Cong;Yuzhi Zhao;Hongzheng Yang;Guangneng Hu;Horace Ip;Sam Kwong",
         "authorids": "~Jinpeng_Chen2;~Runmin_Cong1;~Yuzhi_Zhao1;~Hongzheng_Yang1;~Guangneng_Hu1;~Horace_Ip1;~Sam_Kwong1",
@@ -46670,7 +48035,7 @@
         "authorids": "~Jueqing_Lu1;~Wray_Buntine1;~YUANYUAN_QI2;~Joanna_Dipnall1;~Belinda_Gabbe1;~Lan_Du1",
         "gender": "M;M;F;F;F;M",
         "homepage": ";https://bayesian-models.org/;;https://research.monash.edu/en/persons/joanna-dipnall;https://research.monash.edu/en/persons/belinda-gabbe;https://research.monash.edu/en/persons/lan-du",
-        "dblp": ";72/3885;;276/5588;;98/1504-2",
+        "dblp": "276/5821;72/3885;;276/5588;;98/1504-2",
         "google_scholar": "https://scholar.google.com.au/citations?user=YfPazL8AAAAJ;J2pGGuAAAAAJ;Lm48jRgAAAAJ;https://scholar.google.com.au/citations?hl=en;https://scholar.google.com.au/citations?user=zGegzE0AAAAJ;https://scholar.google.com.au/citations?user=HtiTsgwAAAAJ",
         "orcid": ";0000-0001-9292-1015;;0000-0001-7543-0687;0000-0001-7096-7688;0000-0002-9925-0223",
         "linkedin": ";wray-buntine-07693921a/;;;;",
@@ -47518,6 +48883,21 @@
         "aff": "University of Sydney, University of Sydney;Beijing University of Posts and Telecommunications;City University of Hong Kong;SenseTime Research;University of Sydney",
         "aff_domain": "uni.sydney.edu.au;bupt.edu.cn;cityu.edu.hk;sensetime.com;sydney.eud.au",
         "position": "PhD student;Undergrad student;Assistant Professor;Researcher;Associate Professor"
+    },
+    {
+        "id": "vMTijVnXQ8",
+        "author": "Qian Li;Ziniu Li;Tian Ding;Ruoyu Sun",
+        "authorids": "~Qian_Li20;~Ziniu_Li1;~Tian_Ding1;~Ruoyu_Sun1",
+        "gender": "M;M;M;",
+        "homepage": "https://sites.google.com/view/liqiansea;http://www.liziniu.org/;;https://ruoyus.github.io/",
+        "dblp": "69/5902-12;254/0986;;30/9879-1",
+        "google_scholar": "hG-hcbvpn9kC;80UnKQQAAAAJ;https://scholar.google.com.hk/citations?user=lVkDF-YAAAAJ;PsfzbCMAAAAJ",
+        "orcid": "0000-0002-2047-8146;;0000-0002-9383-8405;",
+        "linkedin": ";;;",
+        "or_profile": "~Qian_Li20;~Ziniu_Li1;~Tian_Ding1;~Ruoyu_Sun1",
+        "aff": "Shenzhen Research Institute of Big Data;The Chinese University of Hong Kong, Shenzhen;Shenzhen Research Institute of Big Data;The Chinese University of Hong Kong",
+        "aff_domain": "sribd.cn;cuhk.edu.cn;sribd.cn;cuhk.edu.cn",
+        "position": "Researcher;PhD student;Researcher;Associate Professor"
     },
     {
         "id": "vMtmlTCYqn",
@@ -48690,6 +50070,21 @@
         "position": "PhD student;MS student;Full Professor;;Full Professor;Undergrad student;PhD student"
     },
     {
+        "id": "wjQqi7DJM2",
+        "author": "Felix Steinbauer;Bardh Prenkaj;Efstratios Zaradoukas;Mrigyen Sawant;Florian Kofler;Gjergji Kasneci",
+        "authorids": "~Felix_Steinbauer1;~Bardh_Prenkaj1;~Efstratios_Zaradoukas1;~Mrigyen_Sawant1;~Florian_Kofler1;~Gjergji_Kasneci2",
+        "gender": "M;M;M;Not Specified;;M",
+        "homepage": "https://www.gov.sot.tum.de/rds/team/felix-steinbauer/;https://bardhprenkaj.netlify.app/;https://www.gov.sot.tum.de/rds/team/stratis-zaradoukas/;https://example.com;;https://www.gov.sot.tum.de/rds/prof-dr-gjergji-kasneci/",
+        "dblp": ";211/9434;;;;69/3216",
+        "google_scholar": ";JIidltYAAAAJ;1S_0wEIAAAAJ;;;Zbc8GK4AAAAJ",
+        "orcid": "0000-0003-3839-3973;0000-0002-2991-2279;0009-0004-5762-3986;;;0000-0002-3123-7268",
+        "linkedin": "https://de.linkedin.com/in/felix-steinbauer-85b32923a;prenkaj-bardh/;stratis-zaradoukas-542185265/;;;",
+        "or_profile": "~Felix_Steinbauer1;~Bardh_Prenkaj1;~Efstratios_Zaradoukas1;~Mrigyen_Sawant1;~Florian_Kofler1;~Gjergji_Kasneci2",
+        "aff": "Technische Universit\u00e4t M\u00fcnchen;Technische Universit\u00e4t M\u00fcnchen;Technische Universit\u00e4t M\u00fcnchen;Technische Universit\u00e4t M\u00fcnchen;;University of Tuebingen",
+        "aff_domain": "tum.de;tum.de;tum.de;tum.de;;uni-tuebingen.de",
+        "position": "PhD student;Postdoc;PhD student;MS student;;Professor"
+    },
+    {
         "id": "wjZcCbTvrU",
         "author": "Quentin Fruytier;Aryan Mokhtari;Sujay Sanghavi",
         "authorids": "~Quentin_Fruytier1;~Aryan_Mokhtari3;~Sujay_Sanghavi2",
@@ -48703,6 +50098,21 @@
         "aff": "University of Texas at Austin;University of Texas, Austin;University of Texas, Austin",
         "aff_domain": "utexas.edu;utexas.edu;utexas.edu",
         "position": "PhD student;Assistant Professor;Associate Professor"
+    },
+    {
+        "id": "wkisIZbntD",
+        "author": "Yedi Zhang;Yufan Cai;Xinyue Zuo;Xiaokun Luan;Kailong Wang;Zhe Hou;Yifan Zhang;Zhiyuan Wei;Meng Sun;Jun Sun;Jing Sun;Jin Song Dong",
+        "authorids": "~Yedi_Zhang2;~Yufan_Cai2;~Xinyue_Zuo1;~Xiaokun_Luan1;~Kailong_Wang1;~Zhe_Hou4;~Yifan_Zhang22;~Zhiyuan_Wei2;~Meng_Sun1;~Jun_Sun12;~Jing_Sun9;~Jin_Song_Dong2",
+        "gender": ";M;F;;M;Not Specified;F;M;M;M;;M",
+        "homepage": ";https://caiyufan-nus.github.io/;;;https://wangklsg.github.io/;https://zhehou.github.io;https://yvonnefanf.github.io/index.html;https://github.com/WeiZ-boot;https://www.math.pku.edu.cn/teachers/sunm/;https://sunjun.site;;https://www.comp.nus.edu.sg/~dongjs/",
+        "dblp": ";289/6597;;;171/1258.html;;;;81/1237-2;;;",
+        "google_scholar": ";;;;https://scholar.google.com/citations?hl=en;;;;;https://scholar.google.com.sg/citations?user=DVsEyn0AAAAJ;H7pUxUAAAAAJ;tuLa1AsAAAAJ",
+        "orcid": ";0009-0008-7579-0824;0009-0008-4411-3054;;0000-0002-3977-6573;;0009-0001-3030-9960;0009-0001-3539-8659;;;;",
+        "linkedin": ";;;;;;;;;;;",
+        "or_profile": "~Yedi_Zhang2;~Yufan_Cai2;~Xinyue_Zuo1;~Xiaokun_Luan1;~Kailong_Wang1;~Zhe_Hou4;~Yifan_Zhang22;~Zhiyuan_Wei2;~Meng_Sun1;~Jun_Sun12;~Jing_Sun9;~Jin_Song_Dong2",
+        "aff": ";National University of Singapore;National University of Singapore;;Huazhong University of Science and Technology;Griffith University;National University of Singapore;Beijing Institute of Technology;Peking University;Singapore Management University;University of Auckland;National University of Singapore",
+        "aff_domain": ";nus.edu.sg;u.nus.edu;;hust.edu.cn;griffith.edu.au;u.nus.edu;bit.edu.cn;pku.edu.cn;smu.edu.sg;auckland.ac.nz;nus.edu.sg",
+        "position": ";Postdoc;PhD student;;Associate Professor;Associate Professor;PhD student;PhD student;Full Professor;Full Professor;Associate Professor;Full Professor"
     },
     {
         "id": "wl3eI4wiE5",
@@ -50025,6 +51435,21 @@
         "position": "PhD student;MS student;PhD student;Full Professor;Full Professor"
     },
     {
+        "id": "yYJo8czj4f",
+        "author": "Aviv Ovadya;Kyle Redman;Luke Thorburn;Quan Ze Chen;Oliver Smith;Flynn Devine;Andrew Konya;Smitha Milli;Manon Revel;Kevin Feng;Amy X Zhang;Bilva Chandra;Michiel A. Bakker;Atoosa Kasirzadeh",
+        "authorids": "~Aviv_Ovadya1;~Kyle_Redman1;~Luke_Thorburn1;~Quan_Ze_Chen1;~Oliver_Smith3;~Flynn_Devine1;~Andrew_Konya1;~Smitha_Milli1;~Manon_Revel1;~Kevin_Feng1;~Amy_X_Zhang1;~Bilva_Chandra1;~Michiel_A._Bakker1;~Atoosa_Kasirzadeh2",
+        "gender": "M;M;M;M;M;M;M;Non-Binary;F;M;F;F;;",
+        "homepage": "https://aviv.me;;https://lukethorburn.com;https://homes.cs.washington.edu/~cqz/;;;https://andrewkonya.com/;http://smithamilli.com;https://manrev.github.io/manon/;https://kjfeng.me;https://homes.cs.washington.edu/~axz/;;;",
+        "dblp": "75/7411.html;;326/9017.html;153/6765.html;;;;185/7627;;;133/8390;;;",
+        "google_scholar": "pxbhfqAAAAAJ;;VNF3f_QAAAAJ;TnBpKAoAAAAJ;;;9JlvqbQAAAAJ;;dEvt4JoAAAAJ;;thZJZaYAAAAJ;;;",
+        "orcid": "0000-0002-8766-0137;;0000-0003-4120-5056;0000-0002-6500-8922;;;;;;;;;;",
+        "linkedin": "avivovadya;kyle-redman/;luke-thorburn/;jmchn1994/;olliewsmith/;flynn-devine/details/experience/;;;manon-revel-1a6285132;;;bilva-chandra;;",
+        "or_profile": "~Aviv_Ovadya1;~Kyle_Redman1;~Luke_Thorburn1;~Quan_Ze_Chen1;~Oliver_Smith3;~Flynn_Devine1;~Andrew_Konya1;~Smitha_Milli1;~Manon_Revel1;~Kevin_Feng1;~Amy_X_Zhang1;~Bilva_Chandra1;~Michiel_A._Bakker1;~Atoosa_Kasirzadeh2",
+        "aff": "AI & Democracy Foundation;The newDemocracy Foundation;King's College London, University of London;Department of Computer Science;University of Cambridge;Sense-Making Technologies;Kent State University;Meta FAIR;Harvard University;University of Washington;Department of Computer Science;Google;;",
+        "aff_domain": "aidemocracyfoundation.org;newdemocracy.com.au;kcl.ac.uk;cs.washington.edu;cam.ac.uk;sensemaking.tech;kent.edu;meta.com;harvard.edu;uw.edu;cs.washington.edu;google.com;;",
+        "position": "Principal Researcher;Researcher;PhD student;Postdoc;MS student;Principal Researcher;PhD student;Researcher;Postdoc;PhD student;Assistant Professor;Researcher;;"
+    },
+    {
         "id": "yaI2ZYFmeD",
         "author": "Sam Gijsen;Kerstin Ritter",
         "authorids": "~Sam_Gijsen1;~Kerstin_Ritter1",
@@ -50998,6 +52423,21 @@
         "aff": "Google;Google;University of California, Berkeley;Google;University of California, Berkeley;Google DeepMind;Carnegie Mellon University;Google;Google;University of California, Berkeley;Google;ETHZ - ETH Zurich;Stanford University",
         "aff_domain": "google.com;google.com;berkeley.edu;google.com;berkeley.edu;google.com;cmu.edu;google.com;google.com;berkeley.edu;google.com;ethz.ch;cs.stanford.edu",
         "position": "Research Scientist;Researcher;PhD student;Researcher;PhD student;Research Scientist;Assistant Professor;Researcher;Researcher;Full Professor;Research Scientist;Assistant Professor;PhD student"
+    },
+    {
+        "id": "zfohnbkMu0",
+        "author": "Sarah Meiklejohn;Hayden Blauzvern;Mihai Maruseac;Spencer Schrock;Laurent Simon;Ilia Shumailov",
+        "authorids": "~Sarah_Meiklejohn1;~Hayden_Blauzvern1;~Mihai_Maruseac1;~Spencer_Schrock1;~Laurent_Simon3;~Ilia_Shumailov1",
+        "gender": "F;M;M;M;M;Unspecified",
+        "homepage": "https://smeiklej.com/;;https://mihai.page/;https://schrock.dev;;https://www.cl.cam.ac.uk/~is410/",
+        "dblp": ";;142/8260.html;;;213/8587",
+        "google_scholar": "GzV9aJkAAAAJ;;;;https://scholar.google.co.uk/citations?user=NS83yV0AAAAJ;https://scholar.google.co.uk/citations?hl=en",
+        "orcid": ";0009-0002-8611-5097;;;;",
+        "linkedin": ";;mihai-maruseac;;;ilia-shumailov/",
+        "or_profile": "~Sarah_Meiklejohn1;~Hayden_Blauzvern1;~Mihai_Maruseac1;~Spencer_Schrock1;~Laurent_Simon3;~I_Shumailov1",
+        "aff": "University College London, University of London;Google;Google;Google;Google;Google DeepMind",
+        "aff_domain": "ucl.ac.uk;google.com;google.com;google.com;google.com;google.com",
+        "position": "Full Professor;Researcher;Researcher;Researcher;Researcher;Research Scientist"
     },
     {
         "id": "zgeoOFyIyb",
