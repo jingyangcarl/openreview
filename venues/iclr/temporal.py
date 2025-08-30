@@ -10,7 +10,7 @@ from tabulate import tabulate
 import csv
 import re
 
-year = 2025
+year = 2024
 if year == 2024:
     FIELDS = ["rating", "confidence", "correctness", "technical_novelty"] # iclr 2024
 elif year == 2025:
@@ -696,7 +696,7 @@ if __name__ == "__main__":
     
     tracing_threshold_min = 0
     tracing_threshold_max = 6
-    tracing_threshold_save = 1
+    tracing_threshold_save = 6
     print(f"Tracing thresholds: {tracing_threshold_min} to {tracing_threshold_max}")
     
     for t in range(tracing_threshold_min, tracing_threshold_max):
@@ -832,8 +832,9 @@ if __name__ == "__main__":
         assert review_dims[1:-1] == FIELDS
         
         # showcase only first two dimension in the fields
-        review_dims = FIELDS[:2]
-        
+        # review_dims = FIELDS[:2]
+        review_dims = FIELDS[:6]
+
         # loop through all reviewers and get the review profile
         for i, reviewer in enumerate(reviewers):
             paper_new['review'][reviewer] = {}
