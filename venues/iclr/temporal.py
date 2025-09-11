@@ -1,6 +1,7 @@
 import os
 import json
 import sys
+import argparse
 from collections import defaultdict
 from typing import List, Dict
 from scipy.optimize import linear_sum_assignment
@@ -10,13 +11,122 @@ from tabulate import tabulate
 import csv
 import re
 
-year = 2024
-if year == 2024:
-    FIELDS = ["rating", "confidence", "correctness", "technical_novelty"] # iclr 2024
-elif year == 2025:
-    FIELDS = ["rating", "confidence", "soundness", "contribution", "presentation"] # iclr 2025
-else:
-    raise ValueError(f"Year {year} is not supported. Please update the FIELDS variable accordingly.")
+def parse_arguments():
+    """
+    Parse command-line arguments for the temporal analysis script.
+    
+    Returns:
+    --------
+    argparse.Namespace
+        Parsed arguments containing all configuration options.
+    """
+    parser = argparse.ArgumentParser(
+        description="Analyze reviewer stability over time in ICLR review data",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter
+    )
+    
+    # Required arguments
+    parser.add_argument(
+        '--root_folder', '-r',
+        type=str,
+        default="/home/jingya/projects/papercopilot/logs/openreview/venues/iclr",
+        help='Root folder containing ICLR review JSON files (e.g., /path/to/iclr)'
+    )
+    
+    # Optional arguments
+    parser.add_argument(
+        '--year', '-y',
+        type=int,
+        default=2024,
+        choices=[2024, 2025],
+        help='ICLR year to analyze (determines which fields to use)'
+    )
+    
+    parser.add_argument(
+        '--tracing_threshold_min',
+        type=int,
+        default=0,
+        help='Minimum tracing threshold to test'
+    )
+    
+    parser.add_argument(
+        '--tracing_threshold_max',
+        type=int,
+        default=6,
+        help='Maximum tracing threshold to test (exclusive)'
+    )
+    
+    parser.add_argument(
+        '--tracing_threshold_save',
+        type=int,
+        default=6,
+        help='Threshold for saving records (records with tracing_score <= this value will be saved)'
+    )
+    
+    parser.add_argument(
+        '--target_id',
+        type=str,
+        default='HE9eUQlAvo',
+        help='Target paper ID for testing individual paper analysis'
+    )
+    
+    parser.add_argument(
+        '--debug',
+        action='store_true',
+        default=True,
+        help='Enable debug mode with detailed footprint CSV outputs'
+    )
+    
+    parser.add_argument(
+        '--test_mode',
+        action='store_true',
+        help='Run in test mode for a single paper ID'
+    )
+    
+    parser.add_argument(
+        '--first_last_only',
+        action='store_true',
+        default=True,
+        help='Output only first and last review scores instead of full timeline'
+    )
+    
+    parser.add_argument(
+        '--max_review_dims',
+        type=int,
+        default=6,
+        help='Maximum number of review dimensions to include in output'
+    )
+    
+    return parser.parse_args()
+
+
+def set_global_config(args):
+    """
+    Set global configuration variables based on parsed arguments.
+    
+    Parameters:
+    -----------
+    args : argparse.Namespace
+        Parsed command-line arguments
+    """
+    global year, FIELDS
+    year = args.year
+    
+    if year == 2024:
+        FIELDS = ["rating", "confidence", "correctness", "technical_novelty"]  # iclr 2024
+    elif year == 2025:
+        FIELDS = ["rating", "confidence", "soundness", "contribution", "presentation"]  # iclr 2025
+    else:
+        raise ValueError(f"Year {year} is not supported. Please update the FIELDS variable accordingly.")
+
+
+# year = 2024
+# if year == 2024:
+#     FIELDS = ["rating", "confidence", "correctness", "technical_novelty"] # iclr 2024
+# elif year == 2025:
+#     FIELDS = ["rating", "confidence", "soundness", "contribution", "presentation"] # iclr 2025
+# else:
+#     raise ValueError(f"Year {year} is not supported. Please update the FIELDS variable accordingly.")
 
 class TeeOutput:
     def __init__(self, *streams):
@@ -692,16 +802,44 @@ if __name__ == "__main__":
     # for a specific id, loop through all the json files and get the content of the json object
     # append the time code to the end of the json object and save the temporal to a new file
     
-    root_folder = f'/home/jyang/projects/papercopilot/logs/openreview/venues/iclr/iclr{year}'
+    # Parse command-line arguments
+    args = parse_arguments()
+    set_global_config(args)
     
-    tracing_threshold_min = 0
-    tracing_threshold_max = 6
-    tracing_threshold_save = 6
+    # Extract configuration from arguments
+    root_folder = args.root_folder
+    tracing_threshold_min = args.tracing_threshold_min
+    tracing_threshold_max = args.tracing_threshold_max
+    tracing_threshold_save = args.tracing_threshold_save
+    target_id = args.target_id
+    
+    # check if root_folder contains iclr{year} and update the root_folder to concat iclr{year}
+    if not root_folder.endswith(f'iclr{year}'):
+        root_folder = os.path.join(root_folder, f'iclr{year}')
+        
+    # check if root_folder contains json files
+    json_files = [f for f in os.listdir(root_folder) if f.endswith('.json') and f.startswith(f'iclr{year}.')]
+    if not json_files:
+        raise FileNotFoundError(f"No JSON files found in {root_folder}. Please check the path.")
+    
+    print(f"📊 Starting temporal analysis for ICLR {year}")
+    print(f"Root folder: {root_folder}")
     print(f"Tracing thresholds: {tracing_threshold_min} to {tracing_threshold_max}")
+    print(f"Review fields: {FIELDS}")
     
+    # Test mode - analyze single paper
+    if args.test_mode:
+        print(f"\n🔍 Running test mode for paper ID: {target_id}")
+        footprints = test(root_folder, target_id)
+        print(f"Test completed for {target_id}")
+        sys.exit(0)
+    
+    # Main analysis pipeline
     for t in range(tracing_threshold_min, tracing_threshold_max):
-        debug_folder = root_folder + f"/footprints/threshold_{t}"
-        os.makedirs(debug_folder, exist_ok=True)
+        debug_folder = root_folder + f"/footprints/threshold_{t}" if args.debug else None
+        if debug_folder:
+            os.makedirs(debug_folder, exist_ok=True)
+            
         with open(debug_folder +'_log.txt', 'w') as logfile:
             sys.stdout = TeeOutput(sys.__stdout__, logfile)
             
@@ -709,17 +847,16 @@ if __name__ == "__main__":
             print(f"Debug folder: {debug_folder}")
 
             result = full_pipeline(root_folder, tracing_threshold=t, debug_folder=debug_folder)
-            # test(root_folder, target_id)
             
     print("\n📊 Generating final summary table...")
     generate_tracing_summary(
         debug_root=root_folder + "/footprints",
-        thresholds=range(0, 6),
+        thresholds=range(tracing_threshold_min, tracing_threshold_max),
         output_file=root_folder + "/footprints/tracing_summary.csv"
     )
     
     def footprint_csv2list(csv_path):
-        with open(footprint_path, 'r') as f:
+        with open(csv_path, 'r') as f:
             footprint_data = list(csv.reader(f))
             # remove the header
             footprint_data = footprint_data
@@ -833,7 +970,7 @@ if __name__ == "__main__":
         
         # showcase only first two dimension in the fields
         # review_dims = FIELDS[:2]
-        review_dims = FIELDS[:6]
+        review_dims = FIELDS[:args.max_review_dims]
 
         # loop through all reviewers and get the review profile
         for i, reviewer in enumerate(reviewers):
@@ -849,7 +986,7 @@ if __name__ == "__main__":
                         paper_new['review'][reviewer][review_dim].append(-1)
                 
                 # output only the first and last
-                first_last_only = True
+                first_last_only = args.first_last_only
                 if first_last_only:
                     first, last = paper_new['review'][reviewer][review_dim][0], paper_new['review'][reviewer][review_dim][-1]
                     paper_new['review'][reviewer][review_dim] = f"{first};{last}"
